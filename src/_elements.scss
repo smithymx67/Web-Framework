@@ -1,46 +1,45 @@
 // Elements
 // This file contains css for html elements
 
-html {
+html, body {
   margin: 0;
   padding: 0;
+  font-family: sans-serif;
 }
 
-body {
+h1, h2, h3, h4, h5, h6, p {
   margin: 0;
-  padding: 0;
-}
-
-h1 {
-  
-}
-
-h2 {
-  
-}
-
-h3 {
-  
-}
-
-h4 {
-  
-}
-
-h5 {
-  
-}
-
-h6 {
-  
-}
-
-p {
-  
+  padding: 10px 0;
 }
 
 a {
+  transition: all .3s ease-in-out;
   &:hover {
     
   }
+}
+
+header {
+  background-color: darkslategray;
+  color: white;
+  padding: 10px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  clear: both;
+}
+
+hr {
+  
+}
+
+code {
+  
+}
+
+pre {
+  
 }
