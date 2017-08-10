@@ -3,13 +3,18 @@
 
 .container {
   max-width: 1920px;
-  padding: 10px 5%;
+  padding: 0 5%;
   margin: 0 auto;
+  &:after {
+    content: "";
+    clear: both;
+    display: block;
+  }
 }
 
 .col-1, .col-2, .col-3, .col-4, .col-5 {
   float: left;
-  padding: 10px 20px;
+  padding: 10px;
   box-sizing: border-box;
 }
 
