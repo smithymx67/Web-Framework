@@ -1,4 +1,6 @@
-# Build Root Folder
+# Source Root Folder
 
-Gulp will automatically copy folders and files to this folder.  
-DO NOT ADD FOLDERS AND FILES TO THIS FOLDER.
+Add source folders and files here, they will be copied across to the build folder by Gulp.
+
+Source location: `src/`  
+Build location: `build/`

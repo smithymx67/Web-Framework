@@ -3,6 +3,7 @@ var sass        = require('gulp-sass');
 var cleanCSS    = require('gulp-clean-css');
 var sourcemaps  = require('gulp-sourcemaps');
 var rename      = require('gulp-rename');
+var imagemin    = require('gulp-imagemin');
 
 // Create sourcemaps and minify the scss
 gulp.task('styles', function() {
@@ -21,10 +22,18 @@ gulp.task('html', function() {
     .pipe(gulp.dest('build'));
 });
 
+// Optimize images
+gulp.task('images', function() {
+  gulp.src('src/**/*')
+    .pipe(imagemin())
+    .pipe(gulp.dest('build'))
+});
+
 // Watch task
 gulp.task('watch', function() {
   gulp.watch('src/**/*.scss', ['styles']);
   gulp.watch('src/**/*.html', ['html']);
+  gulp.watch('src/**/*', ['images']);
 });
 
 // Default task

@@ -1,0 +1,68 @@
+// Forms
+// This file contains css for forms
+
+label {
+  font-weight: bold;
+  display: block;
+}
+
+input, textarea, select {
+  display: block;
+  width: 100%;
+  font-size: 16px;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  margin: 5px 0 20px;
+  background: whitesmoke;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+}
+
+input {
+  height: 36px;
+  padding: 2px 5px;
+  
+  &[type="file"] {
+    padding-top: 6px;
+  }
+  
+  &[type="checkbox"], &[type="radio"] {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    margin-bottom: 10px;
+  }
+}
+
+textarea {
+  height: 84px;
+  padding: 5px;
+}
+
+select {
+  padding: 2px 5px;
+  height: 36px;
+  
+  &[multiple] {
+    height: auto;
+  }
+}
+
+.lbl-required {
+  &:after {
+    content: " *";
+    color: red;
+  }
+}
+
+.chkbox-group, .radio-group {
+  padding: 5px 0 10px;
+  div {
+    padding: 0;
+    label {
+    font-weight: normal;
+    cursor: pointer;
+    display: inline-block;
+  }
+  }
+}

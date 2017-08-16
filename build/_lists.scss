@@ -1,0 +1,35 @@
+// Lists
+// This file contains css for lists
+
+.numbered-list {
+  list-style-type: decimal;
+}
+
+.lettered-list {
+  list-style-type: lower-alpha;
+}
+
+.numeraled-list {
+  list-style-type: lower-roman;
+}
+
+.group-list {
+  list-style: none;
+  padding: 0;
+  li {
+    border: 1px solid lightgray;
+    padding: 10px;
+    margin-top: -1px;
+    
+    &:first-child {
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      margin-top: 0;
+    }
+    
+    &:last-child {
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+    }
+  }
+}

@@ -22,5 +22,8 @@
     "gulp-sass": "^3.1.0",
     "gulp-sourcemaps": "^2.6.0",
     "gulp-rename": "^1.2.2"
+  },
+  "dependencies": {
+    "gulp-imagemin": "^3.3.0"
   }
 }

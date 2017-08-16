@@ -1,0 +1,88 @@
+// Features
+// This file contains css for features
+
+.hero {
+  padding: 50px calc(5% + 10px);
+  background-color: lightgray;
+}
+
+.header-text {
+  border-bottom: 1px solid gray;
+  padding: 10px 0;
+  margin-bottom: 10px;
+}
+
+.badge {
+  background-color: lightgray;
+  border-radius: 10px;
+  padding: 0 10px;
+  color: black;
+  display: inline-block;
+  text-decoration: none;
+  margin: 2px 0;
+}
+
+.label {
+  background-color: lightgray;
+  padding: 5px 10px;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+.info-label {
+  background-color: lightblue;
+}
+
+.success-label {
+  background-color: lightgreen;
+}
+
+.warning-label {
+  background-color: orange;
+}
+
+.danger-label {
+  background-color: lightcoral;
+}
+
+.panel {
+  padding: 0;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  margin: 10px 0;
+  .panel-header {
+    background-color: lightgray;
+  }
+  
+  .panel-content {
+    
+  }
+}
+
+.info-panel {
+  border-color: lightblue;
+  .panel-header {
+    background-color: lightblue;
+  }
+}
+
+.success-panel {
+  border-color: lightgreen;
+  .panel-header {
+    background-color: lightgreen;
+  }
+}
+
+.warning-panel {
+  border-color: orange;
+  .panel-header {
+    background-color: orange;
+  }
+}
+
+.danger-panel {
+  border-color: lightcoral;
+  .panel-header {
+    background-color: lightcoral;
+  }
+}

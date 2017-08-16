@@ -1,0 +1,19 @@
+// Images
+// This file contains css for images
+
+img {
+  width: 100%;
+}
+
+.bordered-img {
+  border: 4px solid black;
+  box-sizing: border-box;
+}
+
+.circled-img {
+  border-radius: 50%;
+}
+
+.bw-img {
+  filter: grayscale(100%);
+}
