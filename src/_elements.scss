@@ -7,9 +7,13 @@ html, body {
   font-family: sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
+}
+
+p {
+  margin: 10px 0;
 }
 
 a {
@@ -30,6 +34,15 @@ footer {
   color: white;
   padding: 20px 0;
   clear: both;
+  
+  a {
+    color: white;
+    text-decoration: none;
+    
+    &:hover {
+      color: lightgray;
+    }
+  }
 }
 
 div {
@@ -41,7 +54,9 @@ hr {
 }
 
 code {
-  
+  background-color: lightgray;
+  padding: 2px 5px;
+  border-radius: 2px;
 }
 
 pre {

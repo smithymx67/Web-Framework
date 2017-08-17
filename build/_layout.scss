@@ -12,28 +12,32 @@
   }
 }
 
-.col-1, .col-2, .col-3, .col-4, .col-5 {
+.col-12, .col-6, .col-4, .col-3, .col-2, .col-1 {
   float: left;
   padding: 10px;
   box-sizing: border-box;
 }
 
-.col-1 {
+.col-12 {
   width: 100%;
 }
 
-.col-2 {
+.col-6 {
   width: 50%;
 }
 
-.col-3 {
+.col-4 {
   width: 33.33%;
 }
 
-.col-4 {
+.col-3 {
   width: 25%;
 }
 
-.col-5 {
-  width: 20%;
+.col-2 {
+  width: 16.66%;
+}
+
+.col-1 {
+  width: 8.33%;
 }

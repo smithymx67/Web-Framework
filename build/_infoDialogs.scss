@@ -1,22 +1,28 @@
 // Info Dialogs
 // This file contains css for info dialogs
+.dialog {
+  background-color: lightgray;
+  border: 2px solid gray;
+  border-radius: 5px;
+  margin: 10px 0;
+}
 
-.danger {
+.danger-dialog {
   background-color: lightcoral;
   border: 2px solid red;
 }
 
-.warning {
+.warning-dialog {
   background-color: lightgoldenrodyellow;
   border: 2px solid orange;
 }
 
-.success {
+.success-dialog {
   background-color: lightgreen;
   border: 2px solid green;
 }
 
-.info {
+.info-dialog {
   background-color: lightblue;
   border: 2px solid blue;
 }
