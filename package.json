@@ -17,13 +17,15 @@
   },
   "homepage": "https://github.com/smithymx67/CSS-Framework#readme",
   "devDependencies": {
+    "babel-core": "^6.26.0",
     "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.0",
     "gulp-clean-css": "^3.7.0",
+    "gulp-imagemin": "^3.3.0",
+    "gulp-rename": "^1.2.2",
     "gulp-sass": "^3.1.0",
     "gulp-sourcemaps": "^2.6.0",
-    "gulp-rename": "^1.2.2"
+    "gulp-uglify": "^3.0.0"
   },
-  "dependencies": {
-    "gulp-imagemin": "^3.3.0"
-  }
+  "dependencies": {}
 }
