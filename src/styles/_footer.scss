@@ -1,0 +1,32 @@
+// Footer
+// This file contains css for footers
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 20px 0;
+  clear: both;
+
+  a {
+    color: white;
+    text-decoration: none;
+
+    &:hover {
+      color: lightgray;
+    }
+  }
+}
+
+.fixed-footer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.sticky-footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
