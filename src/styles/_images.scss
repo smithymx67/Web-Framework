@@ -14,6 +14,290 @@ img {
   border-radius: 50%;
 }
 
-.bw-img {
+.inverted {
+  filter: invert(100%);
+}
+
+
+//////////////////////////////////////////////////////////
+// Grayscale Styles                                     //
+//////////////////////////////////////////////////////////
+.grayscale-20 {
+  filter: grayscale(20%);
+}
+
+.grayscale-40 {
+  filter: grayscale(40%);
+}
+
+.grayscale-60 {
+  filter: grayscale(60%);
+}
+
+.grayscale-80 {
+  filter: grayscale(80%);
+}
+
+.grayscale-100 {
   filter: grayscale(100%);
 }
+//////////////////////////////////////////////////////////
+
+
+//////////////////////////////////////////////////////////
+// Sepia Styles                                         //
+//////////////////////////////////////////////////////////
+.sepia-20 {
+  filter: sepia(20%);
+}
+
+.sepia-40 {
+  filter: sepia(40%);
+}
+
+.sepia-60 {
+  filter: sepia(60%);
+}
+
+.sepia-80 {
+  filter: sepia(80%);
+}
+
+.sepia-100 {
+  filter: sepia(100%);
+}
+//////////////////////////////////////////////////////////
+
+
+//////////////////////////////////////////////////////////
+// Brightness Styles                                    //
+//////////////////////////////////////////////////////////
+.brightness-0 {
+  filter: brightness(0%);
+}
+
+.brightness-20 {
+  filter: brightness(20%);
+}
+
+.brightness-40 {
+  filter: brightness(40%);
+}
+
+.brightness-60 {
+  filter: brightness(60%);
+}
+
+.brightness-80 {
+  filter: brightness(80%);
+}
+
+.brightness-120 {
+  filter: brightness(120%);
+}
+
+.brightness-140 {
+  filter: brightness(140%);
+}
+
+.brightness-160 {
+  filter: brightness(160%);
+}
+
+.brightness-180 {
+  filter: brightness(180%);
+}
+
+.brightness-200 {
+  filter: brightness(200%);
+}
+//////////////////////////////////////////////////////////
+
+
+//////////////////////////////////////////////////////////
+// Contrast Styles                                      //
+//////////////////////////////////////////////////////////
+.contrast-0 {
+  filter: contrast(0%);
+}
+
+.contrast-20 {
+  filter: contrast(20%);
+}
+
+.contrast-40 {
+  filter: contrast(40%);
+}
+
+.contrast-60 {
+  filter: contrast(60%);
+}
+
+.contrast-80 {
+  filter: contrast(80%);
+}
+
+.contrast-120 {
+  filter: contrast(120%);
+}
+
+.contrast-140 {
+  filter: contrast(140%);
+}
+
+.contrast-160 {
+  filter: contrast(160%);
+}
+
+.contrast-180 {
+  filter: contrast(180%);
+}
+
+.contrast-200 {
+  filter: contrast(200%);
+}
+//////////////////////////////////////////////////////////
+
+
+//////////////////////////////////////////////////////////
+// Saturation Styles                                    //
+//////////////////////////////////////////////////////////
+.saturation-0 {
+  filter: saturate(0%)
+}
+
+.saturation-20 {
+  filter: saturate(20%);
+}
+
+.saturation-40 {
+  filter: saturate(40%);
+}
+
+.saturation-60 {
+  filter: saturate(60%);
+}
+
+.saturation-80 {
+  filter: saturate(80%);
+}
+
+.saturation-120 {
+  filter: saturate(120%);
+}
+
+.saturation-140 {
+  filter: saturate(140%);
+}
+
+.saturation-160 {
+  filter: saturate(160%);
+}
+
+.saturation-180 {
+  filter: saturate(180%);
+}
+
+.saturation-200 {
+  filter: saturate(200%);
+}
+//////////////////////////////////////////////////////////
+
+
+//////////////////////////////////////////////////////////
+// Sepia Styles                                         //
+//////////////////////////////////////////////////////////
+.opacity-0 {
+  filter: opacity(0%);
+}
+
+.opacity-20 {
+  filter: opacity(20%);
+}
+
+.opacity-40 {
+  filter: opacity(40%);
+}
+
+.opacity-60 {
+  filter: opacity(60%);
+}
+
+.opacity-80 {
+  filter: opacity(80%);
+}
+//////////////////////////////////////////////////////////
+
+
+//////////////////////////////////////////////////////////
+// Hue Styles                                           //
+//////////////////////////////////////////////////////////
+.hue-30 {
+  filter: hue-rotate(30deg);
+}
+
+.hue-60 {
+  filter: hue-rotate(60deg);
+}
+
+.hue-90 {
+  filter: hue-rotate(90deg);
+}
+
+.hue-120 {
+  filter: hue-rotate(120deg);
+}
+
+.hue-150 {
+  filter: hue-rotate(150deg);
+}
+
+.hue-180 {
+  filter: hue-rotate(180deg);
+}
+
+.hue-210 {
+  filter: hue-rotate(210deg);
+}
+
+.hue-240 {
+  filter: hue-rotate(240deg);
+}
+
+.hue-270 {
+  filter: hue-rotate(270deg);
+}
+
+.hue-300 {
+  filter: hue-rotate(300deg);
+}
+
+.hue-330 {
+  filter: hue-rotate(330deg);
+}
+//////////////////////////////////////////////////////////
+
+
+//////////////////////////////////////////////////////////
+// Blur Styles                                          //
+//////////////////////////////////////////////////////////
+.blur-1 {
+  filter: blur(2px);
+}
+
+.blur-2 {
+  filter: blur(4px);
+}
+
+.blur-3 {
+  filter: blur(6px);
+}
+
+.blur-4 {
+  filter: blur(8px);
+}
+
+.blur-5 {
+  filter: blur(10px);
+}
+//////////////////////////////////////////////////////////

@@ -174,6 +174,28 @@ function suffixDate(date) {
 ////////////////////////////////////////////////////////////////
 
 /**
+ * Fix a header to the top of the page
+ */
+window.onload = fixifyHeader();
+function fixifyHeader() {
+  var header = document.getElementsByTagName("header");
+
+  for(var i = 0; i < header.length; i++) {
+    if(header[i].classList.contains("fixed-header")) {
+      var offset = header[i].clientHeight;
+      document.getElementsByTagName("body")[0].style.marginTop = offset + "px";
+    }
+  }
+}
+
+////////////////////////////////////////////////////////////////
+
+
+////////////////////////////////////////////////////////////////
+// Footer Scripts                                             //
+////////////////////////////////////////////////////////////////
+
+/**
  * Fix a footer to the bottom of the page
  */
 window.onload = fixifyFooter();
