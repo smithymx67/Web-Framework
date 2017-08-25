@@ -1,0 +1,66 @@
+// Themes
+// This file contains css for themes
+
+.dark-theme {
+  background-color: #515151;
+  color: white;
+
+  a {
+    color: deepskyblue;
+
+    &:hover {
+      color: lightskyblue;
+    }
+  }
+
+  //Header Text - features.scss
+  .header-text {
+    border-bottom-color: lightgray;
+    p {
+      color: lightgray;
+    }
+  }
+
+  // Footer - footer.scss
+  footer {
+    a {
+      color: white;
+
+      &:hover {
+        color: lightgray;
+      }
+    }
+  }
+
+  // Dialog - infoDialog.scss
+  .dialog {
+    background-color: gray;
+    border-color: #313131;
+  }
+
+  .danger-dialog {
+    background-color: #912f2f;
+    border-color: red;
+  }
+
+  .warning-dialog {
+    background-color: #915e2f;
+    border-color: orange;
+  }
+
+  .success-dialog {
+    background-color: #23702a;
+    border-color: limegreen;
+  }
+
+  .info-dialog {
+    background-color: #232670;
+    border-color: blue;
+  }
+
+  // Code Block - features.scss
+  .code-block {
+    background-color: gray;
+    border-color: teal;
+  }
+}

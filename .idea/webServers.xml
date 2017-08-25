@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="db09ced7-0ba7-4709-a031-e167113b13a9" name="My Server" url="http://smithymx67.co.uk">
+        <fileTransfer host="smithymx67.co.uk" port="21" rootFolder="/smithymx67/Framework" accessType="FTPS">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

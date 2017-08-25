@@ -18,8 +18,10 @@ p {
 
 a {
   transition: all .3s ease-in-out;
+  text-decoration: none;
+  color: teal;
   &:hover {
-    
+    color: lightseagreen;
   }
 }
 
