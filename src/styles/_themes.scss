@@ -13,6 +13,10 @@
     }
   }
 
+  code {
+    background-color: gray;
+  }
+
   //Header Text - features.scss
   .header-text {
     border-bottom-color: lightgray;
@@ -62,5 +66,26 @@
   .code-block {
     background-color: gray;
     border-color: teal;
+  }
+
+  // Tables - tables.scss
+  .striped-table {
+    tbody {
+      tr {
+        &:nth-child(odd) {
+          background-color: #313131;
+        }
+
+        &:nth-child(even) {
+          background-color: #616161;
+        }
+      }
+    }
+  }
+
+  // Forms - forms.scss
+  input, textarea, select {
+    background-color: #717171;
+    color: white;
   }
 }
