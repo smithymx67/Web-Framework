@@ -1,20 +1,40 @@
 // Responsive
 // This file contains css for responsive layout
 
-// Laptop Large
-@media screen and (max-width: 1440px) {}
+// Laptop Large - X Large
+@media screen and (max-width: 1440px) {
+  .col-xl {
+    width: 100%;
+  }
+}
 
-// Laptop
-@media screen and (max-width: 1024px) {}
+// Laptop - Large
+@media screen and (max-width: 1024px) {
+  .col-l {
+    width: 100%;
+  }
+}
 
-// Tablet
-@media screen and (max-width: 768px) {}
+// Tablet - Medium
+@media screen and (max-width: 768px) {
+  .col-m {
+    width: 100%;
+  }
+}
 
-// Phone Large
-@media screen and (max-width: 425px) {}
+// Phone Large - Small
+@media screen and (max-width: 425px) {
+  .col-s {
+    width: 100%;
+  }
+}
 
-// Phone
-@media screen and (max-width: 375px) {}
+// Phone - X Small
+@media screen and (max-width: 375px) {
+  .col-xs {
+    width: 100%;
+  }
+}
 
 // Phone Small
 @media screen and (max-width: 320px) {}
