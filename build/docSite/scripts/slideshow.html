@@ -28,9 +28,13 @@
     </div>
     
     <div class="col-12">
-      <div class="slideshow">
-        
-      </div>
+      <h2>Default Slideshow</h2>
+      <div class="slideshow" id="example1-slideshow"></div>
+    </div>
+
+    <div class="col-12">
+      <h2>Fade In / Out Slideshow</h2>
+      <div class="slideshow" id="example2-slideshow"></div>
     </div>
   </div>
   
@@ -43,5 +47,25 @@
   </footer>
 
   <script src="../../lib.min.js"></script>
+  <script>
+		let imageArray = [
+			"https://cwsmith.builders/images/slideshow/slide_0.jpg",
+      "https://cwsmith.builders/images/slideshow/slide_1.jpg",
+      "https://cwsmith.builders/images/slideshow/slide_2.jpg",
+      "https://cwsmith.builders/images/slideshow/slide_3.jpg"
+    ];
+
+		let args1 = {
+			interval: 1000
+		};
+
+		let args2 = {
+			interval: 2000,
+			style: "fade"
+		};
+
+		createSlideshow("#example1-slideshow", imageArray, args1);
+		createSlideshow("#example2-slideshow", imageArray, args2);
+  </script>
 </body>
 </html>

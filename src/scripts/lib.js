@@ -11,7 +11,7 @@
 * @return {Object} theElement
 **/
 function elem(element) {
-  var theElement;
+  let theElement;
   
   if(element.startsWith('.')) {
     theElement = document.getElementsByClassName(element.split('.')[1]);
@@ -32,138 +32,143 @@ function elem(element) {
 ////////////////////////////////////////////////////////////////
 
 /**
-* Convert the month number into text
-* @param  {number} month
-* @return {string}
-**/
+ * Convert the month number into text
+ * @param  {number} month
+ * @return {string}
+ **/
 function textifyMonth(month) {
-  var months = [
-    "January", 
-    "Febuary", 
-    "March", 
-    "April", 
-    "May", 
-    "June", 
-    "July", 
-    "August", 
-    "September", 
-    "October", 
-    "November", 
-    "December"
-  ];
-  return months[month];
+	let months = [
+		"January",
+		"Febuary",
+		"March",
+		"April",
+		"May",
+		"June",
+		"July",
+		"August",
+		"September",
+		"October",
+		"November",
+		"December"
+	];
+	return months[month];
 }
 
-/** 
-* Convert the day number into text
-* @param  {number} day
-* @return {string}
-**/
+/**
+ * Convert the day number into text
+ * @param  {number} day
+ * @return {string}
+ **/
 function textifyWeekDay(day) {
-  var days = [
-    "Sunday",
-    "Monday",
-    "Tuesday",
-    "Wednesday",
-    "Thursday",
-    "Friday",
-    "Saturday"
-  ];
-  return days[day];
+	let days = [
+		"Sunday",
+		"Monday",
+		"Tuesday",
+		"Wednesday",
+		"Thursday",
+		"Friday",
+		"Saturday"
+	];
+	return days[day];
 }
 
 /**
-* Returns the time in 12hr format
-* @param  {Date}    dateObj
-* @param  {bool}    showSecs
-* @param  {bool}    showAMPM
-* @return {string}  theTime
-**/
+ * Returns the time in 12hr format
+ * @param  {Date}        dateObj
+ * @param  {boolean}     showSecs
+ * @param  {boolean}     showAMPM
+ * @return {string}      theTime
+ **/
 function get12HrTime(dateObj, showSecs, showAMPM) {
-  var hours = (dateObj.getHours() > 12) ? dateObj.getHours() - 12 : dateObj.getHours();
-  var mins = leadZero(dateObj.getMinutes());
-  var secs = leadZero(dateObj.getSeconds());
-  var ampm = (dateObj.getHours() > 12) ? "PM" : "AM";
-  var theTime;
-  
-  theTime = hours + ":" + mins;
-  if(showSecs === true) {theTime += ":" + secs};
-  if(showAMPM === true) {theTime += " " + ampm};
-  return theTime;
+	let hours = (dateObj.getHours() > 12) ? dateObj.getHours() - 12 : dateObj.getHours();
+	let mins = leadZero(dateObj.getMinutes());
+	let secs = leadZero(dateObj.getSeconds());
+	let ampm = (dateObj.getHours() > 12) ? "PM" : "AM";
+	let theTime;
+
+	theTime = hours + ":" + mins;
+	if(showSecs === true) {theTime += ":" + secs}
+	if(showAMPM === true) {theTime += " " + ampm}
+	return theTime;
 }
 
 /**
-* Returns the time in 24hr format
-* @param  {Date}    dateObj
-* @param  {bool}    showSecs    
-* @return {string}  theTime
-**/
+ * Returns the time in 24hr format
+ * @param  {Date}        dateObj
+ * @param  {boolean}     showSecs
+ * @return {string}      theTime
+ **/
 function get24HrTime(dateObj, showSecs) {
-  var hours = leadZero(dateObj.getHours());
-  var mins = leadZero(dateObj.getMinutes());
-  var secs = leadZero(dateObj.getSeconds());
-  var theTime;
-  
-  theTime = hours + ":" + mins;
-  if(showSecs === true) {theTime += ":" + secs};
-  return theTime;
+	let hours = leadZero(dateObj.getHours());
+	let mins = leadZero(dateObj.getMinutes());
+	let secs = leadZero(dateObj.getSeconds());
+	let theTime;
+
+	theTime = hours + ":" + mins;
+	if(showSecs === true) {theTime += ":" + secs}
+	return theTime;
 }
 
-/** 
-* Add a leading zero is needed
-* @param  {number} number
-* @return {string}
-**/
+/**
+ * Add a leading zero is needed
+ * @param  {number} number
+ * @return {string}
+ **/
 function leadZero(number) {
-  return (number < 10) ? "0" + number : number;
+	return (number < 10) ? "0" + number : number;
 }
 
 /**
-* Returns the date in the format DD/MM/YYYY
-* @param  {Date}    dateObj
-* @return {string}
-**/
+ * Returns the date in the format DD/MM/YYYY
+ * @param  {Date}    dateObj
+ * @return {string}
+ **/
 function getShortDate(dateObj) {
-  var date = leadZero(dateObj.getDate());
-  var month = leadZero(dateObj.getMonth() + 1);
-  var year = dateObj.getFullYear();
-  return date + "/" + month + "/" + year;
+	let date = leadZero(dateObj.getDate());
+	let month = leadZero(dateObj.getMonth() + 1);
+	let year = dateObj.getFullYear();
+	return date + "/" + month + "/" + year;
 }
 
 /**
-* Return the date in the format Day Date Month Year
-* @param  {Date}    dateObj
-* @return {string}
-**/
+ * Return the date in the format Day Date Month Year
+ * @param  {Date}    dateObj
+ * @return {string}
+ **/
 function getLongDate(dateObj) {
-  var day = textifyWeekDay(dateObj.getDay());
-  var date = suffixDate(dateObj.getDate());
-  var month = textifyMonth(dateObj.getMonth());
-  var year = dateObj.getFullYear();
-  return day + " " + date + " " + month + " " + year;
+	let day = textifyWeekDay(dateObj.getDay());
+	let date = suffixDate(dateObj.getDate());
+	let month = textifyMonth(dateObj.getMonth());
+	let year = dateObj.getFullYear();
+	return day + " " + date + " " + month + " " + year;
 }
 
-/** 
-* Add a suffix to the date 
-* @param  {number} date
-* @return {string} theDate
-**/
+/**
+ * Add a suffix to the date
+ * @param  {number} date
+ * @return {string} theDate
+ **/
 function suffixDate(date) {
-  var theDate;
-  switch(date) {
-    case 1, 21, 31:
-      theDate = date + "st";
-      break;
-    case 2, 22, 32:
-      theDate = date + "nd";
-      break;
-    case 3, 23:
-      theDate = date + "rd";
-      break;
-    default:
-      theDate = date + "th";
-  }
-  return theDate;
+	let theDate;
+	switch(date) {
+		case 1:
+		case 21:
+		case 31:
+			theDate = date + "st";
+			break;
+		case 2:
+		case 22:
+		case 32:
+			theDate = date + "nd";
+			break;
+		case 3:
+		case 23:
+			theDate = date + "rd";
+			break;
+		default:
+			theDate = date + "th";
+	}
+	return theDate;
 }
 
 ////////////////////////////////////////////////////////////////
@@ -178,14 +183,14 @@ function suffixDate(date) {
  */
 window.onload = fixifyHeader();
 function fixifyHeader() {
-  var header = document.getElementsByTagName("header");
+	let header = document.getElementsByTagName("header");
 
-  for(var i = 0; i < header.length; i++) {
-    if(header[i].classList.contains("fixed-header")) {
-      var offset = header[i].clientHeight;
-      document.getElementsByTagName("body")[0].style.marginTop = offset + "px";
-    }
-  }
+	for(let i = 0; i < header.length; i++) {
+		if(header[i].classList.contains("fixed-header")) {
+			let offset = header[i].clientHeight;
+			document.getElementsByTagName("body")[0].style.marginTop = offset + "px";
+		}
+	}
 }
 
 ////////////////////////////////////////////////////////////////
@@ -200,14 +205,14 @@ function fixifyHeader() {
  */
 window.onload = fixifyFooter();
 function fixifyFooter() {
-  var footer = document.getElementsByTagName("footer");
+	let footer = document.getElementsByTagName("footer");
 
-  for(var i = 0; i < footer.length; i++) {
-    if(footer[i].classList.contains("fixed-footer")) {
-      var offset = footer[i].clientHeight;
-      document.getElementsByTagName("body")[0].style.marginBottom = offset + "px";
-    }
-  }
+	for(let i = 0; i < footer.length; i++) {
+		if(footer[i].classList.contains("fixed-footer")) {
+			let offset = footer[i].clientHeight;
+			document.getElementsByTagName("body")[0].style.marginBottom = offset + "px";
+		}
+	}
 }
 
 /**
@@ -215,40 +220,111 @@ function fixifyFooter() {
  */
 window.onload = stickifyFooter();
 function stickifyFooter() {
-  var footer = document.getElementsByTagName("footer");
+	let footer = document.getElementsByTagName("footer");
 
-  for(var i = 0; i < footer.length; i++) {
-    if(footer[i].classList.contains("sticky-footer")) {
-      var offset = footer[i].clientHeight;
-      document.getElementsByTagName("body")[0].style.paddingBottom = offset + "px";
-      document.getElementsByTagName("html")[0].style.minHeight = "100%";
-      document.getElementsByTagName("html")[0].style.position = "relative";
-    }
-  }
+	for(let i = 0; i < footer.length; i++) {
+		if(footer[i].classList.contains("sticky-footer")) {
+			let offset = footer[i].clientHeight;
+			document.getElementsByTagName("body")[0].style.paddingBottom = offset + "px";
+			document.getElementsByTagName("html")[0].style.minHeight = "100%";
+			document.getElementsByTagName("html")[0].style.position = "relative";
+		}
+	}
 }
 
 ////////////////////////////////////////////////////////////////
 
-/** 
-* Log text to the console
-* @param {string} message
-* @param {string} style
-**/
+
+////////////////////////////////////////////////////////////////
+// Slideshow Scripts                                             //
+////////////////////////////////////////////////////////////////
+
+/**
+ * Create a slideshow
+ * @param element
+ * @param imageArray
+ * @param args
+ */
+function createSlideshow(element, imageArray, args) {
+	let slideshowElement = elem(element);
+	let slidesDiv = document.createElement("div");
+
+	// Setup args
+	let interval = (args['interval']) ? args['interval'] : 1500;
+	let style = (args['style']) ? args['style'] : "";
+
+	// Setup slideshow div
+	slidesDiv.className = "slides";
+	for(let i = 0; i < imageArray.length; i++) {
+		let img = document.createElement("img");
+		img.className = "slide-hidden";
+		img.id = slideshowElement.id + '-' + i;
+		img.src = imageArray[i];
+		slidesDiv.appendChild(img);
+	}
+	slideshowElement.appendChild(slidesDiv);
+
+	// Run slideshow
+	switch(style) {
+		case "fade":
+			fadeSlideshowLoop(imageArray.length, slideshowElement.id, interval, 0);
+			break;
+		default:
+			defaultSlideshowLoop(imageArray.length, slideshowElement.id, interval, 0);
+	}
+}
+
+function defaultSlideshowLoop(numberOfImages, idPrefix, interval, counter) {
+	let currentActive = ((counter - 1) < 0) ? numberOfImages - 1 : counter - 1;
+	let currentSlide = elem("#" + idPrefix + "-" + currentActive);
+	let nextSlide = elem("#" + idPrefix + "-" + counter);
+
+	currentSlide.classList.remove("slide-visible");
+	currentSlide.classList.add("slide-hidden");
+	nextSlide.classList.remove("slide-hidden");
+	nextSlide.classList.add("slide-visible");
+
+	counter = (counter < numberOfImages - 1) ? counter + 1 : 0;
+	setTimeout(defaultSlideshowLoop, interval, numberOfImages, idPrefix, interval, counter);
+}
+
+function fadeSlideshowLoop(numberOfImages, idPrefix, interval, counter) {
+	let currentActive = ((counter - 1) < 0) ? numberOfImages - 1 : counter - 1;
+	let currentSlide = elem("#" + idPrefix + "-" + currentActive);
+	let nextSlide = elem("#" + idPrefix + "-" + counter);
+
+	currentSlide.classList.remove("slide-visible");
+	currentSlide.classList.add("slide-hidden");
+	nextSlide.classList.remove("slide-hidden");
+	nextSlide.classList.add("slide-visible");
+
+	counter = (counter < numberOfImages - 1) ? counter + 1 : 0;
+	setTimeout(defaultSlideshowLoop, interval, numberOfImages, idPrefix, interval, counter);
+}
+
+////////////////////////////////////////////////////////////////
+
+
+/**
+ * Log text to the console
+ * @param {string} message
+ * @param {string} style
+ **/
 function consoleLog(message, style) {
-  switch(style) {
-    case "info":
-      console.log("%c" + message, "color: blue");
-      break;
-    case "success":
-      console.log("%c" + message, "color: green");
-      break;
-    case "warning":
-      console.log("%c" + message, "color: orange");
-      break;
-    case "danger":
-      console.log("%c" + message, "color: red");
-      break;
-    default:
-      console.log(message);
-  }
+	switch(style) {
+		case "info":
+			console.log("%c" + message, "color: blue");
+			break;
+		case "success":
+			console.log("%c" + message, "color: green");
+			break;
+		case "warning":
+			console.log("%c" + message, "color: orange");
+			break;
+		case "danger":
+			console.log("%c" + message, "color: red");
+			break;
+		default:
+			console.log(message);
+	}
 }

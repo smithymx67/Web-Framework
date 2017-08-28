@@ -1,0 +1,23 @@
+// Slideshow
+// This file contains css for slideshows
+
+.slideshow {
+	padding: 0;
+	.slides {
+		padding: 0;
+		position: relative;
+		img {
+			position: absolute;
+			left: 0;
+			&:first-child {
+				position: inherit;
+			}
+		}
+		.slide-hidden {
+			opacity: 0;
+		}
+		.slide-visible {
+			opacity: 1;
+		}
+	}
+}

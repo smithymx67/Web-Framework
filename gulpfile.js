@@ -5,6 +5,7 @@ var sourcemaps  = require('gulp-sourcemaps');
 var rename      = require('gulp-rename');
 var uglify      = require('gulp-uglify');
 var imagemin    = require('gulp-imagemin');
+var babel       = require('gulp-babel');
 
 // Create sourcemaps and minify the scss
 gulp.task('styles', function() {
@@ -34,6 +35,9 @@ gulp.task('images', function() {
 gulp.task('scripts', function() {
   gulp.src('src/scripts/lib.js')
     .pipe(sourcemaps.init())
+		.pipe(babel({
+			presets: ['env']
+		}))
     .pipe(uglify())
     .pipe(rename({suffix : '.min'}))
     .pipe(sourcemaps.write('.'))
