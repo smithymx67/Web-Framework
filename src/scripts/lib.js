@@ -253,6 +253,7 @@ function createSlideshow(element, imageArray, args) {
 	// Setup args
 	let interval 	= (args['interval']) 	? args['interval'] 	: 1500;
 	let style 		= (args['style']) 		? args['style'] 		: "";
+	let controls	= (args['controls'])	? args['controls']	: "";
 
   // Store slideshow in array
   let slideshowObj = {};
@@ -260,6 +261,8 @@ function createSlideshow(element, imageArray, args) {
   slideshowObj.numberOfSlides = imageArray.length;
   slideshowObj.imageArray = imageArray;
   slideshowObj.interval = interval;
+  slideshowObj.style = style;
+	slideshowObj.controls = controls;
   slideshowObj.counter = 0;
   slideshowArray[slideshowElement.id] = slideshowObj;
 
@@ -273,6 +276,11 @@ function createSlideshow(element, imageArray, args) {
       slideshowElement.appendChild(setupSlides(slideshowElement.id, "slide-hidden"));
 			defaultSlideshowLoop(imageArray.length, slideshowElement.id, interval, 0);
 	}
+
+	// Add controls if required
+	if(controls === "arrows") {
+		slideshowElement.appendChild(setupArrowNav());
+	}
 }
 
 /**
@@ -282,9 +290,9 @@ function createSlideshow(element, imageArray, args) {
  * @returns {Element}
  */
 function setupSlides(slideIdPrefix, classes) {
-  // Setup slideshow slide div
-  let slidesDiv = document.createElement("div");
-  let slideshowObj = slideshowArray[slideIdPrefix];
+  let slidesDiv 		= document.createElement("div");
+  let slideshowObj 	= slideshowArray[slideIdPrefix];
+
   slidesDiv.className = "slides";
 
   for(let i = 0; i < slideshowObj.imageArray.length; i++) {
@@ -304,7 +312,20 @@ function setupDotNav() {
 }
 
 function setupArrowNav() {
-	
+	let arrowDiv 			= document.createElement("div");
+	let arrowNext 		= document.createElement("div");
+	let arrowPrevious = document.createElement("div");
+
+	arrowDiv.className 			= "controls";
+	arrowNext.className 		= "next-slide";
+	arrowPrevious.className = "previous-slide";
+
+	arrowPrevious.innerHTML = "<span>&lt;</span>";
+	arrowNext.innerHTML			= "<span>&gt;</span>";
+
+	arrowDiv.appendChild(arrowPrevious);
+	arrowDiv.appendChild(arrowNext);
+	return arrowDiv;
 }
 
 function nextSlide() {
@@ -315,7 +336,7 @@ function previousSlide() {
 	
 }
 
-function gotoSlide() {
+function gotoSlide(slideNumber) {
 	
 }
 
