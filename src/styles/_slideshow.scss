@@ -13,11 +13,17 @@
 				position: inherit;
 			}
 		}
+
 		.slide-hidden {
 			opacity: 0;
 		}
+
 		.slide-visible {
 			opacity: 1;
+		}
+
+		.slide-fade {
+			transition: opacity .3s ease-in-out;
 		}
 	}
 }

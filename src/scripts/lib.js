@@ -236,8 +236,10 @@ function stickifyFooter() {
 
 
 ////////////////////////////////////////////////////////////////
-// Slideshow Scripts                                             //
+// Slideshow Scripts                                          //
 ////////////////////////////////////////////////////////////////
+
+let slideshowArray = [];
 
 /**
  * Create a slideshow
@@ -247,31 +249,74 @@ function stickifyFooter() {
  */
 function createSlideshow(element, imageArray, args) {
 	let slideshowElement = elem(element);
-	let slidesDiv = document.createElement("div");
 
 	// Setup args
-	let interval = (args['interval']) ? args['interval'] : 1500;
-	let style = (args['style']) ? args['style'] : "";
+	let interval 	= (args['interval']) 	? args['interval'] 	: 1500;
+	let style 		= (args['style']) 		? args['style'] 		: "";
 
-	// Setup slideshow div
-	slidesDiv.className = "slides";
-	for(let i = 0; i < imageArray.length; i++) {
-		let img = document.createElement("img");
-		img.className = "slide-hidden";
-		img.id = slideshowElement.id + '-' + i;
-		img.src = imageArray[i];
-		slidesDiv.appendChild(img);
-	}
-	slideshowElement.appendChild(slidesDiv);
+  // Store slideshow in array
+  let slideshowObj = {};
+  slideshowObj.id = slideshowElement.id;
+  slideshowObj.numberOfSlides = imageArray.length;
+  slideshowObj.imageArray = imageArray;
+  slideshowObj.interval = interval;
+  slideshowObj.counter = 0;
+  slideshowArray[slideshowElement.id] = slideshowObj;
 
 	// Run slideshow
 	switch(style) {
 		case "fade":
+      slideshowElement.appendChild(setupSlides(slideshowElement.id, "slide-hidden slide-fade"));
 			fadeSlideshowLoop(imageArray.length, slideshowElement.id, interval, 0);
 			break;
 		default:
+      slideshowElement.appendChild(setupSlides(slideshowElement.id, "slide-hidden"));
 			defaultSlideshowLoop(imageArray.length, slideshowElement.id, interval, 0);
 	}
+}
+
+/**
+ * Create a div with the provided images
+ * @param slideIdPrefix
+ * @param classes
+ * @returns {Element}
+ */
+function setupSlides(slideIdPrefix, classes) {
+  // Setup slideshow slide div
+  let slidesDiv = document.createElement("div");
+  let slideshowObj = slideshowArray[slideIdPrefix];
+  slidesDiv.className = "slides";
+
+  for(let i = 0; i < slideshowObj.imageArray.length; i++) {
+    let img = document.createElement("img");
+    img.className = classes;
+    img.id = slideIdPrefix + '-' + i;
+    img.src = slideshowObj.imageArray[i];
+    slidesDiv.appendChild(img);
+  }
+
+  return slidesDiv;
+}
+
+
+function setupDotNav() {
+
+}
+
+function setupArrowNav() {
+	
+}
+
+function nextSlide() {
+	
+}
+
+function previousSlide() {
+	
+}
+
+function gotoSlide() {
+	
 }
 
 function defaultSlideshowLoop(numberOfImages, idPrefix, interval, counter) {
