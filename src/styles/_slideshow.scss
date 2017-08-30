@@ -102,8 +102,12 @@
 			transition: opacity .3s ease-in-out;
 
 			&:hover {
-				opacity: 0.8;
+				opacity: 1;
 			}
+		}
+
+		.dot-active {
+			opacity: 0.8;
 		}
 	}
 }

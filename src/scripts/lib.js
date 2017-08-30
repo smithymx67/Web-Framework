@@ -241,6 +241,7 @@ function stickifyFooter() {
 // Slideshow Scripts                                          //
 ////////////////////////////////////////////////////////////////
 
+// Global array to hold slideshows
 let slideshowArray = [];
 
 /**
@@ -265,6 +266,7 @@ function createSlideshow(element, imageArray, args) {
   slideshowObj.interval = interval;
   slideshowObj.style = style;
 	slideshowObj.controls = controls;
+	slideshowObj.currentSlide = 0;
   slideshowObj.counter = 0;
   slideshowObj.loop = null;
   slideshowObj.hovered = false;
@@ -288,14 +290,16 @@ function createSlideshow(element, imageArray, args) {
 
 	slideshowElement.onmouseover = function () {
 		slideshowObj.hovered = true;
+		clearTimeout(slideshowObj.loop);
   };
 
   slideshowElement.onmouseout = function () {
 		slideshowObj.hovered = false;
+		slideshowObj.loop = setTimeout(nextSlide, slideshowObj.interval, slideshowObj.id, false);
   };
 
 	// Run the slideshow
-  slideshowObj.loop = setTimeout(nextSlide, slideshowObj.interval, slideshowObj.id, false);
+	nextSlide(slideshowObj.id, false);
 }
 
 /**
@@ -336,7 +340,13 @@ function setupDotNav(slideshowID) {
 	dotDiv.className = "dot-controls";
 
 	for(let i = 0; i < slideshowObj.numberOfSlides; i++) {
-		dotDiv.innerHTML += "<div onclick=\"gotoSlide('" + slideshowObj.id + "', " + i + ")\"></div>";
+		let dotItem = document.createElement("div");
+		dotItem.id = slideshowObj.id + "-dot-" + i;
+		if(i === 0) {dotItem.className = "dot-active";}
+		dotItem.onclick = function () {
+			gotoSlide(slideshowObj.id, i);
+		};
+		dotDiv.appendChild(dotItem);
 	}
 
 	return dotDiv;
@@ -372,7 +382,6 @@ function setupArrowNav(slideshowID) {
 function nextSlide(slideshowID, usrCommand) {
 	let slideshowObj = slideshowArray[slideshowID];
 	clearTimeout(slideshowObj.loop);
-	console.log(slideshowObj.counter);
 
 	// Don't progress if the mouse is hovered over it unless overrided with usrCommand
 	if(!slideshowObj.hovered || usrCommand) {
@@ -380,7 +389,13 @@ function nextSlide(slideshowID, usrCommand) {
     let currentActive = ((slideshowObj.counter - 1) < 0) ? slideshowObj.numberOfSlides - 1 : slideshowObj.counter - 1;
     let currentSlide = elem("#" + slideshowObj.id + "-" + currentActive);
     let newSlide = elem("#" + slideshowObj.id + "-" + slideshowObj.counter);
+
     transitionSlide(currentSlide, newSlide);
+		if(slideshowObj.controls === "dots") {
+			updateDotNav(slideshowObj.id, currentActive, slideshowObj.counter);
+		}
+
+		slideshowObj.currentSlide = slideshowObj.counter;
     slideshowObj.counter = (slideshowObj.counter < slideshowObj.numberOfSlides - 1) ? slideshowObj.counter + 1 : 0;
   }
 
@@ -409,23 +424,29 @@ function previousSlide(slideshowID) {
 	slideshowObj.loop = setTimeout(nextSlide, slideshowObj.interval, slideshowObj.id, false);
 }
 
+/**
+ * Show the requested slide
+ * @param slideshowID
+ * @param slideNumber
+ */
 function gotoSlide(slideshowID, slideNumber) {
 	let slideshowObj = slideshowArray[slideshowID];
 	clearTimeout(slideshowObj.loop);
 
-  let currentSlide = slideshowObj.counter;
+	// Fetch slide numbers
+  let currentSlide = slideshowObj.currentSlide;
   let newSlide = slideNumber;
 
-  console.log(currentSlide);
-  console.log(newSlide);
-
+  // Update the slideshow counter to the new slide number
   slideshowObj.counter = newSlide;
+  slideshowObj.currentSlide = newSlide;
 
+  // Transition the slide and update the nav dots
   let cSlide = elem("#" + slideshowObj.id + "-" + currentSlide);
   let nSlide = elem("#" + slideshowObj.id + "-" + newSlide);
-
 	transitionSlide(cSlide, nSlide);
-	nextSlide(slideshowObj.id, false);
+	updateDotNav(slideshowObj.id, currentSlide, newSlide);
+	slideshowObj.counter = (newSlide + 1 > slideshowObj.numberOfSlides - 1) ? 0 : newSlide + 1 ;
 }
 
 /**
@@ -438,6 +459,14 @@ function transitionSlide(currentSlide, newSlide) {
   currentSlide.classList.add("slide-hidden");
   newSlide.classList.remove("slide-hidden");
   newSlide.classList.add("slide-visible");
+}
+
+function updateDotNav(slideshowID, currentSlide, newSlide) {
+	let dot1 = elem("#" + slideshowID + "-dot-" + currentSlide);
+	let dot2 = elem("#" + slideshowID + "-dot-" + newSlide);
+
+	dot1.classList.remove("dot-active");
+	dot2.classList.add("dot-active");
 }
 
 ////////////////////////////////////////////////////////////////
