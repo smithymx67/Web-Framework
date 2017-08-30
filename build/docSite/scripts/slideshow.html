@@ -41,6 +41,11 @@
       <h2>Slideshow With Arrow Controls</h2>
       <div class="slideshow" id="example3-slideshow"></div>
     </div>
+
+    <div class="col-12">
+      <h2>Slideshow With Dot Controls</h2>
+      <div class="slideshow" id="example4-slideshow"></div>
+    </div>
   </div>
   
   <footer class="sticky-footer">
@@ -75,9 +80,16 @@
       controls: "arrows"
 		};
 
+    let args4 = {
+      interval: 2000,
+      style: "fade",
+      controls: "dots"
+    };
+
 		createSlideshow("#example1-slideshow", imageArray, args1);
 		createSlideshow("#example2-slideshow", imageArray, args2);
 		createSlideshow("#example3-slideshow", imageArray, args3);
+    createSlideshow("#example4-slideshow", imageArray, args4);
   </script>
 </body>
 </html>

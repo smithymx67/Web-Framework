@@ -1,5 +1,7 @@
 // JavaScript Framework
 // Author: Sam Smith (smithymx67)
+// Website: https://samsmith.me
+// Version: 1.0.0
 
 ////////////////////////////////////////////////////////////////
 // Element Selector                                           //
@@ -264,23 +266,36 @@ function createSlideshow(element, imageArray, args) {
   slideshowObj.style = style;
 	slideshowObj.controls = controls;
   slideshowObj.counter = 0;
+  slideshowObj.loop = null;
+  slideshowObj.hovered = false;
   slideshowArray[slideshowElement.id] = slideshowObj;
 
-	// Run slideshow
+	// Add slides to slideshow
 	switch(style) {
 		case "fade":
-      slideshowElement.appendChild(setupSlides(slideshowElement.id, "slide-hidden slide-fade"));
-			fadeSlideshowLoop(imageArray.length, slideshowElement.id, interval, 0);
+      slideshowElement.appendChild(setupSlides(slideshowElement.id, "slide-fade"));
 			break;
 		default:
-      slideshowElement.appendChild(setupSlides(slideshowElement.id, "slide-hidden"));
-			defaultSlideshowLoop(imageArray.length, slideshowElement.id, interval, 0);
+      slideshowElement.appendChild(setupSlides(slideshowElement.id, ""));
 	}
 
 	// Add controls if required
 	if(controls === "arrows") {
-		slideshowElement.appendChild(setupArrowNav());
+		slideshowElement.appendChild(setupArrowNav(slideshowElement.id));
+	} else if(controls === "dots") {
+		slideshowElement.appendChild(setupDotNav(slideshowElement.id));
 	}
+
+	slideshowElement.onmouseover = function () {
+		slideshowObj.hovered = true;
+  };
+
+  slideshowElement.onmouseout = function () {
+		slideshowObj.hovered = false;
+  };
+
+	// Run the slideshow
+  slideshowObj.loop = setTimeout(nextSlide, slideshowObj.interval, slideshowObj.id, false);
 }
 
 /**
@@ -292,12 +307,16 @@ function createSlideshow(element, imageArray, args) {
 function setupSlides(slideIdPrefix, classes) {
   let slidesDiv 		= document.createElement("div");
   let slideshowObj 	= slideshowArray[slideIdPrefix];
-
   slidesDiv.className = "slides";
 
+  // Loop through the images and create an img element
   for(let i = 0; i < slideshowObj.imageArray.length; i++) {
     let img = document.createElement("img");
-    img.className = classes;
+    if(i === 0) {
+    	img.className = "slide-visible " + classes
+    } else {
+      img.className = "slide-hidden " + classes;
+		}
     img.id = slideIdPrefix + '-' + i;
     img.src = slideshowObj.imageArray[i];
     slidesDiv.appendChild(img);
@@ -306,66 +325,119 @@ function setupSlides(slideIdPrefix, classes) {
   return slidesDiv;
 }
 
+/**
+ * Creates dot navigation at bottom of slideshow
+ * @param slideshowID
+ * @returns {Element}
+ */
+function setupDotNav(slideshowID) {
+	let slideshowObj = slideshowArray[slideshowID];
+	let dotDiv = document.createElement("div");
+	dotDiv.className = "dot-controls";
 
-function setupDotNav() {
+	for(let i = 0; i < slideshowObj.numberOfSlides; i++) {
+		dotDiv.innerHTML += "<div onclick=\"gotoSlide('" + slideshowObj.id + "', " + i + ")\"></div>";
+	}
 
+	return dotDiv;
 }
 
-function setupArrowNav() {
+/**
+ * Creates left and right arrow navigation
+ * @param slideshowID
+ * @returns {Element}
+ */
+function setupArrowNav(slideshowID) {
 	let arrowDiv 			= document.createElement("div");
 	let arrowNext 		= document.createElement("div");
 	let arrowPrevious = document.createElement("div");
 
-	arrowDiv.className 			= "controls";
+	arrowDiv.className 			= "arrow-controls";
 	arrowNext.className 		= "next-slide";
 	arrowPrevious.className = "previous-slide";
 
-	arrowPrevious.innerHTML = "<span>&lt;</span>";
-	arrowNext.innerHTML			= "<span>&gt;</span>";
+	arrowPrevious.innerHTML = "<span onclick=\"previousSlide(\'" + slideshowID + "\')\">V</span>";
+	arrowNext.innerHTML			= "<span onclick=\"nextSlide(\'" + slideshowID + "\', " + true + ")\">V</span>";
 
 	arrowDiv.appendChild(arrowPrevious);
 	arrowDiv.appendChild(arrowNext);
 	return arrowDiv;
 }
 
-function nextSlide() {
-	
+/**
+ * Progress to the next slide
+ * @param slideshowID
+ * @param usrCommand
+ */
+function nextSlide(slideshowID, usrCommand) {
+	let slideshowObj = slideshowArray[slideshowID];
+	clearTimeout(slideshowObj.loop);
+	console.log(slideshowObj.counter);
+
+	// Don't progress if the mouse is hovered over it unless overrided with usrCommand
+	if(!slideshowObj.hovered || usrCommand) {
+		// Fetch the required slide elements
+    let currentActive = ((slideshowObj.counter - 1) < 0) ? slideshowObj.numberOfSlides - 1 : slideshowObj.counter - 1;
+    let currentSlide = elem("#" + slideshowObj.id + "-" + currentActive);
+    let newSlide = elem("#" + slideshowObj.id + "-" + slideshowObj.counter);
+    transitionSlide(currentSlide, newSlide);
+    slideshowObj.counter = (slideshowObj.counter < slideshowObj.numberOfSlides - 1) ? slideshowObj.counter + 1 : 0;
+  }
+
+  // Reset the timer to progress the slides
+	slideshowObj.loop = setTimeout(nextSlide, slideshowObj.interval, slideshowObj.id, false);
 }
 
-function previousSlide() {
-	
+/**
+ * Show the previous slide
+ * @param slideshowID
+ */
+function previousSlide(slideshowID) {
+	let slideshowObj = slideshowArray[slideshowID];
+	clearTimeout(slideshowObj.loop);
+
+	// Fetch the required slide elements
+	let currentCounter = (slideshowObj.counter - 1 < 0) ? slideshowObj.numberOfSlides - 1 : slideshowObj.counter - 1;
+	let previousCounter = (currentCounter - 1 < 0) ? slideshowObj.numberOfSlides - 1 : currentCounter - 1;
+  let currentSlide = elem("#" + slideshowObj.id + "-" + currentCounter);
+  let newSlide = elem("#" + slideshowObj.id + "-" + previousCounter);
+  transitionSlide(currentSlide, newSlide);
+
+  // Set the counter and reset the timer to progress the slides
+  slideshowObj.counter = previousCounter;
+  slideshowObj.counter = (slideshowObj.counter < slideshowObj.numberOfSlides - 1) ? slideshowObj.counter + 1 : 0;
+	slideshowObj.loop = setTimeout(nextSlide, slideshowObj.interval, slideshowObj.id, false);
 }
 
-function gotoSlide(slideNumber) {
-	
+function gotoSlide(slideshowID, slideNumber) {
+	let slideshowObj = slideshowArray[slideshowID];
+	clearTimeout(slideshowObj.loop);
+
+  let currentSlide = slideshowObj.counter;
+  let newSlide = slideNumber;
+
+  console.log(currentSlide);
+  console.log(newSlide);
+
+  slideshowObj.counter = newSlide;
+
+  let cSlide = elem("#" + slideshowObj.id + "-" + currentSlide);
+  let nSlide = elem("#" + slideshowObj.id + "-" + newSlide);
+
+	transitionSlide(cSlide, nSlide);
+	nextSlide(slideshowObj.id, false);
 }
 
-function defaultSlideshowLoop(numberOfImages, idPrefix, interval, counter) {
-	let currentActive = ((counter - 1) < 0) ? numberOfImages - 1 : counter - 1;
-	let currentSlide = elem("#" + idPrefix + "-" + currentActive);
-	let nextSlide = elem("#" + idPrefix + "-" + counter);
-
-	currentSlide.classList.remove("slide-visible");
-	currentSlide.classList.add("slide-hidden");
-	nextSlide.classList.remove("slide-hidden");
-	nextSlide.classList.add("slide-visible");
-
-	counter = (counter < numberOfImages - 1) ? counter + 1 : 0;
-	setTimeout(defaultSlideshowLoop, interval, numberOfImages, idPrefix, interval, counter);
-}
-
-function fadeSlideshowLoop(numberOfImages, idPrefix, interval, counter) {
-	let currentActive = ((counter - 1) < 0) ? numberOfImages - 1 : counter - 1;
-	let currentSlide = elem("#" + idPrefix + "-" + currentActive);
-	let nextSlide = elem("#" + idPrefix + "-" + counter);
-
-	currentSlide.classList.remove("slide-visible");
-	currentSlide.classList.add("slide-hidden");
-	nextSlide.classList.remove("slide-hidden");
-	nextSlide.classList.add("slide-visible");
-
-	counter = (counter < numberOfImages - 1) ? counter + 1 : 0;
-	setTimeout(defaultSlideshowLoop, interval, numberOfImages, idPrefix, interval, counter);
+/**
+ * Transition between the given slides
+ * @param currentSlide
+ * @param newSlide
+ */
+function transitionSlide(currentSlide, newSlide) {
+  currentSlide.classList.remove("slide-visible");
+  currentSlide.classList.add("slide-hidden");
+  newSlide.classList.remove("slide-hidden");
+  newSlide.classList.add("slide-visible");
 }
 
 ////////////////////////////////////////////////////////////////

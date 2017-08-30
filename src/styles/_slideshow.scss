@@ -11,6 +11,7 @@
 			position: absolute;
 			left: 0;
 			vertical-align: middle;
+			transform: translateZ(0);
 			&:first-child {
 				position: inherit;
 			}
@@ -29,7 +30,7 @@
 		}
 	}
 
-	.controls {
+	.arrow-controls {
 		position: absolute;
 		top: 0;
 		padding: 0;
@@ -40,25 +41,25 @@
 			width: 10%;
 			height: 100%;
 			padding: 0;
-			font-size: 50px;
+			font-size: 20px;
+			line-height: 54px;
 			text-align: center;
 			font-family: sans-serif;
 
 			span {
+				width: 50px;
+				height: 50px;
 				position: absolute;
 				top: 50%;
-				transform: translate(-50%, -50%);
 				color: white;
+				background-color: black;
+				border-radius: 50%;
+				opacity: 0.4;
+				cursor: pointer;
+				transition: opacity .3s ease-in-out;
 
-				&:before {
-					width: 50px;
-					height: 50px;
-					background-color: black;
-					border-radius: 50%;
-					content: "";
-					position: absolute;
-					z-index: -1;
-					top: 3px;
+				&:hover {
+					opacity: 0.8;
 				}
 			}
 		}
@@ -67,9 +68,7 @@
 			float: left;
 
 			span {
-				&:before {
-					left: -8px;
-				}
+				transform: rotate(90deg) translate(-50%, 50%);
 			}
 		}
 		
@@ -77,9 +76,33 @@
 			float: right;
 
 			span {
-				&:before {
-					left: -12px;
-				}
+				transform: rotate(-90deg) translate(50%, -50%);
+			}
+		}
+	}
+
+	.dot-controls {
+		padding: 0;
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		text-align: center;
+
+		div {
+			padding: 0;
+			display: inline-block;
+			width: 20px;
+			height: 20px;
+			background-color: black;
+			opacity: 0.4;
+			border-radius: 50%;
+			border: 2px solid lightgray;
+			margin: 10px;
+			cursor: pointer;
+			transition: opacity .3s ease-in-out;
+
+			&:hover {
+				opacity: 0.8;
 			}
 		}
 	}
