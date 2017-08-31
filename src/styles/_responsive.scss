@@ -3,37 +3,57 @@
 
 // Laptop Large - X Large
 @media screen and (max-width: 1440px) {
-  .col-xl {
-    width: 100%;
-  }
+  .col-xl-12   {width: 100%;}
+  .col-xl-6    {width: 50%;}
+  .col-xl-4    {width: 33.33%;}
+  .col-xl-3    {width: 25%;}
+  .col-xl-2-5  {width: 20%;}
+  .col-xl-2    {width: 16.66%;}
+  .col-xl-1    {width: 8.33%;}
 }
 
 // Laptop - Large
 @media screen and (max-width: 1024px) {
-  .col-l {
-    width: 100%;
-  }
+  .col-l-12   {width: 100%;}
+  .col-l-6    {width: 50%;}
+  .col-l-4    {width: 33.33%;}
+  .col-l-3    {width: 25%;}
+  .col-l-2-5  {width: 20%;}
+  .col-l-2    {width: 16.66%;}
+  .col-l-1    {width: 8.33%;}
 }
 
 // Tablet - Medium
 @media screen and (max-width: 768px) {
-  .col-m {
-    width: 100%;
-  }
+  .col-m-12   {width: 100%;}
+  .col-m-6    {width: 50%;}
+  .col-m-4    {width: 33.33%;}
+  .col-m-3    {width: 25%;}
+  .col-m-2-5  {width: 20%;}
+  .col-m-2    {width: 16.66%;}
+  .col-m-1    {width: 8.33%;}
 }
 
 // Phone Large - Small
 @media screen and (max-width: 425px) {
-  .col-s {
-    width: 100%;
-  }
+  .col-s-12   {width: 100%;}
+  .col-s-6    {width: 50%;}
+  .col-s-4    {width: 33.33%;}
+  .col-s-3    {width: 25%;}
+  .col-s-2-5  {width: 20%;}
+  .col-s-2    {width: 16.66%;}
+  .col-s-1    {width: 8.33%;}
 }
 
 // Phone - X Small
 @media screen and (max-width: 375px) {
-  .col-xs {
-    width: 100%;
-  }
+  .col-xs-12   {width: 100%;}
+  .col-xs-6    {width: 50%;}
+  .col-xs-4    {width: 33.33%;}
+  .col-xs-3    {width: 25%;}
+  .col-xs-2-5  {width: 20%;}
+  .col-xs-2    {width: 16.66%;}
+  .col-xs-1    {width: 8.33%;}
 }
 
 // Phone Small
