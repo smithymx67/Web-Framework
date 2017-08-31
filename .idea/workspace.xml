@@ -2,12 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d4fb9a3-6e6d-4bf3-9da5-c760eff87a32" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/docSite/scripts/consoleLog.html" afterPath="$PROJECT_DIR$/build/docSite/scripts/consoleLog.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/docSite/scripts/dateTime.html" afterPath="$PROJECT_DIR$/build/docSite/scripts/dateTime.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/docSite/scripts/elementSelector.html" afterPath="$PROJECT_DIR$/build/docSite/scripts/elementSelector.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/docSite/scripts/slideshow.html" afterPath="$PROJECT_DIR$/build/docSite/scripts/slideshow.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/lib.min.css" afterPath="$PROJECT_DIR$/build/lib.min.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/lib.min.css.map" afterPath="$PROJECT_DIR$/build/lib.min.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/lib.min.js" afterPath="$PROJECT_DIR$/build/lib.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/lib.min.js.map" afterPath="$PROJECT_DIR$/build/lib.min.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/docSite/scripts/slideshow.html" afterPath="$PROJECT_DIR$/src/docSite/scripts/slideshow.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/docSite/styles/darkTheme.html" afterPath="$PROJECT_DIR$/src/docSite/styles/darkTheme.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/docSite/styles/elements.html" afterPath="$PROJECT_DIR$/src/docSite/styles/elements.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/docSite/styles/images.html" afterPath="$PROJECT_DIR$/src/docSite/styles/images.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/docSite/styles/lists.html" afterPath="$PROJECT_DIR$/src/docSite/styles/lists.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/docSite/styles/text.html" afterPath="$PROJECT_DIR$/src/docSite/styles/text.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scripts/lib.js" afterPath="$PROJECT_DIR$/src/scripts/lib.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/_slideshow.scss" afterPath="$PROJECT_DIR$/src/styles/_slideshow.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/_buttons.scss" afterPath="$PROJECT_DIR$/src/styles/_buttons.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/_features.scss" afterPath="$PROJECT_DIR$/src/styles/_features.scss" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,38 +29,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="slideshow.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/docSite/scripts/slideshow.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="770">
-              <caret line="94" column="4" lean-forward="false" selection-start-line="94" selection-start-column="4" selection-end-line="94" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_slideshow.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/styles/_slideshow.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="519">
-              <caret line="104" column="18" lean-forward="false" selection-start-line="104" selection-start-column="18" selection-end-line="104" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lib.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/scripts/lib.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="638">
-              <caret line="448" column="94" lean-forward="false" selection-start-line="448" selection-start-column="94" selection-end-line="448" selection-end-column="94" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -81,17 +62,12 @@
         <option value="$PROJECT_DIR$/src/styles/_themes.scss" />
         <option value="$PROJECT_DIR$/src/styles/_responsive.scss" />
         <option value="$PROJECT_DIR$/src/docSite/index.html" />
-        <option value="$PROJECT_DIR$/src/docSite/styles/text.html" />
         <option value="$PROJECT_DIR$/src/docSite/styles/position.html" />
-        <option value="$PROJECT_DIR$/src/docSite/styles/lists.html" />
         <option value="$PROJECT_DIR$/src/docSite/styles/layout.html" />
         <option value="$PROJECT_DIR$/src/docSite/styles/index.html" />
-        <option value="$PROJECT_DIR$/src/docSite/styles/images.html" />
         <option value="$PROJECT_DIR$/src/docSite/styles/header.html" />
         <option value="$PROJECT_DIR$/src/docSite/styles/forms.html" />
         <option value="$PROJECT_DIR$/src/docSite/styles/footer.html" />
-        <option value="$PROJECT_DIR$/src/docSite/styles/elements.html" />
-        <option value="$PROJECT_DIR$/src/docSite/styles/darkTheme.html" />
         <option value="$PROJECT_DIR$/src/docSite/styles/buttons.html" />
         <option value="$PROJECT_DIR$/src/docSite/styles/features/badgesLabels.html" />
         <option value="$PROJECT_DIR$/src/docSite/styles/features/codeBlock.html" />
@@ -105,12 +81,22 @@
         <option value="$PROJECT_DIR$/src/docSite/scripts/dateTime.html" />
         <option value="$PROJECT_DIR$/src/docSite/scripts/elementSelector.html" />
         <option value="$PROJECT_DIR$/src/docSite/scripts/index.html" />
-        <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/src/styles/lib.scss" />
+        <option value="$PROJECT_DIR$/src/styles/_slideshow.scss" />
         <option value="$PROJECT_DIR$/src/styles/_features.scss" />
         <option value="$PROJECT_DIR$/src/docSite/scripts/slideshow.html" />
-        <option value="$PROJECT_DIR$/src/styles/_slideshow.scss" />
+        <option value="$PROJECT_DIR$/build/docSite/scripts/elementSelector.html" />
+        <option value="$PROJECT_DIR$/build/docSite/scripts/dateTime.html" />
+        <option value="$PROJECT_DIR$/build/docSite/scripts/consoleLog.html" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/src/scripts/lib.js" />
+        <option value="$PROJECT_DIR$/build/docSite/scripts/slideshow.html" />
+        <option value="$PROJECT_DIR$/src/docSite/styles/text.html" />
+        <option value="$PROJECT_DIR$/src/docSite/styles/elements.html" />
+        <option value="$PROJECT_DIR$/src/styles/_buttons.scss" />
+        <option value="$PROJECT_DIR$/src/docSite/styles/lists.html" />
+        <option value="$PROJECT_DIR$/src/docSite/styles/images.html" />
+        <option value="$PROJECT_DIR$/src/docSite/styles/darkTheme.html" />
       </list>
     </option>
   </component>
@@ -162,7 +148,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -173,11 +158,6 @@
             <path>
               <item name="CSS-Framework" type="b2602c69:ProjectViewProjectNode" />
               <item name="CSS-Framework" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="build" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="CSS-Framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CSS-Framework" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -185,37 +165,19 @@
               <item name="CSS-Framework" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="docSite" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="CSS-Framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CSS-Framework" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="docSite" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="scripts" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="CSS-Framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CSS-Framework" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="scripts" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="CSS-Framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CSS-Framework" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="styles" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HTML" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
   </component>
@@ -277,24 +239,25 @@
       <workItem from="1504089102524" duration="18354000" />
       <workItem from="1504112952247" duration="3319000" />
       <workItem from="1504122550145" duration="5784000" />
+      <workItem from="1504175927716" duration="9041000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103197000" />
+    <option name="totallyTimeSpent" value="112238000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="745" extended-state="6" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13043478" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32826087" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32923076" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1609808" sideWeight="0.5043478" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.125" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32923076" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24615385" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1609808" sideWeight="0.5043478" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14605543" sideWeight="0.49565217" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2180937" sideWeight="0.49565217" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -319,37 +282,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/scripts/lib.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3795">
-          <caret line="253" column="1" lean-forward="true" selection-start-line="253" selection-start-column="1" selection-end-line="253" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/docSite/styles/features/infoDialogs.html" />
-    <entry file="file://$PROJECT_DIR$/src/docSite/styles/darkTheme.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="43" lean-forward="false" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/lib.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="19" lean-forward="false" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/_responsive.scss" />
-    <entry file="file://$PROJECT_DIR$/src/docSite/styles/darkTheme.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="43" lean-forward="false" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/lib.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -423,21 +355,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/docSite/styles/text.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="99" lean-forward="false" selection-start-line="5" selection-start-column="99" selection-end-line="5" selection-end-column="99" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/docSite/styles/position.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="99" lean-forward="false" selection-start-line="5" selection-start-column="99" selection-end-line="5" selection-end-column="99" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/docSite/styles/lists.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="99" lean-forward="false" selection-start-line="5" selection-start-column="99" selection-end-line="5" selection-end-column="99" />
@@ -452,13 +370,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/docSite/styles/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="99" lean-forward="false" selection-start-line="5" selection-start-column="99" selection-end-line="5" selection-end-column="99" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/docSite/styles/images.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="99" lean-forward="false" selection-start-line="5" selection-start-column="99" selection-end-line="5" selection-end-column="99" />
@@ -480,20 +391,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/docSite/styles/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="99" lean-forward="false" selection-start-line="5" selection-start-column="99" selection-end-line="5" selection-end-column="99" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/docSite/styles/elements.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="99" lean-forward="false" selection-start-line="5" selection-start-column="99" selection-end-line="5" selection-end-column="99" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/docSite/styles/darkTheme.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="99" lean-forward="false" selection-start-line="5" selection-start-column="99" selection-end-line="5" selection-end-column="99" />
@@ -585,13 +482,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="39" column="7" lean-forward="false" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/lib.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -615,31 +505,203 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/_features.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="111" column="8" lean-forward="false" selection-start-line="111" selection-start-column="1" selection-end-line="111" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/docSite/scripts/slideshow.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
-          <caret line="94" column="4" lean-forward="false" selection-start-line="94" selection-start-column="4" selection-end-line="94" selection-end-column="4" />
+        <state relative-caret-position="409">
+          <caret line="104" column="22" lean-forward="false" selection-start-line="104" selection-start-column="22" selection-end-line="104" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/_slideshow.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
+        <state relative-caret-position="393">
           <caret line="104" column="18" lean-forward="false" selection-start-line="104" selection-start-column="18" selection-end-line="104" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/docSite/scripts/slideshow.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="29" column="4" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="33" selection-end-column="10" />
+          <folding>
+            <element signature="e#1387#1391#0" expanded="false" />
+            <element signature="e#1458#1462#0" expanded="false" />
+            <element signature="e#1488#1492#0" expanded="false" />
+            <element signature="e#1536#1540#0" expanded="false" />
+            <element signature="e#1540#1544#0" expanded="false" />
+            <element signature="e#1548#1552#0" expanded="false" />
+            <element signature="e#1689#1695#0" expanded="false" />
+            <element signature="e#1695#1701#0" expanded="false" />
+            <element signature="e#1783#1789#0" expanded="false" />
+            <element signature="e#1789#1795#0" expanded="false" />
+            <element signature="e#1877#1883#0" expanded="false" />
+            <element signature="e#1883#1889#0" expanded="false" />
+            <element signature="e#1971#1977#0" expanded="false" />
+            <element signature="e#1977#1983#0" expanded="false" />
+            <element signature="e#2143#2149#0" expanded="false" />
+            <element signature="e#2149#2155#0" expanded="false" />
+            <element signature="e#2605#2609#0" expanded="false" />
+            <element signature="e#2676#2680#0" expanded="false" />
+            <element signature="e#2706#2710#0" expanded="false" />
+            <element signature="e#2754#2758#0" expanded="false" />
+            <element signature="e#2758#2762#0" expanded="false" />
+            <element signature="e#2766#2770#0" expanded="false" />
+            <element signature="e#2907#2913#0" expanded="false" />
+            <element signature="e#2913#2919#0" expanded="false" />
+            <element signature="e#3001#3007#0" expanded="false" />
+            <element signature="e#3007#3013#0" expanded="false" />
+            <element signature="e#3095#3101#0" expanded="false" />
+            <element signature="e#3101#3107#0" expanded="false" />
+            <element signature="e#3189#3195#0" expanded="false" />
+            <element signature="e#3195#3201#0" expanded="false" />
+            <element signature="e#3361#3367#0" expanded="false" />
+            <element signature="e#3367#3373#0" expanded="false" />
+            <element signature="e#3414#3420#0" expanded="false" />
+            <element signature="e#3420#3426#0" expanded="false" />
+            <element signature="e#3904#3908#0" expanded="false" />
+            <element signature="e#3975#3979#0" expanded="false" />
+            <element signature="e#4005#4009#0" expanded="false" />
+            <element signature="e#4053#4057#0" expanded="false" />
+            <element signature="e#4057#4061#0" expanded="false" />
+            <element signature="e#4065#4069#0" expanded="false" />
+            <element signature="e#4206#4212#0" expanded="false" />
+            <element signature="e#4212#4218#0" expanded="false" />
+            <element signature="e#4300#4306#0" expanded="false" />
+            <element signature="e#4306#4312#0" expanded="false" />
+            <element signature="e#4394#4400#0" expanded="false" />
+            <element signature="e#4400#4406#0" expanded="false" />
+            <element signature="e#4488#4494#0" expanded="false" />
+            <element signature="e#4494#4500#0" expanded="false" />
+            <element signature="e#4660#4666#0" expanded="false" />
+            <element signature="e#4666#4672#0" expanded="false" />
+            <element signature="e#4713#4719#0" expanded="false" />
+            <element signature="e#4719#4725#0" expanded="false" />
+            <element signature="e#4765#4771#0" expanded="false" />
+            <element signature="e#4771#4777#0" expanded="false" />
+            <element signature="e#5242#5246#0" expanded="false" />
+            <element signature="e#5313#5317#0" expanded="false" />
+            <element signature="e#5343#5347#0" expanded="false" />
+            <element signature="e#5391#5395#0" expanded="false" />
+            <element signature="e#5395#5399#0" expanded="false" />
+            <element signature="e#5403#5407#0" expanded="false" />
+            <element signature="e#5544#5550#0" expanded="false" />
+            <element signature="e#5550#5556#0" expanded="false" />
+            <element signature="e#5638#5644#0" expanded="false" />
+            <element signature="e#5644#5650#0" expanded="false" />
+            <element signature="e#5732#5738#0" expanded="false" />
+            <element signature="e#5738#5744#0" expanded="false" />
+            <element signature="e#5826#5832#0" expanded="false" />
+            <element signature="e#5832#5838#0" expanded="false" />
+            <element signature="e#5998#6004#0" expanded="false" />
+            <element signature="e#6004#6010#0" expanded="false" />
+            <element signature="e#6051#6057#0" expanded="false" />
+            <element signature="e#6057#6063#0" expanded="false" />
+            <element signature="e#6103#6109#0" expanded="false" />
+            <element signature="e#6109#6115#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/docSite/scripts/elementSelector.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="29" column="4" lean-forward="false" selection-start-line="29" selection-start-column="4" selection-end-line="33" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="40" lean-forward="false" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/docSite/scripts/consoleLog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="33" column="10" lean-forward="false" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/docSite/scripts/dateTime.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="33" column="10" lean-forward="false" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/lib.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/docSite/scripts/slideshow.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="36" column="93" lean-forward="true" selection-start-line="36" selection-start-column="93" selection-end-line="36" selection-end-column="93" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scripts/lib.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="448" column="94" lean-forward="false" selection-start-line="448" selection-start-column="94" selection-end-line="448" selection-end-column="94" />
+        <state relative-caret-position="3776">
+          <caret line="496" column="1" lean-forward="true" selection-start-line="496" selection-start-column="1" selection-end-line="496" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/docSite/styles/text.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="86" column="27" lean-forward="false" selection-start-line="86" selection-start-column="27" selection-end-line="86" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/docSite/styles/elements.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="107" column="27" lean-forward="false" selection-start-line="107" selection-start-column="27" selection-end-line="107" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/_buttons.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/docSite/styles/lists.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1">
+          <caret line="105" column="27" lean-forward="false" selection-start-line="105" selection-start-column="27" selection-end-line="105" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/docSite/styles/images.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="585" column="29" lean-forward="false" selection-start-line="585" selection-start-column="29" selection-end-line="585" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/docSite/styles/darkTheme.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="132" column="25" lean-forward="false" selection-start-line="132" selection-start-column="25" selection-end-line="132" selection-end-column="25" />
           <folding />
         </state>
       </provider>

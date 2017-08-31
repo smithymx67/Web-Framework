@@ -39,21 +39,21 @@ function elem(element) {
  * @return {string}
  **/
 function textifyMonth(month) {
-	let months = [
-		"January",
-		"Febuary",
-		"March",
-		"April",
-		"May",
-		"June",
-		"July",
-		"August",
-		"September",
-		"October",
-		"November",
-		"December"
-	];
-	return months[month];
+  let months = [
+    "January",
+    "Febuary",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December"
+  ];
+  return months[month];
 }
 
 /**
@@ -62,15 +62,15 @@ function textifyMonth(month) {
  * @return {string}
  **/
 function textifyWeekDay(day) {
-	let days = [
-		"Sunday",
-		"Monday",
-		"Tuesday",
-		"Wednesday",
-		"Thursday",
-		"Friday",
-		"Saturday"
-	];
+  let days = [
+	  "Sunday",
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday"
+  ];
 	return days[day];
 }
 
@@ -82,16 +82,16 @@ function textifyWeekDay(day) {
  * @return {string}      theTime
  **/
 function get12HrTime(dateObj, showSecs, showAMPM) {
-	let hours = (dateObj.getHours() > 12) ? dateObj.getHours() - 12 : dateObj.getHours();
-	let mins = leadZero(dateObj.getMinutes());
-	let secs = leadZero(dateObj.getSeconds());
-	let ampm = (dateObj.getHours() > 12) ? "PM" : "AM";
-	let theTime;
+  let hours = (dateObj.getHours() > 12) ? dateObj.getHours() - 12 : dateObj.getHours();
+  let mins = leadZero(dateObj.getMinutes());
+  let secs = leadZero(dateObj.getSeconds());
+  let ampm = (dateObj.getHours() > 12) ? "PM" : "AM";
+  let theTime;
 
-	theTime = hours + ":" + mins;
-	if(showSecs === true) {theTime += ":" + secs}
-	if(showAMPM === true) {theTime += " " + ampm}
-	return theTime;
+  theTime = hours + ":" + mins;
+  if(showSecs === true) {theTime += ":" + secs}
+  if(showAMPM === true) {theTime += " " + ampm}
+  return theTime;
 }
 
 /**
@@ -101,14 +101,14 @@ function get12HrTime(dateObj, showSecs, showAMPM) {
  * @return {string}      theTime
  **/
 function get24HrTime(dateObj, showSecs) {
-	let hours = leadZero(dateObj.getHours());
-	let mins = leadZero(dateObj.getMinutes());
-	let secs = leadZero(dateObj.getSeconds());
-	let theTime;
+  let hours = leadZero(dateObj.getHours());
+  let mins = leadZero(dateObj.getMinutes());
+  let secs = leadZero(dateObj.getSeconds());
+  let theTime;
 
-	theTime = hours + ":" + mins;
-	if(showSecs === true) {theTime += ":" + secs}
-	return theTime;
+  theTime = hours + ":" + mins;
+  if(showSecs === true) {theTime += ":" + secs}
+  return theTime;
 }
 
 /**
@@ -117,7 +117,7 @@ function get24HrTime(dateObj, showSecs) {
  * @return {string}
  **/
 function leadZero(number) {
-	return (number < 10) ? "0" + number : number;
+  return (number < 10) ? "0" + number : number;
 }
 
 /**
@@ -126,10 +126,10 @@ function leadZero(number) {
  * @return {string}
  **/
 function getShortDate(dateObj) {
-	let date = leadZero(dateObj.getDate());
-	let month = leadZero(dateObj.getMonth() + 1);
-	let year = dateObj.getFullYear();
-	return date + "/" + month + "/" + year;
+  let date = leadZero(dateObj.getDate());
+  let month = leadZero(dateObj.getMonth() + 1);
+  let year = dateObj.getFullYear();
+  return date + "/" + month + "/" + year;
 }
 
 /**
@@ -138,11 +138,11 @@ function getShortDate(dateObj) {
  * @return {string}
  **/
 function getLongDate(dateObj) {
-	let day = textifyWeekDay(dateObj.getDay());
-	let date = suffixDate(dateObj.getDate());
-	let month = textifyMonth(dateObj.getMonth());
-	let year = dateObj.getFullYear();
-	return day + " " + date + " " + month + " " + year;
+  let day = textifyWeekDay(dateObj.getDay());
+  let date = suffixDate(dateObj.getDate());
+  let month = textifyMonth(dateObj.getMonth());
+  let year = dateObj.getFullYear();
+  return day + " " + date + " " + month + " " + year;
 }
 
 /**
@@ -151,33 +151,33 @@ function getLongDate(dateObj) {
  * @return {string} theDate
  **/
 function suffixDate(date) {
-	let theDate;
-	switch(date) {
-		case 1:
-		case 21:
-		case 31:
-			theDate = date + "st";
-			break;
-		case 2:
-		case 22:
-		case 32:
-			theDate = date + "nd";
-			break;
-		case 3:
-		case 23:
-			theDate = date + "rd";
-			break;
-		default:
-			theDate = date + "th";
-	}
-	return theDate;
+  let theDate;
+  switch(date) {
+    case 1:
+    case 21:
+    case 31:
+      theDate = date + "st";
+      break;
+    case 2:
+    case 22:
+    case 32:
+      theDate = date + "nd";
+      break;
+    case 3:
+    case 23:
+      theDate = date + "rd";
+      break;
+    default:
+      theDate = date + "th";
+  }
+  return theDate;
 }
 
 ////////////////////////////////////////////////////////////////
 
 
 ////////////////////////////////////////////////////////////////
-// Footer Scripts                                             //
+// Header Scripts                                             //
 ////////////////////////////////////////////////////////////////
 
 /**
@@ -185,14 +185,14 @@ function suffixDate(date) {
  */
 window.onload = fixifyHeader();
 function fixifyHeader() {
-	let header = document.getElementsByTagName("header");
+  let header = document.getElementsByTagName("header");
 
-	for(let i = 0; i < header.length; i++) {
-		if(header[i].classList.contains("fixed-header")) {
-			let offset = header[i].clientHeight;
-			document.getElementsByTagName("body")[0].style.marginTop = offset + "px";
-		}
-	}
+  for(let i = 0; i < header.length; i++) {
+    if(header[i].classList.contains("fixed-header")) {
+      let offset = header[i].clientHeight;
+      document.getElementsByTagName("body")[0].style.marginTop = offset + "px";
+    }
+  }
 }
 
 ////////////////////////////////////////////////////////////////
@@ -207,14 +207,14 @@ function fixifyHeader() {
  */
 window.onload = fixifyFooter();
 function fixifyFooter() {
-	let footer = document.getElementsByTagName("footer");
+  let footer = document.getElementsByTagName("footer");
 
-	for(let i = 0; i < footer.length; i++) {
-		if(footer[i].classList.contains("fixed-footer")) {
-			let offset = footer[i].clientHeight;
-			document.getElementsByTagName("body")[0].style.marginBottom = offset + "px";
-		}
-	}
+  for(let i = 0; i < footer.length; i++) {
+    if(footer[i].classList.contains("fixed-footer")) {
+      let offset = footer[i].clientHeight;
+      document.getElementsByTagName("body")[0].style.marginBottom = offset + "px";
+    }
+  }
 }
 
 /**
@@ -222,16 +222,16 @@ function fixifyFooter() {
  */
 window.onload = stickifyFooter();
 function stickifyFooter() {
-	let footer = document.getElementsByTagName("footer");
+  let footer = document.getElementsByTagName("footer");
 
-	for(let i = 0; i < footer.length; i++) {
-		if(footer[i].classList.contains("sticky-footer")) {
-			let offset = footer[i].clientHeight;
-			document.getElementsByTagName("body")[0].style.paddingBottom = offset + "px";
-			document.getElementsByTagName("html")[0].style.minHeight = "100%";
-			document.getElementsByTagName("html")[0].style.position = "relative";
-		}
-	}
+  for(let i = 0; i < footer.length; i++) {
+    if(footer[i].classList.contains("sticky-footer")) {
+      let offset = footer[i].clientHeight;
+      document.getElementsByTagName("body")[0].style.paddingBottom = offset + "px";
+      document.getElementsByTagName("html")[0].style.minHeight = "100%";
+      document.getElementsByTagName("html")[0].style.position = "relative";
+    }
+  }
 }
 
 ////////////////////////////////////////////////////////////////
@@ -251,12 +251,12 @@ let slideshowArray = [];
  * @param args
  */
 function createSlideshow(element, imageArray, args) {
-	let slideshowElement = elem(element);
+  let slideshowElement = elem(element);
 
-	// Setup args
-	let interval 	= (args['interval']) 	? args['interval'] 	: 1500;
-	let style 		= (args['style']) 		? args['style'] 		: "";
-	let controls	= (args['controls'])	? args['controls']	: "";
+  // Setup args
+  let interval 	= (args['interval']) 	? args['interval'] 	: 1500;
+  let style 		= (args['style']) 		? args['style'] 		: "";
+  let control		= (args['control'])		? args['control']		: "";
 
   // Store slideshow in array
   let slideshowObj = {};
@@ -265,41 +265,41 @@ function createSlideshow(element, imageArray, args) {
   slideshowObj.imageArray = imageArray;
   slideshowObj.interval = interval;
   slideshowObj.style = style;
-	slideshowObj.controls = controls;
-	slideshowObj.currentSlide = 0;
+  slideshowObj.control = control;
+  slideshowObj.currentSlide = 0;
   slideshowObj.counter = 0;
   slideshowObj.loop = null;
   slideshowObj.hovered = false;
   slideshowArray[slideshowElement.id] = slideshowObj;
 
-	// Add slides to slideshow
-	switch(style) {
-		case "fade":
+  // Add slides to slideshow
+  switch(style) {
+    case "fade":
       slideshowElement.appendChild(setupSlides(slideshowElement.id, "slide-fade"));
-			break;
-		default:
+      break;
+    default:
       slideshowElement.appendChild(setupSlides(slideshowElement.id, ""));
-	}
+  }
 
 	// Add controls if required
-	if(controls === "arrows") {
-		slideshowElement.appendChild(setupArrowNav(slideshowElement.id));
-	} else if(controls === "dots") {
-		slideshowElement.appendChild(setupDotNav(slideshowElement.id));
-	}
+  if(control === "arrows") {
+    slideshowElement.appendChild(setupArrowNav(slideshowElement.id));
+  } else if(control === "dots") {
+    slideshowElement.appendChild(setupDotNav(slideshowElement.id));
+  }
 
-	slideshowElement.onmouseover = function () {
-		slideshowObj.hovered = true;
-		clearTimeout(slideshowObj.loop);
+  slideshowElement.onmouseover = function () {
+    slideshowObj.hovered = true;
+    clearTimeout(slideshowObj.loop);
   };
 
   slideshowElement.onmouseout = function () {
-		slideshowObj.hovered = false;
-		slideshowObj.loop = setTimeout(nextSlide, slideshowObj.interval, slideshowObj.id, false);
+    slideshowObj.hovered = false;
+    slideshowObj.loop = setTimeout(nextSlide, slideshowObj.interval, slideshowObj.id, false);
   };
 
-	// Run the slideshow
-	nextSlide(slideshowObj.id, false);
+  // Run the slideshow
+  nextSlide(slideshowObj.id, false);
 }
 
 /**
@@ -317,7 +317,7 @@ function setupSlides(slideIdPrefix, classes) {
   for(let i = 0; i < slideshowObj.imageArray.length; i++) {
     let img = document.createElement("img");
     if(i === 0) {
-    	img.className = "slide-visible " + classes
+      img.className = "slide-visible " + classes
     } else {
       img.className = "slide-hidden " + classes;
 		}
@@ -335,21 +335,21 @@ function setupSlides(slideIdPrefix, classes) {
  * @returns {Element}
  */
 function setupDotNav(slideshowID) {
-	let slideshowObj = slideshowArray[slideshowID];
-	let dotDiv = document.createElement("div");
-	dotDiv.className = "dot-controls";
+  let slideshowObj = slideshowArray[slideshowID];
+  let dotDiv = document.createElement("div");
+  dotDiv.className = "dot-controls";
 
-	for(let i = 0; i < slideshowObj.numberOfSlides; i++) {
-		let dotItem = document.createElement("div");
-		dotItem.id = slideshowObj.id + "-dot-" + i;
-		if(i === 0) {dotItem.className = "dot-active";}
-		dotItem.onclick = function () {
-			gotoSlide(slideshowObj.id, i);
-		};
-		dotDiv.appendChild(dotItem);
-	}
+  for(let i = 0; i < slideshowObj.numberOfSlides; i++) {
+    let dotItem = document.createElement("div");
+    dotItem.id = slideshowObj.id + "-dot-" + i;
+    if(i === 0) {dotItem.className = "dot-active";}
+    dotItem.onclick = function () {
+      gotoSlide(slideshowObj.id, i);
+    };
+    dotDiv.appendChild(dotItem);
+  }
 
-	return dotDiv;
+  return dotDiv;
 }
 
 /**
@@ -358,20 +358,20 @@ function setupDotNav(slideshowID) {
  * @returns {Element}
  */
 function setupArrowNav(slideshowID) {
-	let arrowDiv 			= document.createElement("div");
-	let arrowNext 		= document.createElement("div");
-	let arrowPrevious = document.createElement("div");
+  let arrowDiv 			= document.createElement("div");
+  let arrowNext 		= document.createElement("div");
+  let arrowPrevious = document.createElement("div");
 
-	arrowDiv.className 			= "arrow-controls";
-	arrowNext.className 		= "next-slide";
-	arrowPrevious.className = "previous-slide";
+  arrowDiv.className 			= "arrow-controls";
+  arrowNext.className 		= "next-slide";
+  arrowPrevious.className = "previous-slide";
 
-	arrowPrevious.innerHTML = "<span onclick=\"previousSlide(\'" + slideshowID + "\')\">V</span>";
-	arrowNext.innerHTML			= "<span onclick=\"nextSlide(\'" + slideshowID + "\', " + true + ")\">V</span>";
+  arrowPrevious.innerHTML = "<span onclick=\"previousSlide(\'" + slideshowID + "\')\">V</span>";
+  arrowNext.innerHTML			= "<span onclick=\"nextSlide(\'" + slideshowID + "\', " + true + ")\">V</span>";
 
-	arrowDiv.appendChild(arrowPrevious);
-	arrowDiv.appendChild(arrowNext);
-	return arrowDiv;
+  arrowDiv.appendChild(arrowPrevious);
+  arrowDiv.appendChild(arrowNext);
+  return arrowDiv;
 }
 
 /**
@@ -380,27 +380,27 @@ function setupArrowNav(slideshowID) {
  * @param usrCommand
  */
 function nextSlide(slideshowID, usrCommand) {
-	let slideshowObj = slideshowArray[slideshowID];
-	clearTimeout(slideshowObj.loop);
+  let slideshowObj = slideshowArray[slideshowID];
+  clearTimeout(slideshowObj.loop);
 
-	// Don't progress if the mouse is hovered over it unless overrided with usrCommand
-	if(!slideshowObj.hovered || usrCommand) {
-		// Fetch the required slide elements
+  // Don't progress if the mouse is hovered over it unless overrided with usrCommand
+  if(!slideshowObj.hovered || usrCommand) {
+    // Fetch the required slide elements
     let currentActive = ((slideshowObj.counter - 1) < 0) ? slideshowObj.numberOfSlides - 1 : slideshowObj.counter - 1;
     let currentSlide = elem("#" + slideshowObj.id + "-" + currentActive);
     let newSlide = elem("#" + slideshowObj.id + "-" + slideshowObj.counter);
 
     transitionSlide(currentSlide, newSlide);
-		if(slideshowObj.controls === "dots") {
-			updateDotNav(slideshowObj.id, currentActive, slideshowObj.counter);
-		}
+    if(slideshowObj.control === "dots") {
+      updateDotNav(slideshowObj.id, currentActive, slideshowObj.counter);
+    }
 
-		slideshowObj.currentSlide = slideshowObj.counter;
+    slideshowObj.currentSlide = slideshowObj.counter;
     slideshowObj.counter = (slideshowObj.counter < slideshowObj.numberOfSlides - 1) ? slideshowObj.counter + 1 : 0;
   }
 
   // Reset the timer to progress the slides
-	slideshowObj.loop = setTimeout(nextSlide, slideshowObj.interval, slideshowObj.id, false);
+  slideshowObj.loop = setTimeout(nextSlide, slideshowObj.interval, slideshowObj.id, false);
 }
 
 /**
@@ -408,12 +408,12 @@ function nextSlide(slideshowID, usrCommand) {
  * @param slideshowID
  */
 function previousSlide(slideshowID) {
-	let slideshowObj = slideshowArray[slideshowID];
-	clearTimeout(slideshowObj.loop);
+  let slideshowObj = slideshowArray[slideshowID];
+  clearTimeout(slideshowObj.loop);
 
-	// Fetch the required slide elements
-	let currentCounter = (slideshowObj.counter - 1 < 0) ? slideshowObj.numberOfSlides - 1 : slideshowObj.counter - 1;
-	let previousCounter = (currentCounter - 1 < 0) ? slideshowObj.numberOfSlides - 1 : currentCounter - 1;
+  // Fetch the required slide elements
+  let currentCounter = (slideshowObj.counter - 1 < 0) ? slideshowObj.numberOfSlides - 1 : slideshowObj.counter - 1;
+  let previousCounter = (currentCounter - 1 < 0) ? slideshowObj.numberOfSlides - 1 : currentCounter - 1;
   let currentSlide = elem("#" + slideshowObj.id + "-" + currentCounter);
   let newSlide = elem("#" + slideshowObj.id + "-" + previousCounter);
   transitionSlide(currentSlide, newSlide);
@@ -421,7 +421,7 @@ function previousSlide(slideshowID) {
   // Set the counter and reset the timer to progress the slides
   slideshowObj.counter = previousCounter;
   slideshowObj.counter = (slideshowObj.counter < slideshowObj.numberOfSlides - 1) ? slideshowObj.counter + 1 : 0;
-	slideshowObj.loop = setTimeout(nextSlide, slideshowObj.interval, slideshowObj.id, false);
+  slideshowObj.loop = setTimeout(nextSlide, slideshowObj.interval, slideshowObj.id, false);
 }
 
 /**
@@ -430,10 +430,10 @@ function previousSlide(slideshowID) {
  * @param slideNumber
  */
 function gotoSlide(slideshowID, slideNumber) {
-	let slideshowObj = slideshowArray[slideshowID];
-	clearTimeout(slideshowObj.loop);
+  let slideshowObj = slideshowArray[slideshowID];
+  clearTimeout(slideshowObj.loop);
 
-	// Fetch slide numbers
+  // Fetch slide numbers
   let currentSlide = slideshowObj.currentSlide;
   let newSlide = slideNumber;
 
@@ -444,9 +444,9 @@ function gotoSlide(slideshowID, slideNumber) {
   // Transition the slide and update the nav dots
   let cSlide = elem("#" + slideshowObj.id + "-" + currentSlide);
   let nSlide = elem("#" + slideshowObj.id + "-" + newSlide);
-	transitionSlide(cSlide, nSlide);
-	updateDotNav(slideshowObj.id, currentSlide, newSlide);
-	slideshowObj.counter = (newSlide + 1 > slideshowObj.numberOfSlides - 1) ? 0 : newSlide + 1 ;
+  transitionSlide(cSlide, nSlide);
+  updateDotNav(slideshowObj.id, currentSlide, newSlide);
+  slideshowObj.counter = (newSlide + 1 > slideshowObj.numberOfSlides - 1) ? 0 : newSlide + 1 ;
 }
 
 /**
@@ -462,11 +462,11 @@ function transitionSlide(currentSlide, newSlide) {
 }
 
 function updateDotNav(slideshowID, currentSlide, newSlide) {
-	let dot1 = elem("#" + slideshowID + "-dot-" + currentSlide);
-	let dot2 = elem("#" + slideshowID + "-dot-" + newSlide);
+  let dot1 = elem("#" + slideshowID + "-dot-" + currentSlide);
+  let dot2 = elem("#" + slideshowID + "-dot-" + newSlide);
 
-	dot1.classList.remove("dot-active");
-	dot2.classList.add("dot-active");
+  dot1.classList.remove("dot-active");
+  dot2.classList.add("dot-active");
 }
 
 ////////////////////////////////////////////////////////////////
@@ -478,20 +478,20 @@ function updateDotNav(slideshowID, currentSlide, newSlide) {
  * @param {string} style
  **/
 function consoleLog(message, style) {
-	switch(style) {
-		case "info":
-			console.log("%c" + message, "color: blue");
-			break;
-		case "success":
-			console.log("%c" + message, "color: green");
-			break;
-		case "warning":
-			console.log("%c" + message, "color: orange");
-			break;
-		case "danger":
-			console.log("%c" + message, "color: red");
-			break;
-		default:
-			console.log(message);
-	}
+  switch(style) {
+    case "info":
+      console.log("%c" + message, "color: blue");
+      break;
+    case "success":
+      console.log("%c" + message, "color: green");
+      break;
+    case "warning":
+      console.log("%c" + message, "color: orange");
+      break;
+    case "danger":
+      console.log("%c" + message, "color: red");
+      break;
+    default:
+      console.log(message);
+  }
 }
