@@ -1,6 +1,15 @@
 // Lists
 // This file contains css for lists
 
+ul, ol {
+  li {
+    margin: 4px 0;
+  }
+}
+
+ol {}
+dl {}
+
 .numbered-list {
   list-style-type: decimal;
 }
