@@ -1,0 +1,49 @@
+// Navigation
+// This file contains css for navigation's
+
+.top-nav {
+  background-color: lightgray;
+  height: 50px;
+  
+  &:after {
+    clear: both;
+    content: "";
+    display: block;
+  }
+
+  .container {
+    top: 50%;
+    transform: translate(0, -50%);
+    position: relative;
+  }
+
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    height: 100%;
+    font-size: 0;
+
+    li {
+      display: inline-block;
+      margin: 0;
+      height: 100%;
+      font-size: 18px;
+      font-weight: bold;
+      padding: 0 15px;
+
+      &:first-child {
+        padding-left: 0;
+      }
+
+      &:last-child {
+        padding-right: 0;
+      }
+
+      a {
+        display: block;
+        height: 100%;
+      }
+    }
+  }
+}

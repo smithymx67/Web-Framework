@@ -1,7 +1,8 @@
 // JavaScript Framework
-// Author: Sam Smith (smithymx67)
-// Website: https://samsmith.me
-// Version: 1.0.0
+// Author     Sam Smith (smithymx67)
+// Website    https://samsmith.me
+// Version    1.0.0
+// License    MIT
 
 ////////////////////////////////////////////////////////////////
 // Element Selector                                           //
@@ -184,6 +185,7 @@ function suffixDate(date) {
  * Fix a header to the top of the page
  */
 window.onload = fixifyHeader();
+window.addEventListener("resize", fixifyHeader);
 function fixifyHeader() {
   let header = document.getElementsByTagName("header");
 
@@ -206,6 +208,7 @@ function fixifyHeader() {
  * Fix a footer to the bottom of the page
  */
 window.onload = fixifyFooter();
+window.addEventListener("resize", fixifyFooter);
 function fixifyFooter() {
   let footer = document.getElementsByTagName("footer");
 
@@ -221,6 +224,7 @@ function fixifyFooter() {
  * Stick a footer to the bottom of the page
  */
 window.onload = stickifyFooter();
+window.addEventListener("resize", stickifyFooter);
 function stickifyFooter() {
   let footer = document.getElementsByTagName("footer");
 
