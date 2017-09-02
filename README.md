@@ -11,18 +11,18 @@ All releases are available on GitHub, to use this framework first download the v
 [here](https://github.com/smithymx67/Web-Framework/releases). Now you have the files, place them into to your project 
 folder and create links to them. See the example below.
 
-###Stylesheet Library lib.min.css
+### Stylesheet Library lib.min.css
 Place this line of code within the `<head>` tag.
 
 `<link rel="stylesheet" href="lib.min.css">`
 
 
-###JavaScript Library lib.min.js
+### JavaScript Library lib.min.js
 Place this line of code just before the closing `<body>` tag.
 
 `<script src="lib.min.js"></script>`
 
-##Sourcemaps
+## Sourcemaps
 Sourcemaps for both the CSS and JavaScript libraries are available to download if needed for debugging.
 
 To use them simply download the sourcemap file that corresponds to your version and drop them into the same directory as 
@@ -64,7 +64,7 @@ There may be some modules that did not get installed, these will be printed to t
 `npm install <module name>`
 
 
-##License
+## License
 MIT License
 
 Copyright (c) 2017 Sam Smith
