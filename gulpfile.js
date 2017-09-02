@@ -24,6 +24,12 @@ gulp.task('html', function() {
     .pipe(gulp.dest('build'));
 });
 
+// Copy PHP from src to build
+gulp.task('php', function() {
+  gulp.src('src/**/*.php')
+    .pipe(gulp.dest('build'));
+});
+
 // Optimize images
 gulp.task('images', function() {
   gulp.src('src/docSite/img/**/*')
@@ -48,6 +54,7 @@ gulp.task('scripts', function() {
 gulp.task('watch', function() {
   gulp.watch('src/styles/**/*.scss', ['styles']);
   gulp.watch('src/docSite/**/*.html', ['html']);
+  gulp.watch('src/docSite/**/*.php', ['php']);
   gulp.watch('src/docSite/img/**/*', ['images']);
   gulp.watch('src/scripts/**/*.js', ['scripts']);
 });

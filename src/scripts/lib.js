@@ -2,7 +2,7 @@
 // Author     Sam Smith (smithymx67)
 // Website    https://samsmith.me
 // Version    1.0.0
-// License    MIT
+// License    MIT (https://github.com/smithymx67/Web-Framework/blob/master/LICENSE.txt)
 
 ////////////////////////////////////////////////////////////////
 // Element Selector                                           //
@@ -16,9 +16,9 @@
 function elem(element) {
   let theElement;
   
-  if(element.startsWith('.')) {
+  if(element.substring(0, 1) === '.') {
     theElement = document.getElementsByClassName(element.split('.')[1]);
-  } else if(element.startsWith('#')) {
+  } else if(element.substring(0, 1) === '#') {
     theElement = document.getElementById(element.split('#')[1]);
   } else {
     theElement = document.getElementsByTagName(element);

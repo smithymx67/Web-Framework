@@ -4,7 +4,7 @@
 // Author   Sam Smith (smithymx67)
 // Website  https://samsmtih.me
 // Version  1.0.0
-// License  MIT
+// License  MIT (https://github.com/smithymx67/Web-Framework/blob/master/LICENSE.txt)
 
 @import "elements";
 @import "layout";
@@ -21,7 +21,10 @@
 @import "spinners";
 @import "header";
 @import "footer";
-@import "themes";
-@import "responsive";
 @import "slideshow";
 @import "navigation";
+
+
+// Responsive and theme styles - must be placed last to override normal styles
+@import "themes";
+@import "responsive";

@@ -33,6 +33,25 @@
   .left-align-l    {text-align: left;}
   .center-align-l  {text-align: center;}
   .right-align-l   {text-align: right;}
+
+  .slideshow {
+    .arrow-controls {
+      div {
+        font-size: 16px;
+        span {
+          width: 40px;
+          height: 40px;
+        }
+      }
+    }
+
+    .dot-controls {
+      div {
+        width: 16px;
+        height: 16px;
+      }
+    }
+  }
 }
 
 // Tablet - Medium
@@ -67,6 +86,17 @@
   .left-align-s    {text-align: left;}
   .center-align-s  {text-align: center;}
   .right-align-s   {text-align: right;}
+
+  .slideshow {
+    .dot-controls {
+      div {
+        width: 10px;
+        height: 10px;
+        margin: 6px;
+        border-width: 1px;
+      }
+    }
+  }
 }
 
 // Phone - X Small

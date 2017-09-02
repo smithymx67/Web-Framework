@@ -23,7 +23,9 @@ input {
   padding: 2px 5px;
   
   &[type="file"] {
-    padding-top: 6px;
+    height: initial;
+    background: none;
+    border: none;
   }
   
   &[type="checkbox"], &[type="radio"] {
