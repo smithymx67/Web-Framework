@@ -6,6 +6,11 @@
   box-sizing: border-box;
 }
 
+.clear-position {
+  position: initial;
+  transform: initial;
+}
+
 .position-top-left {
   position: absolute;
   left: 0;

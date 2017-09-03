@@ -16,6 +16,11 @@
   .left-align-xl    {text-align: left;}
   .center-align-xl  {text-align: center;}
   .right-align-xl   {text-align: right;}
+
+  .clear-position-xl {
+    position: initial;
+    transform: initial;
+  }
 }
 
 // Laptop - Large
@@ -33,6 +38,11 @@
   .left-align-l    {text-align: left;}
   .center-align-l  {text-align: center;}
   .right-align-l   {text-align: right;}
+
+  .clear-position-l {
+    position: initial;
+    transform: initial;
+  }
 
   .slideshow {
     .arrow-controls {
@@ -69,6 +79,11 @@
   .left-align-m    {text-align: left;}
   .center-align-m  {text-align: center;}
   .right-align-m   {text-align: right;}
+
+  .clear-position-m {
+    position: initial;
+    transform: initial;
+  }
 }
 
 // Phone Large - Small
@@ -86,6 +101,11 @@
   .left-align-s    {text-align: left;}
   .center-align-s  {text-align: center;}
   .right-align-s   {text-align: right;}
+
+  .clear-position-s {
+    position: initial;
+    transform: initial;
+  }
 
   .slideshow {
     .dot-controls {
@@ -114,6 +134,11 @@
   .left-align-xs    {text-align: left;}
   .center-align-xs  {text-align: center;}
   .right-align-xs   {text-align: right;}
+
+  .clear-position-xs {
+    position: initial;
+    transform: initial;
+  }
 }
 
 // Phone Small

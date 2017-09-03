@@ -57,6 +57,7 @@
       <br>
 
       <h2>Top Left</h2>
+      <p>Added v1.0.0</p>
       <p>Display content in the top left corner of the container.</p>
       <p><code>position-top-left</code></p>
       <div class="code-block width-6 width-xl-12">
@@ -65,6 +66,7 @@
 
       <br>
       <h2>Top Center</h2>
+      <p>Added v1.0.0</p>
       <p>Display content in the top center of the container.</p>
       <p><code>position-top-center</code></p>
       <div class="code-block width-6 width-xl-12">
@@ -73,6 +75,7 @@
 
       <br>
       <h2>Top Right</h2>
+      <p>Added v1.0.0</p>
       <p>Display content in the top right corner of the container.</p>
       <p><code>position-top-right</code></p>
       <div class="code-block width-6 width-xl-12">
@@ -81,6 +84,7 @@
 
       <br>
       <h2>Left</h2>
+      <p>Added v1.0.0</p>
       <p>Display content on the left of the container.</p>
       <p><code>position-left</code></p>
       <div class="code-block width-6 width-xl-12">
@@ -89,6 +93,7 @@
 
       <br>
       <h2>Center</h2>
+      <p>Added v1.0.0</p>
       <p>Display content in the center of the container.</p>
       <p><code>position-center</code></p>
       <div class="code-block width-6 width-xl-12">
@@ -97,6 +102,7 @@
 
       <br>
       <h2>Right</h2>
+      <p>Added v1.0.0</p>
       <p>Display content on the right of the container.</p>
       <p><code>position-right</code></p>
       <div class="code-block width-6 width-xl-12">
@@ -105,6 +111,7 @@
 
       <br>
       <h2>Bottom Left</h2>
+      <p>Added v1.0.0</p>
       <p>Display content in the bottom left corner of the container.</p>
       <p><code>position-bottom-left</code></p>
       <div class="code-block width-6 width-xl-12">
@@ -113,6 +120,7 @@
 
       <br>
       <h2>Bottom Center</h2>
+      <p>Added v1.0.0</p>
       <p>Display content in the bottom center of the container.</p>
       <p><code>position-bottom-center</code></p>
       <div class="code-block width-6 width-xl-12">
@@ -121,10 +129,29 @@
 
       <br>
       <h2>Bottom Right</h2>
+      <p>Added v1.0.0</p>
       <p>Display content in the bottom right corner of the container.</p>
       <p><code>position-bottom-right</code></p>
       <div class="code-block width-6 width-xl-12">
         <span>&lt;div class="position-bottom-right"&gt;Bottom Right&lt;/div&gt;</span>
+      </div>
+
+      <br>
+      <h2>Clear Position</h2>
+      <p>Added v1.0.1</p>
+      <p>Clear the position making adding it back to the content flow.</p>
+      <ul>
+        <li><code>clear-position</code></li>
+        <li><code>clear-position-xl</code></li>
+        <li><code>clear-position-l</code></li>
+        <li><code>clear-position-m</code></li>
+        <li><code>clear-position-s</code></li>
+        <li><code>clear-position-xs</code></li>
+      </ul>
+      <div class="code-block width-6 width-xl-12">
+        <span>&lt;div class="position-bottom-right clear-position-m"&gt;</span><br>
+        <span>Bottom Right until medium screen size is hit</span><br>
+        <span>&lt;/div&gt;</span>
       </div>
     </div>
   </div>
