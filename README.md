@@ -4,7 +4,7 @@ Welcome to the web framework documentation site, here you can find information a
 
 This framework consists of two files, `lib.min.css` and `lib.min.js`, although you can choose to only use one of the files, 
 some features in this framework require both files to work correctly. Features that require both files are clearly identified 
-in the [documentation pages](https://smithymx67.co.uk/Framework/docSite).
+in the [documentation pages](https://samsmith.me/projects/webFramework/docSite/).
 
 ## How to use
 All releases are available on GitHub, to use this framework first download the version you require from 
