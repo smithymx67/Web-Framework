@@ -40,6 +40,8 @@
     </div>
 
     <div class="col-12">
+      <h2>Top Nav</h2>
+      <p>Added v1.0.0</p>
       <p>The navigation can contain anything you want but it is recommended that you wrap the nav content inside a div with the <code>container</code> class.</p>
       <p>The example below will produce the nav bar shown at the top of the page, to make it span the whole page place it outside of a <code>container</code>.</p>
       <div class="code-block">
@@ -54,6 +56,38 @@
         <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/ul&gt;</span><br>
         <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;</span><br>
         <span>&nbsp;&nbsp;&lt;/div&gt;</span><br>
+        <span>&lt;/nav&gt;</span>
+      </div>
+    </div>
+
+    <div class="col-12">
+      <h2>Horizontal</h2>
+      <p>Added v1.0.1</p>
+      <p>This will produce a horizontal navigation list.</p>
+      <div class="code-block">
+        <span>&lt;nav class="horizontal-nav"&gt;</span><br>
+        <span>&nbsp;&nbsp;&lt;ul&gt;</span><br>
+        <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;a href="#" title="Home"&gt;Home&lt;/a&gt;&lt;/li&gt;</span><br>
+        <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;a href="#" title="About"&gt;About&lt;/a&gt;&lt;/li&gt;</span><br>
+        <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;a href="#" title="Projects"&gt;Projects&lt;/a&gt;&lt;/li&gt;</span><br>
+        <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;a href="#" title="Contact"&gt;Contact&lt;/a&gt;&lt;/li&gt;</span><br>
+        <span>&nbsp;&nbsp;&lt;/ul&gt;</span><br>
+        <span>&lt;/nav&gt;</span>
+      </div>
+
+      <br>
+
+      <h2>Vertical</h2>
+      <p>Added v1.0.1</p>
+      <p>This will produce a vertical navigation list.</p>
+      <div class="code-block">
+        <span>&lt;nav class="vertical-nav"&gt;</span><br>
+        <span>&nbsp;&nbsp;&lt;ul&gt;</span><br>
+        <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;a href="#" title="Home"&gt;Home&lt;/a&gt;&lt;/li&gt;</span><br>
+        <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;a href="#" title="About"&gt;About&lt;/a&gt;&lt;/li&gt;</span><br>
+        <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;a href="#" title="Projects"&gt;Projects&lt;/a&gt;&lt;/li&gt;</span><br>
+        <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;a href="#" title="Contact"&gt;Contact&lt;/a&gt;&lt;/li&gt;</span><br>
+        <span>&nbsp;&nbsp;&lt;/ul&gt;</span><br>
         <span>&lt;/nav&gt;</span>
       </div>
     </div>

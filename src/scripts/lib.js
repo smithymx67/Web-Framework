@@ -1,7 +1,7 @@
 // JavaScript Framework
 // Author     Sam Smith (smithymx67)
 // Website    https://samsmith.me
-// Version    1.0.0
+// Version    1.0.1
 // License    MIT (https://github.com/smithymx67/Web-Framework/blob/master/LICENSE.txt)
 
 ////////////////////////////////////////////////////////////////
