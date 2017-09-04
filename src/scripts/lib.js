@@ -1,7 +1,7 @@
 // JavaScript Framework
 // Author     Sam Smith (smithymx67)
 // Website    https://samsmith.me
-// Version    1.1.0
+// Version    1.1.1
 // License    MIT (https://github.com/smithymx67/Web-Framework/blob/master/LICENSE.txt)
 
 ////////////////////////////////////////////////////////////////
@@ -485,13 +485,16 @@ function updateDotNav(slideshowID, currentSlide, newSlide) {
 
 /**
  * Setup the elements needed for the gallery to work
- * @param galleryImages
- * @param galleryElement
- * @param columnClass
- * @param imageClasses
+ * @param args
  */
-function createGallery(galleryImages, galleryElement, columnClass ,imageClasses) {
-  var galleryElem           = elem(galleryElement);
+function createGallery(args) {
+  var imgClasses          = (args.imgClasses)           ? args.imgClasses           : "";
+  var imgContainerClasses = (args.imgContainerClasses)  ? args.imgContainerClasses  : "";
+  var spinner             = (args.spinner)              ? args.spinner              : "";
+  var images              = (args.images)               ? args.images               : [];
+  var galleryID           = (args.galleryID)            ? args.galleryID            : "";
+
+  var galleryElem           = elem(galleryID);
   var galleryOverlay        = document.createElement("div");
   var galleryOverlayImg     = document.createElement("img");
 
@@ -505,13 +508,33 @@ function createGallery(galleryImages, galleryElement, columnClass ,imageClasses)
   galleryOverlay.appendChild(galleryOverlayImg);
 
   // Loop each gallery image
-  for(var i = 0; i < galleryImages.length; i++) {
+  for(var i = 0; i < images.length; i++) {
     const galleryImgContainer = document.createElement("div");
     const galleryImage        = document.createElement("img");
 
-    galleryImgContainer.className = columnClass;
-    galleryImage.className        = imageClasses;
-    galleryImage.src              = galleryImages[i];
+    galleryImgContainer.className = imgContainerClasses;
+    galleryImage.className        = imgClasses;
+    galleryImage.src              = images[i];
+
+    if(spinner) {
+      galleryImgContainer.classList.add("relative");
+      const spinnerHolder = document.createElement("div");
+      const spinnerContent = document.createElement("div");
+
+      spinnerHolder.className = "spinner";
+      spinnerContent.className = spinner;
+
+      galleryImgContainer.appendChild(spinnerHolder);
+      spinnerHolder.appendChild(spinnerContent);
+
+      if(spinner) {
+        galleryImage.classList.add("opacity-0");
+      }
+
+      galleryImage.onload = function () {
+        galleryImage.classList.remove("opacity-0");
+      }
+    }
 
     galleryElem.appendChild(galleryImgContainer);
     galleryImgContainer.appendChild(galleryImage);
@@ -520,9 +543,10 @@ function createGallery(galleryImages, galleryElement, columnClass ,imageClasses)
   // Loop each image in gallery
   for(var j = 1; j < (galleryElem.children.length); j++) {
     const imgElem = galleryElem.children[j];
+
     imgElem.onclick = function() {
       galleryImgClicked(imgElem, galleryOverlay);
-    }
+    };
   }
 }
 

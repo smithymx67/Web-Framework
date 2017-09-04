@@ -30,8 +30,10 @@
       <h2>Spinner 1</h2>
       <p>To create this spinner add the class <code>spinner</code> to a div, then add the class <code>spinner-1</code> to
         a inner div</p>
-      <div class="spinner">
-        <div class="spinner-1"></div>
+      <div class="relative" style="min-height: 50px;">
+        <div class="spinner">
+          <div class="spinner-1"></div>
+        </div>
       </div>
     </div>
     
@@ -39,8 +41,10 @@
       <h2>Spinner 2</h2>
       <p>To create this spinner add the class <code>spinner</code> to a div, then add the class <code>spinner-2</code> to
         a inner div</p>
-      <div class="spinner">
-        <div class="spinner-2"></div>
+      <div class="relative" style="min-height: 50px;">
+        <div class="spinner">
+          <div class="spinner-2"></div>
+        </div>
       </div>
     </div>
     
@@ -48,8 +52,10 @@
       <h2>Spinner 3</h2>
       <p>To create this spinner add the class <code>spinner</code> to a div, then add the class <code>spinner-3</code> to
         a inner div</p>
-      <div class="spinner">
-        <div class="spinner-3"></div>
+      <div class="relative" style="min-height: 50px;">
+        <div class="spinner">
+          <div class="spinner-3"></div>
+        </div>
       </div>
     </div>
   </div>

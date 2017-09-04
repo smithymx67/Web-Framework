@@ -150,7 +150,17 @@
       </ul>
       <div class="code-block width-6 width-xl-12">
         <span>&lt;div class="position-bottom-right clear-position-m"&gt;</span><br>
-        <span>Bottom Right until medium screen size is hit</span><br>
+        <span>&nbsp;&nbsp;Bottom Right until medium screen size is hit</span><br>
+        <span>&lt;/div&gt;</span>
+      </div>
+
+      <br>
+      <h2>Position Relative</h2>
+      <p>Added v1.1.1</p>
+      <p>Sets the element to have a position of relative</p>
+      <div class="code-block width-6 width-xl-12">
+        <span>&lt;div class="relative"&gt;</span><br>
+        <span>&nbsp;&nbsp;Position will be relative</span><br>
         <span>&lt;/div&gt;</span>
       </div>
     </div>

@@ -12,9 +12,11 @@
   }
 
   img {
-    transition: border-color .3s ease-in-out;
+    transition: border-color .3s ease-in-out, filter .3s ease-in-out;
     cursor: pointer;
     display: block;
+    position: relative;
+    z-index: 1;
     
     &:hover {
       border-color: gray;
