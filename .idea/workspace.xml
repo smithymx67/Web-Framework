@@ -2,66 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d4fb9a3-6e6d-4bf3-9da5-c760eff87a32" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/docSite/images/flowers_2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/docSite/images/flowers_3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/docSite/images/flowers_6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/docSite/images/flowers_7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docSite/images/flowers_2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docSite/images/flowers_3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docSite/images/flowers_6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docSite/images/flowers_7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/docSite/scripts/gallery.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docSite/scripts/gallery.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/gallery.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/docSite/images/profile.jpg" afterPath="$PROJECT_DIR$/build/docSite/images/profile.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/docSite/config.php" afterPath="$PROJECT_DIR$/build/docSite/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/docSite/includes/footer.php" afterPath="$PROJECT_DIR$/build/docSite/includes/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/docSite/includes/header.php" afterPath="$PROJECT_DIR$/build/docSite/includes/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/docSite/index.php" afterPath="$PROJECT_DIR$/build/docSite/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/docSite/scripts/consoleLog.php" afterPath="$PROJECT_DIR$/build/docSite/scripts/consoleLog.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/docSite/scripts/dateTime.php" afterPath="$PROJECT_DIR$/build/docSite/scripts/dateTime.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/docSite/scripts/elementSelector.php" afterPath="$PROJECT_DIR$/build/docSite/scripts/elementSelector.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/docSite/scripts/index.php" afterPath="$PROJECT_DIR$/build/docSite/scripts/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/docSite/scripts/slideshow.php" afterPath="$PROJECT_DIR$/build/docSite/scripts/slideshow.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/docSite/styles/buttons.php" afterPath="$PROJECT_DIR$/build/docSite/styles/buttons.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/docSite/styles/darkTheme.php" afterPath="$PROJECT_DIR$/build/docSite/styles/darkTheme.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/docSite/styles/elements.php" afterPath="$PROJECT_DIR$/build/docSite/styles/elements.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/docSite/styles/footer.php" afterPath="$PROJECT_DIR$/build/docSite/styles/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/docSite/styles/forms.php" afterPath="$PROJECT_DIR$/build/docSite/styles/forms.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/docSite/styles/header.php" afterPath="$PROJECT_DIR$/build/docSite/styles/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/docSite/styles/images.php" afterPath="$PROJECT_DIR$/build/docSite/styles/images.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/docSite/styles/layout.php" afterPath="$PROJECT_DIR$/build/docSite/styles/layout.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/docSite/styles/lists.php" afterPath="$PROJECT_DIR$/build/docSite/styles/lists.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/docSite/styles/text.php" afterPath="$PROJECT_DIR$/build/docSite/styles/text.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/lib.min.css" afterPath="$PROJECT_DIR$/build/lib.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/lib.min.css.map" afterPath="$PROJECT_DIR$/build/lib.min.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/lib.min.js" afterPath="$PROJECT_DIR$/build/lib.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/lib.min.js.map" afterPath="$PROJECT_DIR$/build/lib.min.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/docSite/config.php" afterPath="$PROJECT_DIR$/src/docSite/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/docSite/includes/footer.php" afterPath="$PROJECT_DIR$/src/docSite/includes/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/docSite/includes/header.php" afterPath="$PROJECT_DIR$/src/docSite/includes/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/docSite/index.php" afterPath="$PROJECT_DIR$/src/docSite/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/docSite/scripts/consoleLog.php" afterPath="$PROJECT_DIR$/src/docSite/scripts/consoleLog.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/docSite/scripts/dateTime.php" afterPath="$PROJECT_DIR$/src/docSite/scripts/dateTime.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/docSite/scripts/elementSelector.php" afterPath="$PROJECT_DIR$/src/docSite/scripts/elementSelector.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/docSite/scripts/index.php" afterPath="$PROJECT_DIR$/src/docSite/scripts/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/docSite/scripts/slideshow.php" afterPath="$PROJECT_DIR$/src/docSite/scripts/slideshow.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/docSite/styles/buttons.php" afterPath="$PROJECT_DIR$/src/docSite/styles/buttons.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/docSite/styles/darkTheme.php" afterPath="$PROJECT_DIR$/src/docSite/styles/darkTheme.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/docSite/styles/elements.php" afterPath="$PROJECT_DIR$/src/docSite/styles/elements.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/docSite/styles/footer.php" afterPath="$PROJECT_DIR$/src/docSite/styles/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/docSite/styles/forms.php" afterPath="$PROJECT_DIR$/src/docSite/styles/forms.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/docSite/styles/header.php" afterPath="$PROJECT_DIR$/src/docSite/styles/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/docSite/styles/images.php" afterPath="$PROJECT_DIR$/src/docSite/styles/images.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/docSite/styles/layout.php" afterPath="$PROJECT_DIR$/src/docSite/styles/layout.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/docSite/styles/lists.php" afterPath="$PROJECT_DIR$/src/docSite/styles/lists.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/docSite/styles/text.php" afterPath="$PROJECT_DIR$/src/docSite/styles/text.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scripts/lib.js" afterPath="$PROJECT_DIR$/src/scripts/lib.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/lib.scss" afterPath="$PROJECT_DIR$/src/styles/lib.scss" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -71,7 +15,18 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="lib.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/scripts/lib.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="351" column="51" lean-forward="true" selection-start-line="351" selection-start-column="51" selection-end-line="351" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -145,9 +100,9 @@
         <option value="$PROJECT_DIR$/src/docSite/includes/header.php" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/styles/gallery.scss" />
-        <option value="$PROJECT_DIR$/src/scripts/lib.js" />
         <option value="$PROJECT_DIR$/src/docSite/scripts/slideshow.php" />
         <option value="$PROJECT_DIR$/src/docSite/scripts/gallery.php" />
+        <option value="$PROJECT_DIR$/src/scripts/lib.js" />
       </list>
     </option>
   </component>
@@ -205,6 +160,17 @@
             <path>
               <item name="Web-Framework" type="b2602c69:ProjectViewProjectNode" />
               <item name="Web-Framework" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Web-Framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Web-Framework" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Web-Framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Web-Framework" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="scripts" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -299,28 +265,31 @@
       <workItem from="1504479310710" duration="2693000" />
       <workItem from="1504512850963" duration="12536000" />
       <workItem from="1504529175268" duration="328000" />
+      <workItem from="1504529660968" duration="18000" />
+      <workItem from="1504530485528" duration="588000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="221862000" />
+    <option name="totallyTimeSpent" value="222468000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13043478" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2347826" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32923076" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1609808" sideWeight="0.5043478" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32923076" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24565217" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1609808" sideWeight="0.5043478" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1977612" sideWeight="0.49565217" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20202559" sideWeight="0.49565217" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -501,7 +470,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="91" column="25" lean-forward="false" selection-start-line="91" selection-start-column="25" selection-end-line="91" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -509,7 +477,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="283">
           <caret line="20" column="27" lean-forward="false" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -517,7 +484,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-255">
           <caret line="111" column="25" lean-forward="false" selection-start-line="111" selection-start-column="25" selection-end-line="111" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -525,7 +491,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="46" column="25" lean-forward="false" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -533,7 +498,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-374">
           <caret line="157" column="25" lean-forward="false" selection-start-line="157" selection-start-column="25" selection-end-line="157" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -541,7 +505,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="419">
           <caret line="34" column="25" lean-forward="false" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -549,7 +512,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-340">
           <caret line="629" column="25" lean-forward="false" selection-start-line="629" selection-start-column="25" selection-end-line="629" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -557,7 +519,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-7854">
           <caret line="267" column="25" lean-forward="false" selection-start-line="267" selection-start-column="25" selection-end-line="267" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -565,7 +526,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="227">
           <caret line="132" column="25" lean-forward="false" selection-start-line="132" selection-start-column="25" selection-end-line="132" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -573,7 +533,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="95" column="8" lean-forward="false" selection-start-line="95" selection-start-column="8" selection-end-line="95" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -581,7 +540,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1700">
           <caret line="28" column="40" lean-forward="true" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -589,7 +547,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="157" column="25" lean-forward="false" selection-start-line="157" selection-start-column="25" selection-end-line="157" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -611,7 +568,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="34" lean-forward="false" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -619,7 +575,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
           <caret line="43" column="58" lean-forward="false" selection-start-line="43" selection-start-column="58" selection-end-line="43" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -658,76 +613,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
           <caret line="182" column="7" lean-forward="false" selection-start-line="182" selection-start-column="7" selection-end-line="182" selection-end-column="7" />
-          <folding>
-            <element signature="e#1713#1719#0#HTML" expanded="true" />
-            <element signature="e#1719#1725#0#HTML" expanded="true" />
-            <element signature="e#1807#1813#0#HTML" expanded="true" />
-            <element signature="e#1813#1819#0#HTML" expanded="true" />
-            <element signature="e#1901#1907#0#HTML" expanded="true" />
-            <element signature="e#1907#1913#0#HTML" expanded="true" />
-            <element signature="e#1995#2001#0#HTML" expanded="true" />
-            <element signature="e#2001#2007#0#HTML" expanded="true" />
-            <element signature="e#2167#2173#0#HTML" expanded="true" />
-            <element signature="e#2173#2179#0#HTML" expanded="true" />
-            <element signature="e#2655#2659#0#HTML" expanded="true" />
-            <element signature="e#2726#2730#0#HTML" expanded="true" />
-            <element signature="e#2756#2760#0#HTML" expanded="true" />
-            <element signature="e#2804#2808#0#HTML" expanded="true" />
-            <element signature="e#2808#2812#0#HTML" expanded="true" />
-            <element signature="e#2816#2820#0#HTML" expanded="true" />
-            <element signature="e#2957#2963#0#HTML" expanded="true" />
-            <element signature="e#2963#2969#0#HTML" expanded="true" />
-            <element signature="e#3051#3057#0#HTML" expanded="true" />
-            <element signature="e#3057#3063#0#HTML" expanded="true" />
-            <element signature="e#3145#3151#0#HTML" expanded="true" />
-            <element signature="e#3151#3157#0#HTML" expanded="true" />
-            <element signature="e#3239#3245#0#HTML" expanded="true" />
-            <element signature="e#3245#3251#0#HTML" expanded="true" />
-            <element signature="e#3411#3417#0#HTML" expanded="true" />
-            <element signature="e#3417#3423#0#HTML" expanded="true" />
-            <element signature="e#3464#3470#0#HTML" expanded="true" />
-            <element signature="e#3470#3476#0#HTML" expanded="true" />
-            <element signature="e#3980#3984#0#HTML" expanded="true" />
-            <element signature="e#4051#4055#0#HTML" expanded="true" />
-            <element signature="e#4081#4085#0#HTML" expanded="true" />
-            <element signature="e#4129#4133#0#HTML" expanded="true" />
-            <element signature="e#4133#4137#0#HTML" expanded="true" />
-            <element signature="e#4141#4145#0#HTML" expanded="true" />
-            <element signature="e#4282#4288#0#HTML" expanded="true" />
-            <element signature="e#4288#4294#0#HTML" expanded="true" />
-            <element signature="e#4376#4382#0#HTML" expanded="true" />
-            <element signature="e#4382#4388#0#HTML" expanded="true" />
-            <element signature="e#4470#4476#0#HTML" expanded="true" />
-            <element signature="e#4476#4482#0#HTML" expanded="true" />
-            <element signature="e#4564#4570#0#HTML" expanded="true" />
-            <element signature="e#4570#4576#0#HTML" expanded="true" />
-            <element signature="e#4736#4742#0#HTML" expanded="true" />
-            <element signature="e#4742#4748#0#HTML" expanded="true" />
-            <element signature="e#4789#4795#0#HTML" expanded="true" />
-            <element signature="e#4795#4801#0#HTML" expanded="true" />
-            <element signature="e#4841#4847#0#HTML" expanded="true" />
-            <element signature="e#4847#4853#0#HTML" expanded="true" />
-            <element signature="e#5344#5348#0#HTML" expanded="true" />
-            <element signature="e#5415#5419#0#HTML" expanded="true" />
-            <element signature="e#5445#5449#0#HTML" expanded="true" />
-            <element signature="e#5493#5497#0#HTML" expanded="true" />
-            <element signature="e#5497#5501#0#HTML" expanded="true" />
-            <element signature="e#5505#5509#0#HTML" expanded="true" />
-            <element signature="e#5646#5652#0#HTML" expanded="true" />
-            <element signature="e#5652#5658#0#HTML" expanded="true" />
-            <element signature="e#5740#5746#0#HTML" expanded="true" />
-            <element signature="e#5746#5752#0#HTML" expanded="true" />
-            <element signature="e#5834#5840#0#HTML" expanded="true" />
-            <element signature="e#5840#5846#0#HTML" expanded="true" />
-            <element signature="e#5928#5934#0#HTML" expanded="true" />
-            <element signature="e#5934#5940#0#HTML" expanded="true" />
-            <element signature="e#6100#6106#0#HTML" expanded="true" />
-            <element signature="e#6106#6112#0#HTML" expanded="true" />
-            <element signature="e#6153#6159#0#HTML" expanded="true" />
-            <element signature="e#6159#6165#0#HTML" expanded="true" />
-            <element signature="e#6205#6211#0#HTML" expanded="true" />
-            <element signature="e#6211#6217#0#HTML" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -735,16 +620,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="470">
           <caret line="62" column="7" lean-forward="false" selection-start-line="62" selection-start-column="7" selection-end-line="62" selection-end-column="7" />
-          <folding>
-            <element signature="e#1313#1319#0#HTML" expanded="true" />
-            <element signature="e#1319#1325#0#HTML" expanded="true" />
-            <element signature="e#1417#1423#0#HTML" expanded="true" />
-            <element signature="e#1423#1429#0#HTML" expanded="true" />
-            <element signature="e#1521#1527#0#HTML" expanded="true" />
-            <element signature="e#1527#1533#0#HTML" expanded="true" />
-            <element signature="e#1625#1631#0#HTML" expanded="true" />
-            <element signature="e#1631#1637#0#HTML" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -752,7 +627,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="34" column="98" lean-forward="false" selection-start-line="34" selection-start-column="98" selection-end-line="34" selection-end-column="98" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -760,7 +634,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
           <caret line="114" column="25" lean-forward="false" selection-start-line="114" selection-start-column="25" selection-end-line="114" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -768,7 +641,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="277">
           <caret line="66" column="25" lean-forward="false" selection-start-line="66" selection-start-column="25" selection-end-line="66" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -776,17 +648,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="48" column="25" lean-forward="false" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scripts/lib.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <marker date="1504529302134" expanded="false" signature="0:202" ph="//..." />
-          </folding>
+        <state relative-caret-position="391">
+          <caret line="351" column="51" lean-forward="true" selection-start-line="351" selection-start-column="51" selection-end-line="351" selection-end-column="51" />
+          <folding />
         </state>
       </provider>
     </entry>

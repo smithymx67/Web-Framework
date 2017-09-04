@@ -346,11 +346,12 @@ function setupDotNav(slideshowID) {
   dotDiv.className = "dot-controls";
 
   for(var i = 0; i < slideshowObj.numberOfSlides; i++) {
+    const slide = i;
     var dotItem = document.createElement("div");
     dotItem.id = slideshowObj.id + "-dot-" + i;
     if(i === 0) {dotItem.className = "dot-active";}
     dotItem.onclick = function () {
-      gotoSlide(slideshowObj.id, i);
+      gotoSlide(slideshowObj.id, slide);
     };
     dotDiv.appendChild(dotItem);
   }
@@ -505,8 +506,8 @@ function createGallery(galleryImages, galleryElement, columnClass ,imageClasses)
 
   // Loop each gallery image
   for(var i = 0; i < galleryImages.length; i++) {
-    var galleryImgContainer = document.createElement("div");
-    var galleryImage        = document.createElement("img");
+    const galleryImgContainer = document.createElement("div");
+    const galleryImage        = document.createElement("img");
 
     galleryImgContainer.className = columnClass;
     galleryImage.className        = imageClasses;
@@ -518,7 +519,7 @@ function createGallery(galleryImages, galleryElement, columnClass ,imageClasses)
 
   // Loop each image in gallery
   for(var j = 1; j < (galleryElem.children.length); j++) {
-    var imgElem = galleryElem.children[j];
+    const imgElem = galleryElem.children[j];
     imgElem.onclick = function() {
       galleryImgClicked(imgElem, galleryOverlay);
     }
