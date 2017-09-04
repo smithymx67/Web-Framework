@@ -12,13 +12,11 @@ All releases are available on GitHub, to use this framework first download the v
 folder and create links to them. See the example below.
 
 ### Stylesheet Library lib.min.css
-Place this line of code within the `<head>` tag.
 
 `<link rel="stylesheet" href="lib.min.css">`
 
 
 ### JavaScript Library lib.min.js
-Place this line of code just before the closing `<body>` tag.
 
 `<script src="lib.min.js"></script>`
 

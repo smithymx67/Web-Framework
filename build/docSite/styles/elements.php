@@ -77,6 +77,7 @@
 
     <div class="col-4 col-m-12">
       <p>Striped Table</p>
+      <p>Added v1.0.0</p>
       <p>To style a table like this add the following class to it <code>striped-table</code></p>
       <table class="striped-table">
         <thead>
@@ -108,6 +109,7 @@
 
     <div class="col-4 col-m-12">
       <p>Bordered Table</p>
+      <p>Added v1.0.0</p>
       <p>To style a table like this add the following class to it <code>bordered-table</code></p>
       <table class="bordered-table">
         <thead>

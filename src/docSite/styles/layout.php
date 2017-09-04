@@ -41,7 +41,9 @@
     <div class="col-12">
       <h2 id="grid-classes">Grid Classes</h2>
       <p class="width-6 width-xl-12">The following shows examples of all the different column sizes that are available.</p>
+
       <h3>col-12</h3>
+      <p>Added v1.0.0</p>
       <p>A div with the class <code>col-12</code> will span 100% of the containers width.</p>
       <div class="code-block width-6 width-xl-12">
         <span>&lt;div class="col-12"&gt;</span><br>
@@ -52,6 +54,7 @@
       <br>
 
       <h3>col-10</h3>
+      <p>Added v1.0.0</p>
       <p>A div with the class <code>col-10</code> will span 83.33% of the containers width.</p>
       <div class="code-block width-6 width-xl-12">
         <span>&lt;div class="col-10"&gt;</span><br>
@@ -62,6 +65,7 @@
       <br>
 
       <h3>col-8</h3>
+      <p>Added v1.0.0</p>
       <p>A div with the class <code>col-8</code> will span 66.66% of the containers width.</p>
       <div class="code-block width-6 width-xl-12">
         <span>&lt;div class="col-8"&gt;</span><br>
@@ -72,6 +76,7 @@
       <br>
       
       <h3>col-6</h3>
+      <p>Added v1.0.0</p>
       <p>A div with the class <code>col-6</code> will span 50% of the containers width.</p>
       <div class="code-block width-6 width-xl-12">
         <span>&lt;div class="col-6"&gt;</span><br>
@@ -82,6 +87,7 @@
       <br>
       
       <h3>col-4</h3>
+      <p>Added v1.0.0</p>
       <p>A div with the class <code>col-4</code> will span 33.33% of the containers width.</p>
       <div class="code-block width-6 width-xl-12">
         <span>&lt;div class="col-4"&gt;</span><br>
@@ -92,6 +98,7 @@
       <br>
       
       <h3>col-3</h3>
+      <p>Added v1.0.0</p>
       <p>A div with the class <code>col-3</code> will span 25% of the containers width.</p>
       <div class="code-block width-6 width-xl-12">
         <span>&lt;div class="col-3"&gt;</span><br>
@@ -102,6 +109,7 @@
       <br>
 
       <h3>col-2-5</h3>
+      <p>Added v1.0.0</p>
       <p>A div with the class <code>col-2-5</code> will span 20% of the containers width.</p>
       <div class="code-block width-6 width-xl-12">
         <span>&lt;div class="col-2-5"&gt;</span><br>
@@ -112,6 +120,7 @@
       <br>
       
       <h3>col-2</h3>
+      <p>Added v1.0.0</p>
       <p>A div with the class <code>col-2</code> will span 16.66% of the containers width.</p>
       <div class="code-block width-6 width-xl-12">
         <span>&lt;div class="col-2"&gt;</span><br>
@@ -122,6 +131,7 @@
       <br>
       
       <h3>col-1</h3>
+      <p>Added v1.0.0</p>
       <p>A div with the class <code>col-1</code> will span 8.33% of the containers width.</p>
       <div class="code-block width-6 width-xl-12">
         <span>&lt;div class="col-1"&gt;</span><br>
@@ -140,6 +150,7 @@
       </p>
       <p class="width-6 width-xl-12">If no responsive class is applied then the the column will maintain its structure regardless of the screen size.</p>
       <h3>X-Large Screen (1440px)</h3>
+      <p>Added v1.0.0</p>
       <p>The will trigger when the screens width is 1440px or less.</p>
       <ul>
         <li><code>col-xl-12</code> - 100% Width</li>
@@ -162,6 +173,7 @@
       <br>
 
       <h3>Large Screen (1024px)</h3>
+      <p>Added v1.0.0</p>
       <p>The will trigger when the screens width is 1024px or less.</p>
       <ul>
         <li><code>col-l-12</code> - 100% Width</li>
@@ -184,6 +196,7 @@
       <br>
 
       <h3>Medium Screen (768px)</h3>
+      <p>Added v1.0.0</p>
       <p>The will trigger when the screens width is 768px or less.</p>
       <ul>
         <li><code>col-m-12</code> - 100% Width</li>
@@ -206,6 +219,7 @@
       <br>
 
       <h3>Small Screen (425px)</h3>
+      <p>Added v1.0.0</p>
       <p>The will trigger when the screens width is 425px or less.</p>
       <ul>
         <li><code>col-s-12</code> - 100% Width</li>
@@ -228,6 +242,7 @@
       <br>
 
       <h3>X-Small Screen (375px)</h3>
+      <p>Added v1.0.0</p>
       <p>The will trigger when the screens width is 375px or less.</p>
       <ul>
         <li><code>col-xs-12</code> - 100% Width</li>
@@ -250,6 +265,7 @@
 
     <div class="col-12">
       <h2 id="width-classes">Width Classes</h2>
+      <p>Added v1.0.0</p>
       <p class="width-6 width-xl-12">Width classes will set the width of an element. An example could be that you want to stop a paragraph from
         stretching too far across the page.</p>
       <p class="width-6 width-xl-12">There is a width class for each of the column sizes including responsive classes, they are listed below.</p>

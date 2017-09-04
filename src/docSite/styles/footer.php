@@ -32,6 +32,7 @@
       </div>
 
       <h2>Fixed Footer</h2>
+      <p>Added v1.0.0</p>
       <p>Fix a footer to the bottom of the page. This will always be visible at the bottom of the screen.</p>
       <p><code>fixed-footer</code></p>
       <div class="code-block width-6 width-xl-12">
@@ -43,6 +44,7 @@
       <br>
 
       <h2>Sticky Footer</h2>
+      <p>Added v1.0.0</p>
       <p>Stick a footer to the bottom of the page. This will scroll with the content when it overflows.</p>
       <p><code>sticky-footer</code></p>
       <div class="code-block width-6 width-xl-12">

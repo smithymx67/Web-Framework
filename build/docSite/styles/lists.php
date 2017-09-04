@@ -32,6 +32,7 @@
 
     <div class="col-4 col-l-12">
       <h3>Ordered List - Numbers</h3>
+      <p>Added v1.0.0</p>
       <p>To show numbers on an ordered list apply the class <code>numbered-list</code> to an <code>ol</code> tag.</p>
       <ol class="numbered-list">
         <li>List Item 1</li>
@@ -51,6 +52,7 @@
     
     <div class="col-4 col-l-12">
       <h3>Ordered List - Letters</h3>
+      <p>Added v1.0.0</p>
       <p>To show letters on an ordered list apply the class <code>lettered-list</code> to an <code>ol</code> tag.</p>
       <ol class="lettered-list">
         <li>List Item 1</li>
@@ -70,6 +72,7 @@
     
     <div class="col-4 col-l-12">
       <h3>Ordered List - Roman Numerals</h3>
+      <p>Added v1.0.0</p>
       <p>To show roman numerals on an ordered list apply the class <code>numeraled-list</code> to an <code>ol</code> tag.</p>
       <ol class="numeraled-list">
         <li>List Item 1</li>
@@ -127,6 +130,7 @@
     
     <div class="col-12">
       <h3>List Group</h3>
+      <p>Added v1.0.0</p>
       <ul class="group-list">
         <li>List Item 1</li>
         <li>List Item 2</li>

@@ -8,5 +8,3 @@
     </div>
   </div>
 </footer>
-
-<script src="<?php echo JS_LIB ?>"></script>

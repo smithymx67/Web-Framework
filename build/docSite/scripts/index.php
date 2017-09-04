@@ -32,6 +32,7 @@
         <li><a href="<?php echo ROOT_DOCSITE_URL . "/scripts/elementSelector"; ?>" title="Element Selector">Element Selector</a></li>
         <li><a href="<?php echo ROOT_DOCSITE_URL . "/scripts/dateTime"; ?>" title="Date Time">Date Time</a></li>
         <li><a href="<?php echo ROOT_DOCSITE_URL . "/scripts/slideshow"; ?>" title="Slideshow">Slideshow</a></li>
+        <li><a href="<?php echo ROOT_DOCSITE_URL . "/scripts/gallery"; ?>" title="Gallery">Gallery</a></li>
       </ul>
     </div>
   </div>

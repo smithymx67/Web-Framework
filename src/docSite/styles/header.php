@@ -32,6 +32,7 @@
       </div>
 
       <h2>Fixed Header</h2>
+      <p>Added v1.0.0</p>
       <p>Fix a header to the top of the page. This will always be visible at the top of the screen.</p>
       <p><code>fixed-header</code></p>
       <div class="code-block width-6 width-xl-12">

@@ -42,7 +42,6 @@
         See the example below.</p>
 
       <h3>Stylesheet Library <code>lib.min.css</code></h3>
-      <p>Place this line of code within the <code>&lt;head&gt;</code> tag.</p>
       <div class="code-block width-6 width-xl-12">
         <span>&lt;link rel="stylesheet" href="lib.min.css"&gt;</span>
       </div>
@@ -50,7 +49,6 @@
       <br>
 
       <h3>JavaScript Library <code>lib.min.js</code></h3>
-      <p>Place this line of code just before the closing <code>&lt;body&gt;</code> tag.</p>
       <div class="code-block width-6 width-xl-12">
         <span>&lt;script src="lib.min.js"&gt;&lt;/script&gt;</span>
       </div>

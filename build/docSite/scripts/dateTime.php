@@ -28,6 +28,7 @@
     
     <div class="col-12">
       <h2><code>textifyMonth(<i>[int]month</i>)</code></h2>
+      <p>Added v1.0.0</p>
       <p>This function takes in a month number and returns the months name.</p>
       <p>Valid month numbers are 0 - 11 where 0 returns January and 11 returns December.</p>
       <div class="code-block width-6 width-l-12">
@@ -38,6 +39,7 @@
       <br>
       
       <h2><code>textifyWeekDay(<i>[int]day</i>)</code></h2>
+      <p>Added v1.0.0</p>
       <p>This function takes in a day number and returns the days name.</p>
       <p>Valid day numbers are 0 - 6 where 0 returns Sunday and 6 returns Saturday.</p>
       <div class="code-block width-6 width-l-12">
@@ -48,6 +50,7 @@
       <br>
       
       <h2><code>get12HrTime(<i>[Date]dateObj</i>, <i>[bool]showSecs</i>, <i>[bool]showAMPM</i>)</code></h2>
+      <p>Added v1.0.0</p>
       <p>This function takes in a date object and two boolean values. It returns the time in 12 hour format.</p>
       <div class="code-block width-6 width-l-12">
         <span>// Example output: 7:37</span><br>
@@ -66,6 +69,7 @@
       <br>
       
       <h2><code>get24HrTime(<i>[Date]dateObj</i>, <i>[bool]showSecs</i>)</code></h2>
+      <p>Added v1.0.0</p>
       <p>This function takes in a date object and a boolean value. It returns the time in 24 hour format.</p>
       <div class="code-block width-6 width-l-12">
         <span>// Example output: 18:28</span><br>
@@ -78,6 +82,7 @@
       <br>
       
       <h2><code>getShortDate(<i>[Date]dateObj</i>)</code></h2>
+      <p>Added v1.0.0</p>
       <p>This function takes in a date object and returns the date in the following format DD/MM/YYYY.</p>
       <div class="code-block width-6 width-l-12">
         <span>// Example output: 21/04/2017</span><br>
@@ -87,6 +92,7 @@
       <br>
       
       <h2><code>getLongDate(<i>[Date]dateObj</i>)</code></h2>
+      <p>Added v1.0.0</p>
       <p>This function takes in a date object and returns the date in the following format Day Date Month Year.</p>
       <div class="code-block width-6 width-l-12">
         <span>// Example output: Saturday 19th August 2017</span><br>
@@ -96,6 +102,7 @@
       <br>
       
       <h2><code>leadZero(<i>[int] number</i>)</code></h2>
+      <p>Added v1.0.0</p>
       <p>This function takes in a number and returns it with a leading zero is needed.</p>
       <div class="code-block width-6 width-l-12">
         <span>// 3 => 03</span><br>
@@ -105,6 +112,7 @@
       <br>
       
       <h2><code>suffixDate(<i>[int] date</i>)</code></h2>
+      <p>Added v1.0.0</p>
       <p>This function takes in a number and returns it with the correct suffix (st, nd, rd or th)</p>
       <div class="code-block width-6 width-l-12">
         <span>// 1 => 1st, 2 => 2nd, 3 => 3rd, 4 => 4th</span><br>

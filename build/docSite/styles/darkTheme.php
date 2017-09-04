@@ -18,6 +18,7 @@
     <div class="col-12">
       <div class="header-text">
         <h1>Dark Theme</h1>
+        <p>Added v1.0.0</p>
         <p>A dark theme for the framework.</p>
       </div>
     </div>

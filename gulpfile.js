@@ -32,9 +32,9 @@ gulp.task('php', function() {
 
 // Optimize images
 gulp.task('images', function() {
-  gulp.src('src/docSite/img/**/*')
-    .pipe(imagemin())
-    .pipe(gulp.dest('build'));
+  gulp.src('src/docSite/images/**/*')
+    //.pipe(imagemin())
+    .pipe(gulp.dest('build/docSite/images'));
 });
 
 // Minify Javascript
@@ -55,7 +55,7 @@ gulp.task('watch', function() {
   gulp.watch('src/styles/**/*.scss', ['styles']);
   gulp.watch('src/docSite/**/*.html', ['html']);
   gulp.watch('src/docSite/**/*.php', ['php']);
-  gulp.watch('src/docSite/img/**/*', ['images']);
+  gulp.watch('src/docSite/images/**/*', ['images']);
   gulp.watch('src/scripts/**/*.js', ['scripts']);
 });
 

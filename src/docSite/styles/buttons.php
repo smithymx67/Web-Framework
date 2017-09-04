@@ -28,6 +28,7 @@
 
     <div class="col-12">
       <h2>Information Buttons</h2>
+      <p>Added v1.0.0</p>
       <p class="width-6 width-xl-12">To style a button like the ones below add the class <code>btn</code> to a button element, you can also style buttons
         depending on its information type. Just apply one of the following classes along side the <code>btn</code> class,
         <code>info-btn</code>, <code>success-btn</code>, <code>warning-btn</code> or <code>danger-btn</code></p>
@@ -49,6 +50,7 @@
     
     <div class="col-12">
       <h2>Button Sizes</h2>
+      <p>Added v1.0.0</p>
       <p class="width-6 width-xl-12">There are also classes that change the size of the button, simplily apply one of the following classes along side
         the <code>btn</code> class, <code>s-btn</code>, <code>m-btn</code>, <code>l-btn</code>, <code>xl-btn</code></p>
 
@@ -67,6 +69,7 @@
     
     <div class="col-12">
       <h2>Button Group - Horizontal</h2>
+      <p>Added v1.0.0</p>
       <p class="width-6 width-xl-12">Buttons can be grouped together horizontally by applying the class <code>btn-group-horizontal</code> to a div
         wrapped around some buttons</p>
 
@@ -86,6 +89,7 @@
     
     <div class="col-12">
       <h2>Button Group - Vertical</h2>
+      <p>Added v1.0.0</p>
       <p class="width-6 width-xl-12">Buttons can be grouped together vertically by applying the class <code>btn-group-vertical</code> to a div
         wrapped around some buttons</p>
 

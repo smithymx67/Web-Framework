@@ -136,6 +136,7 @@
       <br>
 
       <label>Checkbox</label>
+      <p>Added v1.0.0</p>
       <p class="width-6 width-xl-12">To style a group of check boxes like the example below, add the class <code>chkbox-group</code> to a <code>div</code>
         that contains a <code>div</code> for each checkbox item.</p>
       <div class="chkbox-group">
@@ -154,6 +155,7 @@
       <br>
 
       <label>Radio</label>
+      <p>Added v1.0.0</p>
       <p class="width-6 width-xl-12">To style a group of radio buttons like the example below, add the class <code>radio-group</code> to a <code>div</code>
         that contains a <code>div</code> for each radio item.</p>
       <div class="radio-group">

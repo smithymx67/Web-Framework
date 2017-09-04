@@ -1,0 +1,72 @@
+// Gallery
+// This file contains css for gallery's
+
+.gallery {
+  padding: 0;
+  clear: both;
+
+  &:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+  img {
+    transition: border-color .3s ease-in-out;
+    cursor: pointer;
+    display: block;
+    
+    &:hover {
+      border-color: gray;
+    }
+  }
+}
+
+.gallery-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, .8);
+  z-index: 9999;
+  transition: opacity .3s ease-in-out;
+  transform: scale(0);
+
+  img {
+    position: fixed;
+    max-height: 90%;
+    max-width: 90%;
+    width: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: initial;
+
+    &:hover {
+      border-color: initial;
+    }
+  }
+}
+
+.gallery-overlay-hidden {
+  animation: galleryOverlayOut .3s linear;
+  animation-fill-mode: forwards;
+}
+
+.gallery-overlay-visible {
+  transform: scale(1);
+  animation: galleryOverlayIn .3s linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes galleryOverlayIn {
+  0%        {opacity: 0;}
+  100%      {opacity: 1;}
+}
+
+@keyframes galleryOverlayOut {
+  0%        {opacity: 1; transform: scale(1);}
+  99%       {opacity: 0; transform: scale(1);}
+  100%      {opacity: 0; transform: scale(0);}
+}

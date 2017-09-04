@@ -32,7 +32,8 @@
     </div>
 
     <div class="col-3 col-m-6">
-      <p>Bordered Image</p>
+      <h3>Bordered Image</h3>
+      <p>Added v1.0.0</p>
       <img src="../images/profile.jpg" class="bordered-img">
       <p><code>bordered-img</code></p>
       <div class="code-block">
@@ -41,7 +42,8 @@
     </div>
     
     <div class="col-3 col-m-6">
-      <p>Circled Image</p>
+      <h3>Circled Image</h3>
+      <p>Added v1.0.0</p>
       <img src="../images/profile.jpg" class="circled-img">
       <p><code>circled-img</code></p>
       <div class="code-block">
@@ -50,7 +52,8 @@
     </div>
 
     <div class="col-3 col-m-6">
-      <p>Bordered Circled Image</p>
+      <h3>Bordered Circled Image</h3>
+      <p>Added v1.0.0</p>
       <img src="../images/profile.jpg" class="circled-img bordered-img">
       <p><code>circled-img</code> and <code>bordered-img</code></p>
       <div class="code-block">
@@ -59,7 +62,8 @@
     </div>
 
     <div class="col-3 col-m-6">
-      <p>Inverted</p>
+      <h3>Inverted</h3>
+      <p>Added v1.0.0</p>
       <img src="../images/profile.jpg" class="inverted-img">
       <p><code>inverted-img</code></p>
       <div class="code-block">
@@ -70,6 +74,7 @@
     <br>
     <div class="col-12">
       <h2>Grayscale Image Filters</h2>
+      <p>Added v1.0.0</p>
       <p>Add the following classes to an image element for the desired affect.</p>
     </div>
 
@@ -121,6 +126,7 @@
     <br>
     <div class="col-12">
       <h2>Sepia</h2>
+      <p>Added v1.0.0</p>
       <p>Add the following classes to an image element for the desired affect.</p>
     </div>
 
@@ -172,6 +178,7 @@
     <br>
     <div class="col-12">
       <h2>Brightness</h2>
+      <p>Added v1.0.0</p>
       <p>Add the following classes to an image element for the desired affect.</p>
     </div>
 
@@ -268,6 +275,7 @@
     <br>
     <div class="col-12">
       <h2>Contrast</h2>
+      <p>Added v1.0.0</p>
       <p>Add the following classes to an image element for the desired affect.</p>
     </div>
 
@@ -364,6 +372,7 @@
     <br>
     <div class="col-12">
       <h2>Saturation</h2>
+      <p>Added v1.0.0</p>
       <p>Add the following classes to an image element for the desired affect.</p>
     </div>
 
@@ -460,6 +469,7 @@
     <br>
     <div class="col-12">
       <h2>Opacity</h2>
+      <p>Added v1.0.0</p>
       <p>Add the following classes to an image element for the desired affect.</p>
     </div>
 
@@ -511,6 +521,7 @@
     <br>
     <div class="col-12">
       <h2>Hue</h2>
+      <p>Added v1.0.0</p>
       <p>Add the following classes to an image element for the desired affect.</p>
     </div>
 
@@ -616,6 +627,7 @@
     <br>
     <div class="col-12">
       <h2>Blur</h2>
+      <p>Added v1.0.0</p>
       <p>Add the following classes to an image element for the desired affect.</p>
     </div>
 

@@ -2,13 +2,66 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d4fb9a3-6e6d-4bf3-9da5-c760eff87a32" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/docSite/images/flowers_2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/docSite/images/flowers_3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/docSite/images/flowers_6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/docSite/images/flowers_7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docSite/images/flowers_2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docSite/images/flowers_3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docSite/images/flowers_6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docSite/images/flowers_7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/docSite/scripts/gallery.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docSite/scripts/gallery.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/gallery.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/docSite/images/profile.jpg" afterPath="$PROJECT_DIR$/build/docSite/images/profile.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/docSite/styles/position.php" afterPath="$PROJECT_DIR$/build/docSite/styles/position.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/docSite/config.php" afterPath="$PROJECT_DIR$/build/docSite/config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/docSite/includes/footer.php" afterPath="$PROJECT_DIR$/build/docSite/includes/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/docSite/includes/header.php" afterPath="$PROJECT_DIR$/build/docSite/includes/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/docSite/index.php" afterPath="$PROJECT_DIR$/build/docSite/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/docSite/scripts/consoleLog.php" afterPath="$PROJECT_DIR$/build/docSite/scripts/consoleLog.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/docSite/scripts/dateTime.php" afterPath="$PROJECT_DIR$/build/docSite/scripts/dateTime.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/docSite/scripts/elementSelector.php" afterPath="$PROJECT_DIR$/build/docSite/scripts/elementSelector.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/docSite/scripts/index.php" afterPath="$PROJECT_DIR$/build/docSite/scripts/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/docSite/scripts/slideshow.php" afterPath="$PROJECT_DIR$/build/docSite/scripts/slideshow.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/docSite/styles/buttons.php" afterPath="$PROJECT_DIR$/build/docSite/styles/buttons.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/docSite/styles/darkTheme.php" afterPath="$PROJECT_DIR$/build/docSite/styles/darkTheme.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/docSite/styles/elements.php" afterPath="$PROJECT_DIR$/build/docSite/styles/elements.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/docSite/styles/footer.php" afterPath="$PROJECT_DIR$/build/docSite/styles/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/docSite/styles/forms.php" afterPath="$PROJECT_DIR$/build/docSite/styles/forms.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/docSite/styles/header.php" afterPath="$PROJECT_DIR$/build/docSite/styles/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/docSite/styles/images.php" afterPath="$PROJECT_DIR$/build/docSite/styles/images.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/docSite/styles/layout.php" afterPath="$PROJECT_DIR$/build/docSite/styles/layout.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/docSite/styles/lists.php" afterPath="$PROJECT_DIR$/build/docSite/styles/lists.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/docSite/styles/text.php" afterPath="$PROJECT_DIR$/build/docSite/styles/text.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/lib.min.css" afterPath="$PROJECT_DIR$/build/lib.min.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/lib.min.css.map" afterPath="$PROJECT_DIR$/build/lib.min.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/docSite/styles/position.php" afterPath="$PROJECT_DIR$/src/docSite/styles/position.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/_position.scss" afterPath="$PROJECT_DIR$/src/styles/_position.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/_responsive.scss" afterPath="$PROJECT_DIR$/src/styles/_responsive.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/lib.min.js" afterPath="$PROJECT_DIR$/build/lib.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/lib.min.js.map" afterPath="$PROJECT_DIR$/build/lib.min.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/docSite/config.php" afterPath="$PROJECT_DIR$/src/docSite/config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/docSite/includes/footer.php" afterPath="$PROJECT_DIR$/src/docSite/includes/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/docSite/includes/header.php" afterPath="$PROJECT_DIR$/src/docSite/includes/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/docSite/index.php" afterPath="$PROJECT_DIR$/src/docSite/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/docSite/scripts/consoleLog.php" afterPath="$PROJECT_DIR$/src/docSite/scripts/consoleLog.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/docSite/scripts/dateTime.php" afterPath="$PROJECT_DIR$/src/docSite/scripts/dateTime.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/docSite/scripts/elementSelector.php" afterPath="$PROJECT_DIR$/src/docSite/scripts/elementSelector.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/docSite/scripts/index.php" afterPath="$PROJECT_DIR$/src/docSite/scripts/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/docSite/scripts/slideshow.php" afterPath="$PROJECT_DIR$/src/docSite/scripts/slideshow.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/docSite/styles/buttons.php" afterPath="$PROJECT_DIR$/src/docSite/styles/buttons.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/docSite/styles/darkTheme.php" afterPath="$PROJECT_DIR$/src/docSite/styles/darkTheme.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/docSite/styles/elements.php" afterPath="$PROJECT_DIR$/src/docSite/styles/elements.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/docSite/styles/footer.php" afterPath="$PROJECT_DIR$/src/docSite/styles/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/docSite/styles/forms.php" afterPath="$PROJECT_DIR$/src/docSite/styles/forms.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/docSite/styles/header.php" afterPath="$PROJECT_DIR$/src/docSite/styles/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/docSite/styles/images.php" afterPath="$PROJECT_DIR$/src/docSite/styles/images.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/docSite/styles/layout.php" afterPath="$PROJECT_DIR$/src/docSite/styles/layout.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/docSite/styles/lists.php" afterPath="$PROJECT_DIR$/src/docSite/styles/lists.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/docSite/styles/text.php" afterPath="$PROJECT_DIR$/src/docSite/styles/text.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scripts/lib.js" afterPath="$PROJECT_DIR$/src/scripts/lib.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/lib.scss" afterPath="$PROJECT_DIR$/src/styles/lib.scss" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,9 +84,11 @@
     <findStrings>
       <find>imageArray</find>
       <find>width-l-12</find>
+      <find>let</find>
     </findStrings>
     <replaceStrings>
       <replace>width-xl-12</replace>
+      <replace>var</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -42,18 +97,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/docSite/scripts/dateTime.php" />
-        <option value="$PROJECT_DIR$/src/docSite/styles/buttons.html" />
-        <option value="$PROJECT_DIR$/src/docSite/styles/darkTheme.html" />
-        <option value="$PROJECT_DIR$/src/docSite/styles/elements.html" />
-        <option value="$PROJECT_DIR$/src/docSite/styles/footer.html" />
-        <option value="$PROJECT_DIR$/src/docSite/styles/forms.html" />
-        <option value="$PROJECT_DIR$/src/docSite/styles/header.html" />
-        <option value="$PROJECT_DIR$/src/docSite/styles/images.html" />
-        <option value="$PROJECT_DIR$/src/docSite/styles/index.html" />
-        <option value="$PROJECT_DIR$/src/docSite/styles/layout.html" />
-        <option value="$PROJECT_DIR$/src/docSite/styles/lists.html" />
-        <option value="$PROJECT_DIR$/src/docSite/styles/navigation.html" />
         <option value="$PROJECT_DIR$/src/docSite/styles/position.html" />
         <option value="$PROJECT_DIR$/src/docSite/styles/text.html" />
         <option value="$PROJECT_DIR$/src/docSite/styles/index.php" />
@@ -67,32 +110,44 @@
         <option value="$PROJECT_DIR$/src/docSite/styles/features/codeBlock.html" />
         <option value="$PROJECT_DIR$/src/styles/_forms.scss" />
         <option value="$PROJECT_DIR$/src/docSite/styles/features/spinners.php" />
-        <option value="$PROJECT_DIR$/src/docSite/styles/lists.php" />
         <option value="$PROJECT_DIR$/src/styles/_footer.scss" />
         <option value="$PROJECT_DIR$/src/styles/_slideshow.scss" />
         <option value="$PROJECT_DIR$/src/docSite/styles/features/infoDialogs.php" />
         <option value="$PROJECT_DIR$/src/docSite/styles/features/badgesLabels.php" />
         <option value="$PROJECT_DIR$/src/docSite/styles/features/codeBlock.php" />
         <option value="$PROJECT_DIR$/src/docSite/styles/features/panels.php" />
-        <option value="$PROJECT_DIR$/src/docSite/styles/buttons.php" />
-        <option value="$PROJECT_DIR$/src/docSite/styles/footer.php" />
-        <option value="$PROJECT_DIR$/src/docSite/styles/forms.php" />
-        <option value="$PROJECT_DIR$/src/docSite/styles/header.php" />
-        <option value="$PROJECT_DIR$/src/docSite/styles/text.php" />
-        <option value="$PROJECT_DIR$/src/docSite/index.php" />
-        <option value="$PROJECT_DIR$/src/docSite/styles/layout.php" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/styles/_navigation.scss" />
         <option value="$PROJECT_DIR$/src/docSite/styles/navigation.php" />
-        <option value="$PROJECT_DIR$/src/docSite/config.php" />
-        <option value="$PROJECT_DIR$/src/scripts/lib.js" />
-        <option value="$PROJECT_DIR$/src/styles/lib.scss" />
         <option value="$PROJECT_DIR$/src/styles/_elements.scss" />
-        <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/src/styles/_position.scss" />
         <option value="$PROJECT_DIR$/src/styles/_responsive.scss" />
         <option value="$PROJECT_DIR$/src/docSite/styles/position.php" />
+        <option value="$PROJECT_DIR$/src/styles/lib.scss" />
+        <option value="$PROJECT_DIR$/src/docSite/scripts/index.php" />
+        <option value="$PROJECT_DIR$/src/docSite/scripts/consoleLog.php" />
+        <option value="$PROJECT_DIR$/src/docSite/scripts/dateTime.php" />
+        <option value="$PROJECT_DIR$/src/docSite/scripts/elementSelector.php" />
+        <option value="$PROJECT_DIR$/src/docSite/styles/buttons.php" />
+        <option value="$PROJECT_DIR$/src/docSite/styles/darkTheme.php" />
+        <option value="$PROJECT_DIR$/src/docSite/styles/elements.php" />
+        <option value="$PROJECT_DIR$/src/docSite/styles/footer.php" />
+        <option value="$PROJECT_DIR$/src/docSite/styles/forms.php" />
+        <option value="$PROJECT_DIR$/src/docSite/styles/header.php" />
+        <option value="$PROJECT_DIR$/src/docSite/styles/images.php" />
+        <option value="$PROJECT_DIR$/src/docSite/styles/layout.php" />
+        <option value="$PROJECT_DIR$/src/docSite/styles/lists.php" />
+        <option value="$PROJECT_DIR$/src/docSite/styles/text.php" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/src/docSite/config.php" />
+        <option value="$PROJECT_DIR$/src/docSite/index.php" />
+        <option value="$PROJECT_DIR$/src/docSite/includes/footer.php" />
+        <option value="$PROJECT_DIR$/src/docSite/includes/header.php" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/styles/gallery.scss" />
+        <option value="$PROJECT_DIR$/src/scripts/lib.js" />
+        <option value="$PROJECT_DIR$/src/docSite/scripts/slideshow.php" />
+        <option value="$PROJECT_DIR$/src/docSite/scripts/gallery.php" />
       </list>
     </option>
   </component>
@@ -101,10 +156,10 @@
     <package-json value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="JsFlowSettings">
-    <service-enabled>false</service-enabled>
+    <service-enabled>true</service-enabled>
     <exe-path />
     <annotation-enable>false</annotation-enable>
-    <other-services-enabled>false</other-services-enabled>
+    <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
   <component name="JsGulpfileManager">
@@ -143,6 +198,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -150,16 +206,10 @@
               <item name="Web-Framework" type="b2602c69:ProjectViewProjectNode" />
               <item name="Web-Framework" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
-            <path>
-              <item name="Web-Framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Web-Framework" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="build" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -167,17 +217,20 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.XML" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
+    <property name="JavaScriptPreferStrict" value="false" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="Z:\SourceTree\Frameworks\Web-Framework\src\docSite\images" />
+      <recent name="$PROJECT_DIR$/build/docSite/scripts" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="Z:\SourceTree\Frameworks\CSS-Framework" />
       <recent name="Z:\SourceTree\Frameworks\CSS-Framework\src\docSite\styles\features" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/build/docSite/scripts" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -241,29 +294,33 @@
       <workItem from="1504448415210" duration="571000" />
       <workItem from="1504449314824" duration="537000" />
       <workItem from="1504450765826" duration="1001000" />
-      <workItem from="1504452931332" duration="827000" />
+      <workItem from="1504452931332" duration="1014000" />
+      <workItem from="1504476003282" duration="3289000" />
+      <workItem from="1504479310710" duration="2693000" />
+      <workItem from="1504512850963" duration="12536000" />
+      <workItem from="1504529175268" duration="328000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="202829000" />
+    <option name="totallyTimeSpent" value="221862000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13043478" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2347826" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32923076" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2347826" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1609808" sideWeight="0.5043478" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24565217" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32923076" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24565217" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1609808" sideWeight="0.5043478" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24466951" sideWeight="0.49565217" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1977612" sideWeight="0.49565217" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -284,20 +341,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/styles/_lists.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="3" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/_text.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="12" lean-forward="false" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/_buttons.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="278">
@@ -320,41 +363,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/docSite/includes/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="66" lean-forward="false" selection-start-line="2" selection-start-column="66" selection-end-line="2" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/docSite/scripts/consoleLog.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="69" column="49" lean-forward="false" selection-start-line="69" selection-start-column="49" selection-end-line="69" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/docSite/scripts/elementSelector.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="36" lean-forward="false" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/docSite/scripts/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="33" column="113" lean-forward="true" selection-start-line="33" selection-start-column="113" selection-end-line="33" selection-end-column="113" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/docSite/scripts/dateTime.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="54" lean-forward="false" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/_forms.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -366,13 +374,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" column="10" lean-forward="true" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/_slideshow.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="635">
-          <caret line="70" column="28" lean-forward="false" selection-start-line="70" selection-start-column="28" selection-end-line="70" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -432,87 +433,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/docSite/styles/buttons.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1575">
-          <caret line="96" column="48" lean-forward="false" selection-start-line="96" selection-start-column="48" selection-end-line="96" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/docSite/styles/darkTheme.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/docSite/styles/elements.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="156" column="49" lean-forward="false" selection-start-line="156" selection-start-column="49" selection-end-line="156" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/docSite/styles/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="47" column="48" lean-forward="false" selection-start-line="47" selection-start-column="48" selection-end-line="47" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/docSite/styles/forms.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="196" column="48" lean-forward="false" selection-start-line="196" selection-start-column="48" selection-end-line="196" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/docSite/styles/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="36" column="48" lean-forward="false" selection-start-line="8" selection-start-column="2" selection-end-line="44" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/docSite/styles/images.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="667" column="49" lean-forward="false" selection-start-line="667" selection-start-column="49" selection-end-line="667" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LICENSE.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/docSite/styles/layout.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="273" column="54" lean-forward="true" selection-start-line="273" selection-start-column="54" selection-end-line="273" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/docSite/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="742">
-          <caret line="80" column="35" lean-forward="false" selection-start-line="80" selection-start-column="35" selection-end-line="80" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/docSite/styles/text.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1003">
-          <caret line="64" column="48" lean-forward="false" selection-start-line="64" selection-start-column="48" selection-end-line="64" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/docSite/styles/lists.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -524,41 +448,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/README.md" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="153">
-            <caret line="9" column="57" lean-forward="false" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="5" lean-forward="false" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/docSite/includes/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/docSite/styles/navigation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1615">
-          <caret line="95" column="8" lean-forward="false" selection-start-line="95" selection-start-column="8" selection-end-line="95" selection-end-column="8" />
-          <folding>
-            <element signature="e#2807#2811#0#HTML" expanded="true" />
-            <element signature="e#2861#2867#0#HTML" expanded="true" />
-            <element signature="e#3642#3646#0#HTML" expanded="true" />
-            <element signature="e#3696#3702#0#HTML" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -569,14 +462,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/docSite/scripts/slideshow.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="156" column="5" lean-forward="true" selection-start-line="156" selection-start-column="5" selection-end-line="156" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build/lib.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -584,50 +469,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/docSite/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="36" lean-forward="false" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/lib.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/_elements.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/lib.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="10" lean-forward="false" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/_position.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="11" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -635,17 +480,312 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="89" column="35" lean-forward="false" selection-start-line="89" selection-start-column="30" selection-end-line="89" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/lib.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="16" lean-forward="false" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/_slideshow.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="23" column="18" lean-forward="false" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/docSite/styles/buttons.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="91" column="25" lean-forward="false" selection-start-line="91" selection-start-column="25" selection-end-line="91" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/docSite/styles/darkTheme.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="20" column="27" lean-forward="false" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/docSite/styles/elements.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-255">
+          <caret line="111" column="25" lean-forward="false" selection-start-line="111" selection-start-column="25" selection-end-line="111" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/docSite/styles/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="46" column="25" lean-forward="false" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/docSite/styles/forms.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-374">
+          <caret line="157" column="25" lean-forward="false" selection-start-line="157" selection-start-column="25" selection-end-line="157" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/docSite/styles/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="34" column="25" lean-forward="false" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/docSite/styles/images.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-340">
+          <caret line="629" column="25" lean-forward="false" selection-start-line="629" selection-start-column="25" selection-end-line="629" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/docSite/styles/layout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7854">
+          <caret line="267" column="25" lean-forward="false" selection-start-line="267" selection-start-column="25" selection-end-line="267" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/docSite/styles/lists.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="132" column="25" lean-forward="false" selection-start-line="132" selection-start-column="25" selection-end-line="132" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/docSite/styles/navigation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="95" column="8" lean-forward="false" selection-start-line="95" selection-start-column="8" selection-end-line="95" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/docSite/styles/position.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
+        <state relative-caret-position="-1700">
           <caret line="28" column="40" lean-forward="true" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/docSite/styles/text.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="157" column="25" lean-forward="false" selection-start-line="157" selection-start-column="25" selection-end-line="157" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/_elements.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="35" column="6" lean-forward="false" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/docSite/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="34" lean-forward="false" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/docSite/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="43" column="58" lean-forward="false" selection-start-line="43" selection-start-column="58" selection-end-line="43" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/docSite/includes/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="9" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/docSite/includes/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="44" lean-forward="false" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="170">
+            <caret line="13" column="34" lean-forward="false" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/gallery.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="38" column="18" lean-forward="false" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/docSite/scripts/slideshow.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="182" column="7" lean-forward="false" selection-start-line="182" selection-start-column="7" selection-end-line="182" selection-end-column="7" />
           <folding>
-            <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#5861#5865#0#HTML" expanded="true" />
+            <element signature="e#1713#1719#0#HTML" expanded="true" />
+            <element signature="e#1719#1725#0#HTML" expanded="true" />
+            <element signature="e#1807#1813#0#HTML" expanded="true" />
+            <element signature="e#1813#1819#0#HTML" expanded="true" />
+            <element signature="e#1901#1907#0#HTML" expanded="true" />
+            <element signature="e#1907#1913#0#HTML" expanded="true" />
+            <element signature="e#1995#2001#0#HTML" expanded="true" />
+            <element signature="e#2001#2007#0#HTML" expanded="true" />
+            <element signature="e#2167#2173#0#HTML" expanded="true" />
+            <element signature="e#2173#2179#0#HTML" expanded="true" />
+            <element signature="e#2655#2659#0#HTML" expanded="true" />
+            <element signature="e#2726#2730#0#HTML" expanded="true" />
+            <element signature="e#2756#2760#0#HTML" expanded="true" />
+            <element signature="e#2804#2808#0#HTML" expanded="true" />
+            <element signature="e#2808#2812#0#HTML" expanded="true" />
+            <element signature="e#2816#2820#0#HTML" expanded="true" />
+            <element signature="e#2957#2963#0#HTML" expanded="true" />
+            <element signature="e#2963#2969#0#HTML" expanded="true" />
+            <element signature="e#3051#3057#0#HTML" expanded="true" />
+            <element signature="e#3057#3063#0#HTML" expanded="true" />
+            <element signature="e#3145#3151#0#HTML" expanded="true" />
+            <element signature="e#3151#3157#0#HTML" expanded="true" />
+            <element signature="e#3239#3245#0#HTML" expanded="true" />
+            <element signature="e#3245#3251#0#HTML" expanded="true" />
+            <element signature="e#3411#3417#0#HTML" expanded="true" />
+            <element signature="e#3417#3423#0#HTML" expanded="true" />
+            <element signature="e#3464#3470#0#HTML" expanded="true" />
+            <element signature="e#3470#3476#0#HTML" expanded="true" />
+            <element signature="e#3980#3984#0#HTML" expanded="true" />
+            <element signature="e#4051#4055#0#HTML" expanded="true" />
+            <element signature="e#4081#4085#0#HTML" expanded="true" />
+            <element signature="e#4129#4133#0#HTML" expanded="true" />
+            <element signature="e#4133#4137#0#HTML" expanded="true" />
+            <element signature="e#4141#4145#0#HTML" expanded="true" />
+            <element signature="e#4282#4288#0#HTML" expanded="true" />
+            <element signature="e#4288#4294#0#HTML" expanded="true" />
+            <element signature="e#4376#4382#0#HTML" expanded="true" />
+            <element signature="e#4382#4388#0#HTML" expanded="true" />
+            <element signature="e#4470#4476#0#HTML" expanded="true" />
+            <element signature="e#4476#4482#0#HTML" expanded="true" />
+            <element signature="e#4564#4570#0#HTML" expanded="true" />
+            <element signature="e#4570#4576#0#HTML" expanded="true" />
+            <element signature="e#4736#4742#0#HTML" expanded="true" />
+            <element signature="e#4742#4748#0#HTML" expanded="true" />
+            <element signature="e#4789#4795#0#HTML" expanded="true" />
+            <element signature="e#4795#4801#0#HTML" expanded="true" />
+            <element signature="e#4841#4847#0#HTML" expanded="true" />
+            <element signature="e#4847#4853#0#HTML" expanded="true" />
+            <element signature="e#5344#5348#0#HTML" expanded="true" />
+            <element signature="e#5415#5419#0#HTML" expanded="true" />
+            <element signature="e#5445#5449#0#HTML" expanded="true" />
+            <element signature="e#5493#5497#0#HTML" expanded="true" />
+            <element signature="e#5497#5501#0#HTML" expanded="true" />
+            <element signature="e#5505#5509#0#HTML" expanded="true" />
+            <element signature="e#5646#5652#0#HTML" expanded="true" />
+            <element signature="e#5652#5658#0#HTML" expanded="true" />
+            <element signature="e#5740#5746#0#HTML" expanded="true" />
+            <element signature="e#5746#5752#0#HTML" expanded="true" />
+            <element signature="e#5834#5840#0#HTML" expanded="true" />
+            <element signature="e#5840#5846#0#HTML" expanded="true" />
+            <element signature="e#5928#5934#0#HTML" expanded="true" />
+            <element signature="e#5934#5940#0#HTML" expanded="true" />
+            <element signature="e#6100#6106#0#HTML" expanded="true" />
+            <element signature="e#6106#6112#0#HTML" expanded="true" />
+            <element signature="e#6153#6159#0#HTML" expanded="true" />
+            <element signature="e#6159#6165#0#HTML" expanded="true" />
+            <element signature="e#6205#6211#0#HTML" expanded="true" />
+            <element signature="e#6211#6217#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/docSite/scripts/gallery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="62" column="7" lean-forward="false" selection-start-line="62" selection-start-column="7" selection-end-line="62" selection-end-column="7" />
+          <folding>
+            <element signature="e#1313#1319#0#HTML" expanded="true" />
+            <element signature="e#1319#1325#0#HTML" expanded="true" />
+            <element signature="e#1417#1423#0#HTML" expanded="true" />
+            <element signature="e#1423#1429#0#HTML" expanded="true" />
+            <element signature="e#1521#1527#0#HTML" expanded="true" />
+            <element signature="e#1527#1533#0#HTML" expanded="true" />
+            <element signature="e#1625#1631#0#HTML" expanded="true" />
+            <element signature="e#1631#1637#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/docSite/scripts/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="34" column="98" lean-forward="false" selection-start-line="34" selection-start-column="98" selection-end-line="34" selection-end-column="98" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/docSite/scripts/dateTime.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="114" column="25" lean-forward="false" selection-start-line="114" selection-start-column="25" selection-end-line="114" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/docSite/scripts/consoleLog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="66" column="25" lean-forward="false" selection-start-line="66" selection-start-column="25" selection-end-line="66" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/docSite/scripts/elementSelector.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="48" column="25" lean-forward="false" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/lib.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <marker date="1504529302134" expanded="false" signature="0:202" ph="//..." />
           </folding>
         </state>
       </provider>

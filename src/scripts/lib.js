@@ -1,7 +1,7 @@
 // JavaScript Framework
 // Author     Sam Smith (smithymx67)
 // Website    https://samsmith.me
-// Version    1.0.1
+// Version    1.1.0
 // License    MIT (https://github.com/smithymx67/Web-Framework/blob/master/LICENSE.txt)
 
 ////////////////////////////////////////////////////////////////
@@ -9,12 +9,12 @@
 ////////////////////////////////////////////////////////////////
 
 /**
-* Return the element passed by its ID
-* @param  {string} element
-* @return {Object} theElement
-**/
+ * Return the element passed by its ID
+ * @param  {string} element
+ * @return {Object} theElement
+ **/
 function elem(element) {
-  let theElement;
+  var theElement;
   
   if(element.substring(0, 1) === '.') {
     theElement = document.getElementsByClassName(element.split('.')[1]);
@@ -40,7 +40,7 @@ function elem(element) {
  * @return {string}
  **/
 function textifyMonth(month) {
-  let months = [
+  var months = [
     "January",
     "Febuary",
     "March",
@@ -63,7 +63,7 @@ function textifyMonth(month) {
  * @return {string}
  **/
 function textifyWeekDay(day) {
-  let days = [
+  var days = [
 	  "Sunday",
     "Monday",
     "Tuesday",
@@ -83,11 +83,11 @@ function textifyWeekDay(day) {
  * @return {string}      theTime
  **/
 function get12HrTime(dateObj, showSecs, showAMPM) {
-  let hours = (dateObj.getHours() > 12) ? dateObj.getHours() - 12 : dateObj.getHours();
-  let mins = leadZero(dateObj.getMinutes());
-  let secs = leadZero(dateObj.getSeconds());
-  let ampm = (dateObj.getHours() > 12) ? "PM" : "AM";
-  let theTime;
+  var hours = (dateObj.getHours() > 12) ? dateObj.getHours() - 12 : dateObj.getHours();
+  var mins = leadZero(dateObj.getMinutes());
+  var secs = leadZero(dateObj.getSeconds());
+  var ampm = (dateObj.getHours() > 12) ? "PM" : "AM";
+  var theTime;
 
   theTime = hours + ":" + mins;
   if(showSecs === true) {theTime += ":" + secs}
@@ -102,10 +102,10 @@ function get12HrTime(dateObj, showSecs, showAMPM) {
  * @return {string}      theTime
  **/
 function get24HrTime(dateObj, showSecs) {
-  let hours = leadZero(dateObj.getHours());
-  let mins = leadZero(dateObj.getMinutes());
-  let secs = leadZero(dateObj.getSeconds());
-  let theTime;
+  var hours = leadZero(dateObj.getHours());
+  var mins = leadZero(dateObj.getMinutes());
+  var secs = leadZero(dateObj.getSeconds());
+  var theTime;
 
   theTime = hours + ":" + mins;
   if(showSecs === true) {theTime += ":" + secs}
@@ -127,9 +127,9 @@ function leadZero(number) {
  * @return {string}
  **/
 function getShortDate(dateObj) {
-  let date = leadZero(dateObj.getDate());
-  let month = leadZero(dateObj.getMonth() + 1);
-  let year = dateObj.getFullYear();
+  var date = leadZero(dateObj.getDate());
+  var month = leadZero(dateObj.getMonth() + 1);
+  var year = dateObj.getFullYear();
   return date + "/" + month + "/" + year;
 }
 
@@ -139,10 +139,10 @@ function getShortDate(dateObj) {
  * @return {string}
  **/
 function getLongDate(dateObj) {
-  let day = textifyWeekDay(dateObj.getDay());
-  let date = suffixDate(dateObj.getDate());
-  let month = textifyMonth(dateObj.getMonth());
-  let year = dateObj.getFullYear();
+  var day = textifyWeekDay(dateObj.getDay());
+  var date = suffixDate(dateObj.getDate());
+  var month = textifyMonth(dateObj.getMonth());
+  var year = dateObj.getFullYear();
   return day + " " + date + " " + month + " " + year;
 }
 
@@ -152,7 +152,7 @@ function getLongDate(dateObj) {
  * @return {string} theDate
  **/
 function suffixDate(date) {
-  let theDate;
+  var theDate;
   switch(date) {
     case 1:
     case 21:
@@ -184,14 +184,14 @@ function suffixDate(date) {
 /**
  * Fix a header to the top of the page
  */
-window.onload = fixifyHeader();
+window.addEventListener("DOMContentLoaded", fixifyHeader);
 window.addEventListener("resize", fixifyHeader);
 function fixifyHeader() {
-  let header = document.getElementsByTagName("header");
+  var header = document.getElementsByTagName("header");
 
-  for(let i = 0; i < header.length; i++) {
+  for(var i = 0; i < header.length; i++) {
     if(header[i].classList.contains("fixed-header")) {
-      let offset = header[i].clientHeight;
+      var offset = header[i].clientHeight;
       document.getElementsByTagName("body")[0].style.marginTop = offset + "px";
     }
   }
@@ -207,14 +207,15 @@ function fixifyHeader() {
 /**
  * Fix a footer to the bottom of the page
  */
-window.onload = fixifyFooter();
+//window.onload = fixifyFooter();
+window.addEventListener("DOMContentLoaded", fixifyFooter);
 window.addEventListener("resize", fixifyFooter);
 function fixifyFooter() {
-  let footer = document.getElementsByTagName("footer");
+  var footer = document.getElementsByTagName("footer");
 
-  for(let i = 0; i < footer.length; i++) {
+  for(var i = 0; i < footer.length; i++) {
     if(footer[i].classList.contains("fixed-footer")) {
-      let offset = footer[i].clientHeight;
+      var offset = footer[i].clientHeight;
       document.getElementsByTagName("body")[0].style.marginBottom = offset + "px";
     }
   }
@@ -223,14 +224,15 @@ function fixifyFooter() {
 /**
  * Stick a footer to the bottom of the page
  */
-window.onload = stickifyFooter();
+//window.ready = stickifyFooter();
+window.addEventListener("DOMContentLoaded", stickifyFooter);
 window.addEventListener("resize", stickifyFooter);
 function stickifyFooter() {
-  let footer = document.getElementsByTagName("footer");
+  var footer = document.getElementsByTagName("footer");
 
-  for(let i = 0; i < footer.length; i++) {
+  for(var i = 0; i < footer.length; i++) {
     if(footer[i].classList.contains("sticky-footer")) {
-      let offset = footer[i].clientHeight;
+      var offset = footer[i].clientHeight;
       document.getElementsByTagName("body")[0].style.paddingBottom = offset + "px";
       document.getElementsByTagName("html")[0].style.minHeight = "100%";
       document.getElementsByTagName("html")[0].style.position = "relative";
@@ -246,7 +248,7 @@ function stickifyFooter() {
 ////////////////////////////////////////////////////////////////
 
 // Global array to hold slideshows
-let slideshowArray = [];
+var slideshowArray = [];
 
 /**
  * Create a slideshow
@@ -255,15 +257,15 @@ let slideshowArray = [];
  * @param args
  */
 function createSlideshow(element, imageArray, args) {
-  let slideshowElement = elem(element);
+  var slideshowElement = elem(element);
 
   // Setup args
-  let interval 	= (args['interval']) 	? args['interval'] 	: 1500;
-  let style 		= (args['style']) 		? args['style'] 		: "";
-  let control		= (args['control'])		? args['control']		: "";
+  var interval 	= (args['interval']) 	? args['interval'] 	: 1500;
+  var style 		= (args['style']) 		? args['style'] 		: "";
+  var control		= (args['control'])		? args['control']		: "";
 
   // Store slideshow in array
-  let slideshowObj = {};
+  var slideshowObj = {};
   slideshowObj.id = slideshowElement.id;
   slideshowObj.numberOfSlides = imageArray.length;
   slideshowObj.imageArray = imageArray;
@@ -313,13 +315,13 @@ function createSlideshow(element, imageArray, args) {
  * @returns {Element}
  */
 function setupSlides(slideIdPrefix, classes) {
-  let slidesDiv 		= document.createElement("div");
-  let slideshowObj 	= slideshowArray[slideIdPrefix];
+  var slidesDiv 		= document.createElement("div");
+  var slideshowObj 	= slideshowArray[slideIdPrefix];
   slidesDiv.className = "slides";
 
   // Loop through the images and create an img element
-  for(let i = 0; i < slideshowObj.imageArray.length; i++) {
-    let img = document.createElement("img");
+  for(var i = 0; i < slideshowObj.imageArray.length; i++) {
+    var img = document.createElement("img");
     if(i === 0) {
       img.className = "slide-visible " + classes
     } else {
@@ -339,12 +341,12 @@ function setupSlides(slideIdPrefix, classes) {
  * @returns {Element}
  */
 function setupDotNav(slideshowID) {
-  let slideshowObj = slideshowArray[slideshowID];
-  let dotDiv = document.createElement("div");
+  var slideshowObj = slideshowArray[slideshowID];
+  var dotDiv = document.createElement("div");
   dotDiv.className = "dot-controls";
 
-  for(let i = 0; i < slideshowObj.numberOfSlides; i++) {
-    let dotItem = document.createElement("div");
+  for(var i = 0; i < slideshowObj.numberOfSlides; i++) {
+    var dotItem = document.createElement("div");
     dotItem.id = slideshowObj.id + "-dot-" + i;
     if(i === 0) {dotItem.className = "dot-active";}
     dotItem.onclick = function () {
@@ -362,9 +364,9 @@ function setupDotNav(slideshowID) {
  * @returns {Element}
  */
 function setupArrowNav(slideshowID) {
-  let arrowDiv 			= document.createElement("div");
-  let arrowNext 		= document.createElement("div");
-  let arrowPrevious = document.createElement("div");
+  var arrowDiv 			= document.createElement("div");
+  var arrowNext 		= document.createElement("div");
+  var arrowPrevious = document.createElement("div");
 
   arrowDiv.className 			= "arrow-controls";
   arrowNext.className 		= "next-slide";
@@ -384,15 +386,15 @@ function setupArrowNav(slideshowID) {
  * @param usrCommand
  */
 function nextSlide(slideshowID, usrCommand) {
-  let slideshowObj = slideshowArray[slideshowID];
+  var slideshowObj = slideshowArray[slideshowID];
   clearTimeout(slideshowObj.loop);
 
   // Don't progress if the mouse is hovered over it unless overrided with usrCommand
   if(!slideshowObj.hovered || usrCommand) {
     // Fetch the required slide elements
-    let currentActive = ((slideshowObj.counter - 1) < 0) ? slideshowObj.numberOfSlides - 1 : slideshowObj.counter - 1;
-    let currentSlide = elem("#" + slideshowObj.id + "-" + currentActive);
-    let newSlide = elem("#" + slideshowObj.id + "-" + slideshowObj.counter);
+    var currentActive = ((slideshowObj.counter - 1) < 0) ? slideshowObj.numberOfSlides - 1 : slideshowObj.counter - 1;
+    var currentSlide = elem("#" + slideshowObj.id + "-" + currentActive);
+    var newSlide = elem("#" + slideshowObj.id + "-" + slideshowObj.counter);
 
     transitionSlide(currentSlide, newSlide);
     if(slideshowObj.control === "dots") {
@@ -412,14 +414,14 @@ function nextSlide(slideshowID, usrCommand) {
  * @param slideshowID
  */
 function previousSlide(slideshowID) {
-  let slideshowObj = slideshowArray[slideshowID];
+  var slideshowObj = slideshowArray[slideshowID];
   clearTimeout(slideshowObj.loop);
 
   // Fetch the required slide elements
-  let currentCounter = (slideshowObj.counter - 1 < 0) ? slideshowObj.numberOfSlides - 1 : slideshowObj.counter - 1;
-  let previousCounter = (currentCounter - 1 < 0) ? slideshowObj.numberOfSlides - 1 : currentCounter - 1;
-  let currentSlide = elem("#" + slideshowObj.id + "-" + currentCounter);
-  let newSlide = elem("#" + slideshowObj.id + "-" + previousCounter);
+  var currentCounter = (slideshowObj.counter - 1 < 0) ? slideshowObj.numberOfSlides - 1 : slideshowObj.counter - 1;
+  var previousCounter = (currentCounter - 1 < 0) ? slideshowObj.numberOfSlides - 1 : currentCounter - 1;
+  var currentSlide = elem("#" + slideshowObj.id + "-" + currentCounter);
+  var newSlide = elem("#" + slideshowObj.id + "-" + previousCounter);
   transitionSlide(currentSlide, newSlide);
 
   // Set the counter and reset the timer to progress the slides
@@ -434,20 +436,20 @@ function previousSlide(slideshowID) {
  * @param slideNumber
  */
 function gotoSlide(slideshowID, slideNumber) {
-  let slideshowObj = slideshowArray[slideshowID];
+  var slideshowObj = slideshowArray[slideshowID];
   clearTimeout(slideshowObj.loop);
 
   // Fetch slide numbers
-  let currentSlide = slideshowObj.currentSlide;
-  let newSlide = slideNumber;
+  var currentSlide = slideshowObj.currentSlide;
+  var newSlide = slideNumber;
 
   // Update the slideshow counter to the new slide number
   slideshowObj.counter = newSlide;
   slideshowObj.currentSlide = newSlide;
 
   // Transition the slide and update the nav dots
-  let cSlide = elem("#" + slideshowObj.id + "-" + currentSlide);
-  let nSlide = elem("#" + slideshowObj.id + "-" + newSlide);
+  var cSlide = elem("#" + slideshowObj.id + "-" + currentSlide);
+  var nSlide = elem("#" + slideshowObj.id + "-" + newSlide);
   transitionSlide(cSlide, nSlide);
   updateDotNav(slideshowObj.id, currentSlide, newSlide);
   slideshowObj.counter = (newSlide + 1 > slideshowObj.numberOfSlides - 1) ? 0 : newSlide + 1 ;
@@ -466,8 +468,8 @@ function transitionSlide(currentSlide, newSlide) {
 }
 
 function updateDotNav(slideshowID, currentSlide, newSlide) {
-  let dot1 = elem("#" + slideshowID + "-dot-" + currentSlide);
-  let dot2 = elem("#" + slideshowID + "-dot-" + newSlide);
+  var dot1 = elem("#" + slideshowID + "-dot-" + currentSlide);
+  var dot2 = elem("#" + slideshowID + "-dot-" + newSlide);
 
   dot1.classList.remove("dot-active");
   dot2.classList.add("dot-active");
@@ -475,6 +477,93 @@ function updateDotNav(slideshowID, currentSlide, newSlide) {
 
 ////////////////////////////////////////////////////////////////
 
+
+////////////////////////////////////////////////////////////////
+// Gallery Functions                                          //
+////////////////////////////////////////////////////////////////
+
+/**
+ * Setup the elements needed for the gallery to work
+ * @param galleryImages
+ * @param galleryElement
+ * @param columnClass
+ * @param imageClasses
+ */
+function createGallery(galleryImages, galleryElement, columnClass ,imageClasses) {
+  var galleryElem           = elem(galleryElement);
+  var galleryOverlay        = document.createElement("div");
+  var galleryOverlayImg     = document.createElement("img");
+
+  galleryOverlayImg.className = "bordered-img";
+  galleryOverlay.className    = "gallery-overlay";
+  galleryOverlay.onclick = function () {
+    galleryOverlayClicked(galleryOverlay);
+  };
+
+  galleryElem.appendChild(galleryOverlay);
+  galleryOverlay.appendChild(galleryOverlayImg);
+
+  // Loop each gallery image
+  for(var i = 0; i < galleryImages.length; i++) {
+    var galleryImgContainer = document.createElement("div");
+    var galleryImage        = document.createElement("img");
+
+    galleryImgContainer.className = columnClass;
+    galleryImage.className        = imageClasses;
+    galleryImage.src              = galleryImages[i];
+
+    galleryElem.appendChild(galleryImgContainer);
+    galleryImgContainer.appendChild(galleryImage);
+  }
+
+  // Loop each image in gallery
+  for(var j = 1; j < (galleryElem.children.length); j++) {
+    var imgElem = galleryElem.children[j];
+    imgElem.onclick = function() {
+      galleryImgClicked(imgElem, galleryOverlay);
+    }
+  }
+}
+
+/**
+ * Run when a gallery image is clicked
+ * @param imgElem
+ * @param overlayElem
+ */
+function galleryImgClicked(imgElem, overlayElem) {
+  overlayElem.getElementsByTagName("img")[0].src = imgElem.getElementsByTagName("img")[0].src;
+  galleryOverlayShow(overlayElem);
+}
+
+/**
+ * Run when the gallery overlay is clicked
+ * @param overlayElem
+ */
+function galleryOverlayClicked(overlayElem) {
+  galleryOverlayHide(overlayElem);
+}
+
+/**
+ * Show the gallery overlay
+ * @param overlayElem
+ */
+function galleryOverlayShow(overlayElem) {
+  overlayElem.classList.remove("gallery-overlay-hidden");
+  overlayElem.classList.add("gallery-overlay-visible");
+  document.body.style.overflow = "hidden";
+}
+
+/**
+ * Hide the gallery overlay
+ * @param overlayElem
+ */
+function galleryOverlayHide(overlayElem) {
+  overlayElem.classList.add("gallery-overlay-hidden");
+  overlayElem.classList.remove("gallery-overlay-visible");
+  document.body.style.overflow = "";
+}
+
+////////////////////////////////////////////////////////////////
 
 /**
  * Log text to the console

@@ -28,6 +28,7 @@
     
     <div class="col-12">
       <h2>Select by ID</h2>
+      <p>Added v1.0.0</p>
       <p>Select an element by its ID name.</p>
       <div class="code-block width-6 width-l-12">
         <span>elem("#image1");</span>
@@ -36,6 +37,7 @@
       <br>
       
       <h2>Select by class</h2>
+      <p>Added v1.0.0</p>
       <p>Select an element by its class name.</p>
       <div class="code-block width-6 width-l-12">
         <span>elem(".col-12");</span>
@@ -44,6 +46,7 @@
       <br>
       
       <h2>Select by tag name</h2>
+      <p>Added v1.0.0</p>
       <p>Select an element by its HTML tag name.</p>
       <div class="code-block width-6 width-l-12">
         <span>elem("div");</span>

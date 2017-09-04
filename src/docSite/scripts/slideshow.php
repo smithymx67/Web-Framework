@@ -40,6 +40,7 @@
       </p>
       <br>
       <h2>Default Slideshow</h2>
+      <p>Added v1.0.0</p>
       <p>A basic slideshow that will loop through the provided images.</p>
       <h3>HTML</h3>
       <div class="code-block">
@@ -49,14 +50,14 @@
 
       <h3>JavaScript</h3>
       <div class="code-block">
-        <span>let imageArray = [</span><br>
+        <span>var imageArray = [</span><br>
         <span>&nbsp;&nbsp;"https://cwsmith.builders/images/slideshow/slide_0.jpg",</span><br>
         <span>&nbsp;&nbsp;"https://cwsmith.builders/images/slideshow/slide_1.jpg",</span><br>
         <span>&nbsp;&nbsp;"https://cwsmith.builders/images/slideshow/slide_2.jpg",</span><br>
         <span>&nbsp;&nbsp;"https://cwsmith.builders/images/slideshow/slide_3.jpg"</span><br>
         <span>];</span><br>
         <br>
-        <span>let args = {</span><br>
+        <span>var args = {</span><br>
         <span>&nbsp;&nbsp;interval: 2000</span><br>
         <span>};</span><br>
         <br>
@@ -67,6 +68,7 @@
 
     <div class="col-12">
       <h2>Fade In / Out Slideshow</h2>
+      <p>Added v1.0.0</p>
       <p>Same as the basic slideshow above but this time with a slide fade transition.</p>
       <h3>HTML</h3>
       <div class="code-block">
@@ -76,14 +78,14 @@
 
       <h3>JavaScript</h3>
       <div class="code-block">
-        <span>let imageArray = [</span><br>
+        <span>var imageArray = [</span><br>
         <span>&nbsp;&nbsp;"https://cwsmith.builders/images/slideshow/slide_0.jpg",</span><br>
         <span>&nbsp;&nbsp;"https://cwsmith.builders/images/slideshow/slide_1.jpg",</span><br>
         <span>&nbsp;&nbsp;"https://cwsmith.builders/images/slideshow/slide_2.jpg",</span><br>
         <span>&nbsp;&nbsp;"https://cwsmith.builders/images/slideshow/slide_3.jpg"</span><br>
         <span>];</span><br>
         <br>
-        <span>let args = {</span><br>
+        <span>var args = {</span><br>
         <span>&nbsp;&nbsp;interval: 2000,</span><br>
         <span>&nbsp;&nbsp;style: "fade"</span><br>
         <span>};</span><br>
@@ -95,6 +97,7 @@
 
     <div class="col-12">
       <h2>Slideshow With Arrow Controls</h2>
+      <p>Added v1.0.0</p>
       <p>A slideshow with arrow controls will allow the user to navigate back and forward through the slides.</p>
       <h3>HTML</h3>
       <div class="code-block">
@@ -104,14 +107,14 @@
 
       <h3>JavaScript</h3>
       <div class="code-block">
-        <span>let imageArray = [</span><br>
+        <span>var imageArray = [</span><br>
         <span>&nbsp;&nbsp;"https://cwsmith.builders/images/slideshow/slide_0.jpg",</span><br>
         <span>&nbsp;&nbsp;"https://cwsmith.builders/images/slideshow/slide_1.jpg",</span><br>
         <span>&nbsp;&nbsp;"https://cwsmith.builders/images/slideshow/slide_2.jpg",</span><br>
         <span>&nbsp;&nbsp;"https://cwsmith.builders/images/slideshow/slide_3.jpg"</span><br>
         <span>];</span><br>
         <br>
-        <span>let args = {</span><br>
+        <span>var args = {</span><br>
         <span>&nbsp;&nbsp;interval: 2000,</span><br>
         <span>&nbsp;&nbsp;style: "fade",</span><br>
         <span>&nbsp;&nbsp;control: "arrows"</span><br>
@@ -124,6 +127,7 @@
 
     <div class="col-12">
       <h2>Slideshow With Dot Controls</h2>
+      <p>Added v1.0.0</p>
       <p>A slideshow with dot controls will allow the user to navigate to any slide on demand.</p>
       <h3>HTML</h3>
       <div class="code-block">
@@ -133,14 +137,14 @@
 
       <h3>JavaScript</h3>
       <div class="code-block">
-        <span>let imageArray = [</span><br>
+        <span>var imageArray = [</span><br>
         <span>&nbsp;&nbsp;"https://cwsmith.builders/images/slideshow/slide_0.jpg",</span><br>
         <span>&nbsp;&nbsp;"https://cwsmith.builders/images/slideshow/slide_1.jpg",</span><br>
         <span>&nbsp;&nbsp;"https://cwsmith.builders/images/slideshow/slide_2.jpg",</span><br>
         <span>&nbsp;&nbsp;"https://cwsmith.builders/images/slideshow/slide_3.jpg"</span><br>
         <span>];</span><br>
         <br>
-        <span>let args = {</span><br>
+        <span>var args = {</span><br>
         <span>&nbsp;&nbsp;interval: 2000,</span><br>
         <span>&nbsp;&nbsp;style: "fade",</span><br>
         <span>&nbsp;&nbsp;control: "dots"</span><br>
@@ -154,29 +158,29 @@
   
   <?php require_once "../includes/footer.php"; ?>
   <script>
-		let imageArray = [
+		var imageArray = [
 			"https://cwsmith.builders/images/slideshow/slide_0.jpg",
       "https://cwsmith.builders/images/slideshow/slide_1.jpg",
       "https://cwsmith.builders/images/slideshow/slide_2.jpg",
       "https://cwsmith.builders/images/slideshow/slide_3.jpg"
     ];
 
-		let args1 = {
+		var args1 = {
 			interval: 2000
 		};
 
-		let args2 = {
+		var args2 = {
 			interval: 2000,
 			style: "fade"
 		};
 
-		let args3 = {
+		var args3 = {
 			interval: 2000,
 			style: "fade",
       control: "arrows"
 		};
 
-    let args4 = {
+    var args4 = {
       interval: 2000,
       style: "fade",
       control: "dots"
