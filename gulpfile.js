@@ -41,7 +41,7 @@ gulp.task('images', function() {
 gulp.task('scripts', function() {
   gulp.src('src/scripts/lib.js')
     .pipe(sourcemaps.init())
-		.pipe(babel({
+    .pipe(babel({
 			presets: ['env']
 		}))
     .pipe(uglify())
@@ -58,6 +58,9 @@ gulp.task('watch', function() {
   gulp.watch('src/docSite/images/**/*', ['images']);
   gulp.watch('src/scripts/**/*.js', ['scripts']);
 });
+
+// Build task
+gulp.task( 'build', ['styles', 'html', 'php', 'images', 'scripts'] );
 
 // Default task
 gulp.task('default', function() {
