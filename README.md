@@ -1,4 +1,8 @@
-# Web Framework
+# Web Framework - Pallet
+
+Yellow - JavaScript
+Blue - CSS
+Purple - PHP
 
 Welcome to the web framework documentation site, here you can find information about features that the framework provides.
 
