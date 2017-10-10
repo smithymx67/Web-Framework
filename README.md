@@ -1,8 +1,8 @@
 # Web Framework - Pallet
 
-![alt text](https://github.com/smithymx67/Web-Framework/blob/master/Assets/PNG/Yellow-Js.png "Yellow - JS") 
-![alt text](https://github.com/smithymx67/Web-Framework/blob/master/Assets/PNG/Blue-Css.png "Blue - CSS") 
-![alt text](https://github.com/smithymx67/Web-Framework/blob/master/Assets/PNG/Purple-Php.png "Purple - PHP")
+![alt text](https://github.com/smithymx67/Web-Framework/blob/master/Assets/PNG/Icons/Yellow-Js.png "Yellow - JS") 
+![alt text](https://github.com/smithymx67/Web-Framework/blob/master/Assets/PNG/Icons/Blue-CSS.png "Blue - CSS") 
+![alt text](https://github.com/smithymx67/Web-Framework/blob/master/Assets/PNG/Icons/Purple-Php.png "Purple - PHP")
 
 Welcome to the web framework documentation site, here you can find information about features that the framework provides.
 
