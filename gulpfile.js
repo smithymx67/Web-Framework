@@ -6,6 +6,10 @@ var rename      = require('gulp-rename');
 var uglify      = require('gulp-uglify');
 var imagemin    = require('gulp-imagemin');
 var babel       = require('gulp-babel');
+var header      = require('gulp-header-comment');
+var concat      = require('gulp-concat');
+
+var version = 'v1.1.2';
 
 // Create sourcemaps and minify the scss
 gulp.task('styles', function() {
@@ -15,6 +19,7 @@ gulp.task('styles', function() {
     .pipe(cleanCSS())
     .pipe(rename({suffix : '.min'}))
     .pipe(sourcemaps.write('.'))
+    .pipe(header('CSS framework file ' + version + ' - Sam Smith (smithymx67) - License  MIT (https://github.com/smithymx67/Web-Framework/blob/master/LICENSE.txt)'))
     .pipe(gulp.dest('build'));
 });
 
@@ -39,14 +44,15 @@ gulp.task('images', function() {
 
 // Minify Javascript
 gulp.task('scripts', function() {
-  gulp.src('src/scripts/lib.js')
+  gulp.src('src/scripts/**/*.js')
     .pipe(sourcemaps.init())
     .pipe(babel({
 			presets: ['env']
 		}))
     .pipe(uglify())
-    .pipe(rename({suffix : '.min'}))
+    .pipe(concat('lib.min.js', {newLine: '\r\n'}))
     .pipe(sourcemaps.write('.'))
+    .pipe(header('JS framework file ' + version + ' - Sam Smith (smithymx67) - License  MIT (https://github.com/smithymx67/Web-Framework/blob/master/LICENSE.txt)'))
     .pipe(gulp.dest('build'));
 });
 

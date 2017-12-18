@@ -298,21 +298,21 @@
     <div class="col-12">
       <h2 id="margin-padding">Margin and Padding Classes</h2>
       <p>Added v1.1.2</p>
-      <p class="width-6 width-xl-12">These classes can be used to control the padding and margin on elements.</p>
+      <p class="width-6 width-xl-12">These classes can be used to control the padding and margin around elements.</p>
       <ul>
-        <li><code>margin-0</code></li>
-        <li><code>margin-5</code></li>
-        <li><code>margin-10</code></li>
-        <li><code>margin-50</code></li>
-        <li><code>margin-100</code></li>
+        <li><code>margin-0</code> - 0px Margin</li>
+        <li><code>margin-5</code> - 5px Margin</li>
+        <li><code>margin-10</code> - 10px Margin</li>
+        <li><code>margin-50</code> - 50px Margin</li>
+        <li><code>margin-100</code> - 100px Margin</li>
       </ul>
       <br>
       <ul>
-        <li><code>padding-0</code></li>
-        <li><code>padding-5</code></li>
-        <li><code>padding-10</code></li>
-        <li><code>padding-50</code></li>
-        <li><code>padding-100</code></li>
+        <li><code>padding-0</code> - 0px Padding</li>
+        <li><code>padding-5</code> - 5px Padding</li>
+        <li><code>padding-10</code> - 10px Padding</li>
+        <li><code>padding-50</code> - 50px Padding</li>
+        <li><code>padding-100</code> - 100px Padding</li>
       </ul>
     </div>
   </div>
