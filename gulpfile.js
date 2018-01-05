@@ -9,7 +9,7 @@ var babel       = require('gulp-babel');
 var header      = require('gulp-header-comment');
 var concat      = require('gulp-concat');
 
-var version = 'v1.1.2';
+var version = 'v1.1.3';
 
 // Create sourcemaps and minify the scss
 gulp.task('styles', function() {
@@ -18,8 +18,8 @@ gulp.task('styles', function() {
     .pipe(sass())
     .pipe(cleanCSS())
     .pipe(rename({suffix : '.min'}))
-    .pipe(sourcemaps.write('.'))
     .pipe(header('CSS framework file ' + version + ' - Sam Smith (smithymx67) - License  MIT (https://github.com/smithymx67/Web-Framework/blob/master/LICENSE.txt)'))
+    .pipe(sourcemaps.write('.'))
     .pipe(gulp.dest('build'));
 });
 
@@ -51,8 +51,8 @@ gulp.task('scripts', function() {
 		}))
     .pipe(uglify())
     .pipe(concat('lib.min.js', {newLine: '\r\n'}))
-    .pipe(sourcemaps.write('.'))
     .pipe(header('JS framework file ' + version + ' - Sam Smith (smithymx67) - License  MIT (https://github.com/smithymx67/Web-Framework/blob/master/LICENSE.txt)'))
+    .pipe(sourcemaps.write('.'))
     .pipe(gulp.dest('build'));
 });
 
