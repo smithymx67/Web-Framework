@@ -66,6 +66,17 @@
 
       <br>
 
+      <h3>col-9</h3>
+      <p>Added v1.1.3</p>
+      <p>A div with the class <code>col-9</code> will span 75% of the containers width.</p>
+      <div class="code-block width-6 width-xl-12">
+        <span>&lt;div class="col-9"&gt;</span><br>
+        <span>&nbsp;&nbsp;&lt;p&gt;Column content here&lt;/p&gt;</span><br>
+        <span>&lt;/div&gt;</span>
+      </div>
+
+      <br>
+
       <h3>col-8</h3>
       <p>Added v1.0.0</p>
       <p>A div with the class <code>col-8</code> will span 66.66% of the containers width.</p>
@@ -157,6 +168,7 @@
       <ul>
         <li><code>col-xl-12</code> - 100% Width</li>
         <li><code>col-xl-10</code> - 83.33% Width</li>
+        <li><code>col-xl-9</code> - 75% Width</li>
         <li><code>col-xl-8</code> - 66.66% Width</li>
         <li><code>col-xl-6</code> - 50% Width</li>
         <li><code>col-xl-4</code> - 33.33% Width</li>
@@ -180,6 +192,7 @@
       <ul>
         <li><code>col-l-12</code> - 100% Width</li>
         <li><code>col-l-10</code> - 83.33% Width</li>
+        <li><code>col-l-9</code> - 75% Width</li>
         <li><code>col-l-8</code> - 66.66% Width</li>
         <li><code>col-l-6</code> - 50% Width</li>
         <li><code>col-l-4</code> - 33.33% Width</li>
@@ -203,6 +216,7 @@
       <ul>
         <li><code>col-m-12</code> - 100% Width</li>
         <li><code>col-m-10</code> - 83.33% Width</li>
+        <li><code>col-m-9</code> - 75% Width</li>
         <li><code>col-m-8</code> - 66.66% Width</li>
         <li><code>col-m-6</code> - 50% Width</li>
         <li><code>col-m-4</code> - 33.33% Width</li>
@@ -226,6 +240,7 @@
       <ul>
         <li><code>col-s-12</code> - 100% Width</li>
         <li><code>col-s-10</code> - 83.33% Width</li>
+        <li><code>col-s-9</code> - 75% Width</li>
         <li><code>col-s-8</code> - 66.66% Width</li>
         <li><code>col-s-6</code> - 50% Width</li>
         <li><code>col-s-4</code> - 33.33% Width</li>
@@ -249,6 +264,7 @@
       <ul>
         <li><code>col-xs-12</code> - 100% Width</li>
         <li><code>col-xs-10</code> - 83.33% Width</li>
+        <li><code>col-xs-9</code> - 75% Width</li>
         <li><code>col-xs-8</code> - 66.66% Width</li>
         <li><code>col-xs-6</code> - 50% Width</li>
         <li><code>col-xs-4</code> - 33.33% Width</li>
@@ -274,6 +290,7 @@
       <ul>
         <li><code>width-12</code> - 100% Width</li>
         <li><code>width-10</code> - 83.33% Width</li>
+        <li><code>width-9</code> - 75% Width</li>
         <li><code>width-8</code> - 66.66% Width</li>
         <li><code>width-6</code> - 50% Width</li>
         <li><code>width-4</code> - 33.33% Width</li>
@@ -421,6 +438,20 @@
     <div class="col-4">
       <div class="bg-light-gray">
         <p>col-4</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container center-text">
+    <div class="col-9">
+      <div class="bg-light-gray">
+        <p>col-9</p>
+      </div>
+    </div>
+
+    <div class="col-3">
+      <div class="bg-light-gray">
+        <p>col-3</p>
       </div>
     </div>
   </div>
