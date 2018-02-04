@@ -1,0 +1,91 @@
+.datetime-popup {
+  background: rgba(0,0,0,0.9);
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  position: fixed;
+  padding: 0;
+  z-index: 9999;
+  transition: opacity .3s ease-in-out;
+  transform: scale(0);
+  overflow: auto;
+}
+
+.datetime-selector {
+  border-radius: 10px;
+  user-select: none;
+  max-width: 1000px;
+  z-index: 1;
+  background: gray;
+  position: absolute;
+  margin-bottom: 40px;
+  top: 40px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.datetime-selector button {
+  margin: 0 10px;
+}
+
+.datetime-popup-hidden {
+  animation: dateTimeSelectorOverlayOut .3s linear;
+  animation-fill-mode: forwards;
+}
+
+.datetime-popup-visible {
+  transform: scale(1);
+  animation: dateTimeSelectorOverlayIn .3s linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes dateTimeSelectorOverlayIn {
+  0%        {opacity: 0;}
+  100%      {opacity: 1;}
+}
+
+@keyframes dateTimeSelectorOverlayOut {
+  0%        {opacity: 1; transform: scale(1);}
+  99%       {opacity: 0; transform: scale(1);}
+  100%      {opacity: 0; transform: scale(0);}
+}
+
+.date-time-cal-visible {display: block !important;}
+.datetime-selector-preview {font-size: 22px;}
+
+.date-mode-header {font-weight: bold; font-size: 18px; cursor: pointer;}
+.date-mode-increment {cursor: pointer; font-size: 18px;}
+.date-mode-decrement {cursor: pointer; font-size: 18px;}
+
+.time-container {position: relative;}
+.time-increment {position: absolute; left: 50%; transform: translate(-50%) rotate(90deg); top: -40px; font-size: 35px; cursor: pointer;}
+.time-decrement {position: absolute; left: 50%; transform: translate(-50%) rotate(270deg); bottom: -40px; font-size: 35px; cursor: pointer;}
+.time-hour {font-size: 50px;}
+.time-min {font-size: 50px;}
+.time-separator {font-size: 50px;}
+.date-time-time-picker {margin: 40px 0;}
+
+.date-cal-years {display: none;}
+.date-cal-years table {border-spacing: 4px; border-collapse: initial;}
+.date-cal-years table tr td {border: none; text-align: center; width: 25%; padding: 15px 10px; cursor: pointer; border-radius: 10px;}
+.date-cal-years table tr td:hover {background-color: lightgray;}
+.cal-grid-year-today {background: darkgray;}
+.cal-grid-year-selected {background: lightblue;}
+
+.date-cal-months {display: none;}
+.date-cal-months table {border-spacing: 4px; border-collapse: initial;}
+.date-cal-months table tr td {border: none; text-align: center; width: 25%; padding: 15px 10px; cursor: pointer; border-radius: 10px;}
+.date-cal-months table tr td:hover {background-color: lightgray;}
+.cal-grid-month-today {background: darkgray;}
+.cal-grid-month-selected {background: lightblue;}
+
+.date-cal-days {display: none;}
+.date-cal-days table {border-spacing: 4px; border-collapse: initial;}
+.date-cal-days table tr th {text-align: center; width: 14.28%; border-bottom: none;}
+.date-cal-days table tr td {border: none; text-align: center; width: 14.28%; cursor: pointer; border-radius: 10px; height: 30px;}
+.date-cal-days table tr td:hover {background-color: lightgray;}
+.cal-grid-day-disabled {cursor: default !important;}
+.cal-grid-day-disabled:hover {background: none !important;}
+.cal-grid-day-today {background: darkgray;}
+.cal-grid-day-selected {background: lightblue;}
