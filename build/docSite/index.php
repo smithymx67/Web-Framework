@@ -24,7 +24,7 @@
       <h2>Introduction</h2>
       <p class="width-6 width-xl-12">Welcome to the web framework documentation site, here you can find information about
         features that the framework provides.</p>
-      <p class="width-6 width-xl-12">This framework consists of two files, <code>lib.min.css</code> and <code>lib.min.js</code>,
+      <p class="width-6 width-xl-12">This framework consists of two files, <code>bluePallet.min.css</code> and <code>yellowPallet.min.js</code>,
         although you can choose to only use one of the files, some features in this framework require both files to work
         correctly. Features that require both files are clearly identified in the documentation pages.</p>
 
@@ -41,16 +41,16 @@
       <p class="width-6 width-xl-12">Now you have the files, place them into to your project folder and create links to them.
         See the example below.</p>
 
-      <h3>Stylesheet Library <code>lib.min.css</code></h3>
+      <h3>Stylesheet Library <code>bluePallet.min.css</code></h3>
       <div class="code-block width-6 width-xl-12">
-        <span>&lt;link rel="stylesheet" href="lib.min.css"&gt;</span>
+        <span>&lt;link rel="stylesheet" href="bluePallet.min.css"&gt;</span>
       </div>
 
       <br>
 
-      <h3>JavaScript Library <code>lib.min.js</code></h3>
+      <h3>JavaScript Library <code>yellowPallet.min.js</code></h3>
       <div class="code-block width-6 width-xl-12">
-        <span>&lt;script src="lib.min.js"&gt;&lt;/script&gt;</span>
+        <span>&lt;script src="yellowPallet.min.js"&gt;&lt;/script&gt;</span>
       </div>
 
       <br>

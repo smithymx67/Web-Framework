@@ -13,12 +13,12 @@ var version = 'v1.2.0';
 
 // Create sourcemaps and minify the scss
 gulp.task('styles', function() {
-  gulp.src('src/styles/lib.scss')
+  gulp.src('src/styles/bluePallet.scss')
     .pipe(sourcemaps.init())
     .pipe(sass())
     .pipe(cleanCSS())
     .pipe(rename({suffix : '.min'}))
-    .pipe(header('CSS framework file ' + version + ' - Sam Smith (smithymx67) - License  MIT (https://github.com/smithymx67/Web-Framework/blob/master/LICENSE.txt)'))
+    .pipe(header('Pallet [Blue] - CSS framework file ' + version + ' - Sam Smith (smithymx67) - License  MIT (https://github.com/smithymx67/Web-Framework/blob/master/LICENSE.txt)'))
     .pipe(sourcemaps.write('.'))
     .pipe(gulp.dest('build'));
 });
@@ -31,8 +31,8 @@ gulp.task('html', function() {
 
 // Copy PHP from src to build
 gulp.task('php', function() {
-  gulp.src('src/**/*.php')
-    .pipe(gulp.dest('build'));
+  gulp.src('src/docSite/**/*.php')
+    .pipe(gulp.dest('build/docSite'));
 });
 
 // Optimize images
@@ -50,8 +50,8 @@ gulp.task('scripts', function() {
 			presets: ['env']
 		}))
     .pipe(uglify())
-    .pipe(concat('lib.min.js', {newLine: '\r\n'}))
-    .pipe(header('JS framework file ' + version + ' - Sam Smith (smithymx67) - License  MIT (https://github.com/smithymx67/Web-Framework/blob/master/LICENSE.txt)'))
+    .pipe(concat('yellowPallet.min.js', {newLine: '\r\n'}))
+    .pipe(header('Pallet [Yellow] - JS framework file ' + version + ' - Sam Smith (smithymx67) - License  MIT (https://github.com/smithymx67/Web-Framework/blob/master/LICENSE.txt)'))
     .pipe(sourcemaps.write('.'))
     .pipe(gulp.dest('build'));
 });
