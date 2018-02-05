@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1d4fb9a3-6e6d-4bf3-9da5-c760eff87a32" name="Default" comment="" />
+    <list default="true" id="1d4fb9a3-6e6d-4bf3-9da5-c760eff87a32" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/build/docSite/scripts/dateTimePicker.php" afterPath="$PROJECT_DIR$/build/docSite/scripts/dateTimePicker.php" />
+      <change beforePath="$PROJECT_DIR$/build/docSite/scripts/gallery.php" afterPath="$PROJECT_DIR$/build/docSite/scripts/gallery.php" />
+      <change beforePath="$PROJECT_DIR$/build/docSite/scripts/slideshow.php" afterPath="$PROJECT_DIR$/build/docSite/scripts/slideshow.php" />
+      <change beforePath="$PROJECT_DIR$/build/docSite/styles/layout.php" afterPath="$PROJECT_DIR$/build/docSite/styles/layout.php" />
+      <change beforePath="$PROJECT_DIR$/build/lib.min.js" afterPath="$PROJECT_DIR$/build/lib.min.js" />
+      <change beforePath="$PROJECT_DIR$/build/lib.min.js.map" afterPath="$PROJECT_DIR$/build/lib.min.js.map" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
+      <change beforePath="$PROJECT_DIR$/src/docSite/scripts/dateTimePicker.php" afterPath="$PROJECT_DIR$/src/docSite/scripts/dateTimePicker.php" />
+      <change beforePath="$PROJECT_DIR$/src/docSite/scripts/gallery.php" afterPath="$PROJECT_DIR$/src/docSite/scripts/gallery.php" />
+      <change beforePath="$PROJECT_DIR$/src/docSite/scripts/slideshow.php" afterPath="$PROJECT_DIR$/src/docSite/scripts/slideshow.php" />
+      <change beforePath="$PROJECT_DIR$/src/docSite/styles/layout.php" afterPath="$PROJECT_DIR$/src/docSite/styles/layout.php" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/dateTimePicker.js" afterPath="$PROJECT_DIR$/src/scripts/dateTimePicker.js" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/gallery.js" afterPath="$PROJECT_DIR$/src/scripts/gallery.js" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/slideshow.js" afterPath="$PROJECT_DIR$/src/scripts/slideshow.js" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,28 +26,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="gallery.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/scripts/gallery.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1819">
-              <caret line="109" column="64" lean-forward="false" selection-start-line="109" selection-start-column="64" selection-end-line="109" selection-end-column="64" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="slideshow.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/scripts/slideshow.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="695">
-              <caret line="233" column="64" lean-forward="false" selection-start-line="233" selection-start-column="64" selection-end-line="233" selection-end-column="64" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -47,11 +42,20 @@
       <find>width-l-12</find>
       <find>let</find>
       <find>decrementCurrentYear</find>
+      <find>galleryOverlayHide</find>
+      <find>hideOverlay</find>
+      <find>createSlideshow</find>
+      <find>nextSlide</find>
+      <find>textifyWeekDay</find>
     </findStrings>
     <replaceStrings>
       <replace>width-xl-12</replace>
       <replace>var</replace>
       <replace>decrementcurrentYear</replace>
+      <replace>overlayHide</replace>
+      <replace>hideImage</replace>
+      <replace>create</replace>
+      <replace>dateTime.textifyWeekDay</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -79,38 +83,38 @@
         <option value="$PROJECT_DIR$/src/docSite/includes/footer.php" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/styles/gallery.scss" />
-        <option value="$PROJECT_DIR$/src/docSite/scripts/slideshow.php" />
         <option value="$PROJECT_DIR$/src/styles/_spinners.scss" />
         <option value="$PROJECT_DIR$/src/styles/_images.scss" />
         <option value="$PROJECT_DIR$/src/styles/_position.scss" />
         <option value="$PROJECT_DIR$/src/docSite/styles/position.php" />
         <option value="$PROJECT_DIR$/src/docSite/styles/features/spinners.php" />
         <option value="$PROJECT_DIR$/src/styles/_gallery.scss" />
-        <option value="$PROJECT_DIR$/src/docSite/scripts/gallery.php" />
         <option value="$PROJECT_DIR$/src/styles/_slideshow.scss" />
         <option value="$PROJECT_DIR$/src/styles/_bgColours.scss" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/scripts/elementSelector.js" />
         <option value="$PROJECT_DIR$/src/scripts/headerScripts.js" />
         <option value="$PROJECT_DIR$/src/scripts/footer.js" />
-        <option value="$PROJECT_DIR$/src/scripts/slideshow.js" />
-        <option value="$PROJECT_DIR$/src/scripts/gallery.js" />
         <option value="$PROJECT_DIR$/src/scripts/lib.js" />
         <option value="$PROJECT_DIR$/src/styles/_layout.scss" />
-        <option value="$PROJECT_DIR$/src/docSite/styles/layout.php" />
         <option value="$PROJECT_DIR$/src/styles/_responsive.scss" />
         <option value="$PROJECT_DIR$/src/styles/lib.scss" />
         <option value="$PROJECT_DIR$/src/docSite/scripts/index.php" />
         <option value="$PROJECT_DIR$/src/styles/_dateTimePicker.scss" />
         <option value="$PROJECT_DIR$/src/docSite/includes/header.php" />
-        <option value="$PROJECT_DIR$/src/scripts/dateTimePicker.js" />
-        <option value="$PROJECT_DIR$/src/docSite/scripts/dateTimePicker.php" />
         <option value="$PROJECT_DIR$/src/scripts/consoleLogging.js" />
         <option value="$PROJECT_DIR$/src/docSite/scripts/consoleLog.php" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/src/docSite/config.php" />
         <option value="$PROJECT_DIR$/src/scripts/dateTime.js" />
         <option value="$PROJECT_DIR$/src/docSite/scripts/dateTime.php" />
+        <option value="$PROJECT_DIR$/src/scripts/gallery.js" />
+        <option value="$PROJECT_DIR$/src/docSite/scripts/gallery.php" />
+        <option value="$PROJECT_DIR$/src/docSite/scripts/dateTimePicker.php" />
+        <option value="$PROJECT_DIR$/src/docSite/scripts/slideshow.php" />
+        <option value="$PROJECT_DIR$/src/scripts/slideshow.js" />
+        <option value="$PROJECT_DIR$/src/scripts/dateTimePicker.js" />
+        <option value="$PROJECT_DIR$/src/docSite/styles/layout.php" />
       </list>
     </option>
   </component>
@@ -138,10 +142,10 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="745" />
+    <option name="width" value="1920" />
+    <option name="height" value="1152" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -162,6 +166,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -169,22 +174,10 @@
               <item name="Web-Framework" type="b2602c69:ProjectViewProjectNode" />
               <item name="Web-Framework" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
-            <path>
-              <item name="Web-Framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Web-Framework" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Web-Framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Web-Framework" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="scripts" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -295,21 +288,22 @@
       <workItem from="1517672732876" duration="9292000" />
       <workItem from="1517742015016" duration="631000" />
       <workItem from="1517783528166" duration="4096000" />
+      <workItem from="1517832282031" duration="7969000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="256925000" />
+    <option name="totallyTimeSpent" value="264894000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="0" y="23" width="1920" height="1152" extended-state="6" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13043478" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32923076" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1609808" sideWeight="0.5043478" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20042418" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32923076" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1609808" sideWeight="0.5043478" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2265625" sideWeight="0.49565217" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -346,13 +340,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../Websites/samsmith.me/src/styles/vendor/lib.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Websites/samsmith.me/src/styles/vendor/lib.min.css" />
     <entry file="file://$PROJECT_DIR$/src/docSite/styles/buttons.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -444,13 +432,6 @@
             <caret line="13" column="34" lean-forward="false" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/docSite/scripts/slideshow.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="182" column="7" lean-forward="false" selection-start-line="182" selection-start-column="7" selection-end-line="182" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -546,13 +527,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/docSite/styles/layout.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="449" column="10" lean-forward="false" selection-start-line="449" selection-start-column="10" selection-end-line="449" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/_responsive.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1862">
@@ -588,27 +562,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/docSite/scripts/dateTimePicker.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="136" column="33" lean-forward="false" selection-start-line="136" selection-start-column="33" selection-end-line="136" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/docSite/scripts/gallery.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="47" column="26" lean-forward="false" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/dateTimePicker.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7794">
-          <caret line="282" column="63" lean-forward="false" selection-start-line="282" selection-start-column="63" selection-end-line="282" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/docSite/scripts/consoleLog.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -634,7 +587,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="62" lean-forward="false" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -642,15 +594,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/docSite/scripts/dateTime.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="587">
-          <caret line="202" column="65" lean-forward="false" selection-start-line="202" selection-start-column="65" selection-end-line="202" selection-end-column="65" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -658,7 +601,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="23" column="64" lean-forward="false" selection-start-line="23" selection-start-column="64" selection-end-line="23" selection-end-column="64" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -666,7 +608,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
           <caret line="40" column="64" lean-forward="false" selection-start-line="40" selection-start-column="64" selection-end-line="40" selection-end-column="64" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -674,22 +615,178 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="20" column="64" lean-forward="false" selection-start-line="20" selection-start-column="64" selection-end-line="20" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/docSite/scripts/dateTime.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="674">
+          <caret line="202" column="65" lean-forward="false" selection-start-line="202" selection-start-column="65" selection-end-line="202" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/docSite/scripts/gallery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="129" column="27" lean-forward="false" selection-start-line="129" selection-start-column="27" selection-end-line="129" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scripts/gallery.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1819">
-          <caret line="109" column="64" lean-forward="false" selection-start-line="109" selection-start-column="64" selection-end-line="109" selection-end-column="64" />
+        <state relative-caret-position="1455">
+          <caret line="99" column="6" lean-forward="false" selection-start-line="99" selection-start-column="6" selection-end-line="99" selection-end-column="6" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/docSite/scripts/dateTimePicker.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="119" column="81" lean-forward="false" selection-start-line="119" selection-start-column="81" selection-end-line="119" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/docSite/scripts/slideshow.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="309" column="6" lean-forward="false" selection-start-line="309" selection-start-column="6" selection-end-line="309" selection-end-column="6" />
+          <folding>
+            <element signature="e#2688#2694#0#HTML" expanded="false" />
+            <element signature="e#2694#2700#0#HTML" expanded="false" />
+            <element signature="e#2755#2761#0#HTML" expanded="false" />
+            <element signature="e#2761#2767#0#HTML" expanded="false" />
+            <element signature="e#2808#2814#0#HTML" expanded="false" />
+            <element signature="e#2814#2820#0#HTML" expanded="false" />
+            <element signature="e#2860#2866#0#HTML" expanded="false" />
+            <element signature="e#2866#2872#0#HTML" expanded="false" />
+            <element signature="e#2911#2917#0#HTML" expanded="false" />
+            <element signature="e#2917#2923#0#HTML" expanded="false" />
+            <element signature="e#2923#2929#0#HTML" expanded="false" />
+            <element signature="e#2929#2935#0#HTML" expanded="false" />
+            <element signature="e#3017#3023#0#HTML" expanded="false" />
+            <element signature="e#3023#3029#0#HTML" expanded="false" />
+            <element signature="e#3029#3035#0#HTML" expanded="false" />
+            <element signature="e#3035#3041#0#HTML" expanded="false" />
+            <element signature="e#3123#3129#0#HTML" expanded="false" />
+            <element signature="e#3129#3135#0#HTML" expanded="false" />
+            <element signature="e#3135#3141#0#HTML" expanded="false" />
+            <element signature="e#3141#3147#0#HTML" expanded="false" />
+            <element signature="e#3229#3235#0#HTML" expanded="false" />
+            <element signature="e#3235#3241#0#HTML" expanded="false" />
+            <element signature="e#3241#3247#0#HTML" expanded="false" />
+            <element signature="e#3247#3253#0#HTML" expanded="false" />
+            <element signature="e#3334#3340#0#HTML" expanded="false" />
+            <element signature="e#3340#3346#0#HTML" expanded="false" />
+            <element signature="e#5201#5207#0#HTML" expanded="false" />
+            <element signature="e#5207#5213#0#HTML" expanded="false" />
+            <element signature="e#5268#5274#0#HTML" expanded="false" />
+            <element signature="e#5274#5280#0#HTML" expanded="false" />
+            <element signature="e#5321#5327#0#HTML" expanded="false" />
+            <element signature="e#5327#5333#0#HTML" expanded="false" />
+            <element signature="e#5373#5379#0#HTML" expanded="false" />
+            <element signature="e#5379#5385#0#HTML" expanded="false" />
+            <element signature="e#5424#5430#0#HTML" expanded="false" />
+            <element signature="e#5430#5436#0#HTML" expanded="false" />
+            <element signature="e#5436#5442#0#HTML" expanded="false" />
+            <element signature="e#5442#5448#0#HTML" expanded="false" />
+            <element signature="e#5530#5536#0#HTML" expanded="false" />
+            <element signature="e#5536#5542#0#HTML" expanded="false" />
+            <element signature="e#5542#5548#0#HTML" expanded="false" />
+            <element signature="e#5548#5554#0#HTML" expanded="false" />
+            <element signature="e#5636#5642#0#HTML" expanded="false" />
+            <element signature="e#5642#5648#0#HTML" expanded="false" />
+            <element signature="e#5648#5654#0#HTML" expanded="false" />
+            <element signature="e#5654#5660#0#HTML" expanded="false" />
+            <element signature="e#5742#5748#0#HTML" expanded="false" />
+            <element signature="e#5748#5754#0#HTML" expanded="false" />
+            <element signature="e#5754#5760#0#HTML" expanded="false" />
+            <element signature="e#5760#5766#0#HTML" expanded="false" />
+            <element signature="e#5847#5853#0#HTML" expanded="false" />
+            <element signature="e#5853#5859#0#HTML" expanded="false" />
+            <element signature="e#7799#7805#0#HTML" expanded="false" />
+            <element signature="e#7805#7811#0#HTML" expanded="false" />
+            <element signature="e#7866#7872#0#HTML" expanded="false" />
+            <element signature="e#7872#7878#0#HTML" expanded="false" />
+            <element signature="e#7919#7925#0#HTML" expanded="false" />
+            <element signature="e#7925#7931#0#HTML" expanded="false" />
+            <element signature="e#7971#7977#0#HTML" expanded="false" />
+            <element signature="e#7977#7983#0#HTML" expanded="false" />
+            <element signature="e#8027#8033#0#HTML" expanded="false" />
+            <element signature="e#8033#8039#0#HTML" expanded="false" />
+            <element signature="e#8078#8084#0#HTML" expanded="false" />
+            <element signature="e#8084#8090#0#HTML" expanded="false" />
+            <element signature="e#8090#8096#0#HTML" expanded="false" />
+            <element signature="e#8096#8102#0#HTML" expanded="false" />
+            <element signature="e#8184#8190#0#HTML" expanded="false" />
+            <element signature="e#8190#8196#0#HTML" expanded="false" />
+            <element signature="e#8196#8202#0#HTML" expanded="false" />
+            <element signature="e#8202#8208#0#HTML" expanded="false" />
+            <element signature="e#8290#8296#0#HTML" expanded="false" />
+            <element signature="e#8296#8302#0#HTML" expanded="false" />
+            <element signature="e#8302#8308#0#HTML" expanded="false" />
+            <element signature="e#8308#8314#0#HTML" expanded="false" />
+            <element signature="e#8396#8402#0#HTML" expanded="false" />
+            <element signature="e#8402#8408#0#HTML" expanded="false" />
+            <element signature="e#8408#8414#0#HTML" expanded="false" />
+            <element signature="e#8414#8420#0#HTML" expanded="false" />
+            <element signature="e#8501#8507#0#HTML" expanded="false" />
+            <element signature="e#8507#8513#0#HTML" expanded="false" />
+            <element signature="e#10434#10440#0#HTML" expanded="false" />
+            <element signature="e#10440#10446#0#HTML" expanded="false" />
+            <element signature="e#10501#10507#0#HTML" expanded="false" />
+            <element signature="e#10507#10513#0#HTML" expanded="false" />
+            <element signature="e#10554#10560#0#HTML" expanded="false" />
+            <element signature="e#10560#10566#0#HTML" expanded="false" />
+            <element signature="e#10606#10612#0#HTML" expanded="false" />
+            <element signature="e#10612#10618#0#HTML" expanded="false" />
+            <element signature="e#10660#10666#0#HTML" expanded="false" />
+            <element signature="e#10666#10672#0#HTML" expanded="false" />
+            <element signature="e#10711#10717#0#HTML" expanded="false" />
+            <element signature="e#10717#10723#0#HTML" expanded="false" />
+            <element signature="e#10723#10729#0#HTML" expanded="false" />
+            <element signature="e#10729#10735#0#HTML" expanded="false" />
+            <element signature="e#10817#10823#0#HTML" expanded="false" />
+            <element signature="e#10823#10829#0#HTML" expanded="false" />
+            <element signature="e#10829#10835#0#HTML" expanded="false" />
+            <element signature="e#10835#10841#0#HTML" expanded="false" />
+            <element signature="e#10923#10929#0#HTML" expanded="false" />
+            <element signature="e#10929#10935#0#HTML" expanded="false" />
+            <element signature="e#10935#10941#0#HTML" expanded="false" />
+            <element signature="e#10941#10947#0#HTML" expanded="false" />
+            <element signature="e#11029#11035#0#HTML" expanded="false" />
+            <element signature="e#11035#11041#0#HTML" expanded="false" />
+            <element signature="e#11041#11047#0#HTML" expanded="false" />
+            <element signature="e#11047#11053#0#HTML" expanded="false" />
+            <element signature="e#11134#11140#0#HTML" expanded="false" />
+            <element signature="e#11140#11146#0#HTML" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scripts/slideshow.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="695">
-          <caret line="233" column="64" lean-forward="false" selection-start-line="233" selection-start-column="64" selection-end-line="233" selection-end-column="64" />
+        <state relative-caret-position="263">
+          <caret line="58" column="37" lean-forward="false" selection-start-line="58" selection-start-column="37" selection-end-line="58" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/dateTimePicker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="445" column="65" lean-forward="true" selection-start-line="445" selection-start-column="65" selection-end-line="445" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/docSite/styles/layout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="99" lean-forward="false" selection-start-line="22" selection-start-column="99" selection-end-line="22" selection-end-column="99" />
           <folding />
         </state>
       </provider>

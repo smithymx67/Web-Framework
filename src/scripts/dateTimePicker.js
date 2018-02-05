@@ -378,17 +378,17 @@ var dateTimePicker = (function() {
     // Update the value of the input element based on the mode
     switch(pickerModeArray[pickerCurrentPickerID]) {
       case "datetime":
-        theInput.value = selectedYear + "-" + leadZero(selectedMonth + 1) + "-" + leadZero(selectedDate) + " " +
-          leadZero(selectedTimeHour) + ":" + leadZero(selectedTimeMin);
+        theInput.value = selectedYear + "-" + dateTime.leadZero(selectedMonth + 1) + "-" + dateTime.leadZero(selectedDate) + " " +
+          dateTime.leadZero(selectedTimeHour) + ":" + dateTime.leadZero(selectedTimeMin);
         break;
       case "date":
-        theInput.value = selectedYear + "-" + leadZero(selectedMonth + 1) + "-" + leadZero(selectedDate);
+        theInput.value = selectedYear + "-" + dateTime.leadZero(selectedMonth + 1) + "-" + dateTime.leadZero(selectedDate);
         break;
       case "month":
-        theInput.value = textifyMonth(selectedMonth) + " " + selectedYear;
+        theInput.value = dateTime.textifyMonth(selectedMonth) + " " + selectedYear;
         break;
       case "time":
-        theInput.value = leadZero(selectedTimeHour) + ":" + leadZero(selectedTimeMin);
+        theInput.value = dateTime.leadZero(selectedTimeHour) + ":" + dateTime.leadZero(selectedTimeMin);
         break;
     }
 
@@ -441,11 +441,11 @@ var dateTimePicker = (function() {
   /* Update the currently selected date / time */
   function updateCurrentDateTime() {
     var currentDateElem   = elem("#datetime-selector-current-date_" + pickerCurrentPickerID),
-        date              = suffixDate(selectedDate),
-        day               = textifyWeekDay(selectedDay),
-        month             = textifyMonth(selectedMonth),
-        hour              = leadZero(selectedTimeHour),
-        min               = leadZero(selectedTimeMin),
+        date              = dateTime.suffixDate(selectedDate),
+        day               = dateTime.textifyWeekDay(selectedDay),
+        month             = dateTime.textifyMonth(selectedMonth),
+        hour              = dateTime.leadZero(selectedTimeHour),
+        min               = dateTime.leadZero(selectedTimeMin),
         year              = selectedYear;
 
     switch(pickerModeArray[pickerCurrentPickerID]) {
@@ -481,8 +481,8 @@ var dateTimePicker = (function() {
 
   /** Update the time view **/
   function updateTimeSelector() {
-    getTimeHourElem().innerHTML = leadZero(selectedTimeHour);
-    getTimeMinElem().innerHTML  = leadZero(selectedTimeMin);
+    getTimeHourElem().innerHTML = dateTime.leadZero(selectedTimeHour);
+    getTimeMinElem().innerHTML  = dateTime.leadZero(selectedTimeMin);
     updateCurrentDateTime();
   }
   /** Time Selector - End **/
@@ -510,7 +510,7 @@ var dateTimePicker = (function() {
 
     // Set the calender header to show the current month and year
     dateModeHeader = elem("#date-mode-header_" + pickerCurrentPickerID);
-    dateModeHeader.innerHTML = textifyMonth(currentMonth) + " " + currentYear;
+    dateModeHeader.innerHTML = dateTime.textifyMonth(currentMonth) + " " + currentYear;
 
     // Work through the grid and set the date as required
     for (var i = 1; i <= 42; i++) {

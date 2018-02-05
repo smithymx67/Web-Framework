@@ -39,6 +39,7 @@
 
         <h3>HTML</h3>
         <div class="code-block">
+          <span>&lt;!-- The id can be anything, it is used to identify the picker --&gt;</span><br>
           <span>&lt;div id="dateTimePicker1"&gt;</span><br>
           <span>&nbsp;&nbsp;&lt;label for="datetime-picker"&gt;Datetime Picker&lt;/label&gt;</span><br>
           <span>&nbsp;&nbsp;&lt;input type="text" id="datetime-picker" name="datetime-picker"&gt;</span><br>
@@ -64,6 +65,7 @@
 
         <h3>HTML</h3>
         <div class="code-block">
+          <span>&lt;!-- The id can be anything, it is used to identify the picker --&gt;</span><br>
           <span>&lt;div id="dateTimePicker2"&gt;</span><br>
           <span>&nbsp;&nbsp;&lt;label for="date-picker"&gt;Date Picker&lt;/label&gt;</span><br>
           <span>&nbsp;&nbsp;&lt;input type="text" id="date-picker" name="date-picker"&gt;</span><br>
@@ -89,6 +91,7 @@
 
         <h3>HTML</h3>
         <div class="code-block">
+          <span>&lt;!-- The id can be anything, it is used to identify the picker --&gt;</span><br>
           <span>&lt;div id="dateTimePicker3"&gt;</span><br>
           <span>&nbsp;&nbsp;&lt;label for="month-picker"&gt;Month Picker&lt;/label&gt;</span><br>
           <span>&nbsp;&nbsp;&lt;input type="text" id="month-picker" name="month-picker"&gt;</span><br>
@@ -114,6 +117,7 @@
 
         <h3>HTML</h3>
         <div class="code-block">
+          <span>&lt;!-- The id can be anything, it is used to identify the picker --&gt;</span><br>
           <span>&lt;div id="dateTimePicker4"&gt;</span><br>
           <span>&nbsp;&nbsp;&lt;label for="time-picker"&gt;Time Picker&lt;/label&gt;</span><br>
           <span>&nbsp;&nbsp;&lt;input type="text" id="time-picker" name="time-picker"&gt;</span><br>
