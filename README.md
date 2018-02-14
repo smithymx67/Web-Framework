@@ -17,12 +17,12 @@ folder and create links to them. See the example below.
 
 ### Stylesheet Library lib.min.css
 
-`<link rel="stylesheet" href="lib.min.css">`
+`<link rel="stylesheet" href="bluePallet.min.css">`
 
 
 ### JavaScript Library lib.min.js
 
-`<script src="lib.min.js"></script>`
+`<script src="yellowPallet.min.css"></script>`
 
 ## Sourcemaps
 Sourcemaps for both the CSS and JavaScript libraries are available to download if needed for debugging.
