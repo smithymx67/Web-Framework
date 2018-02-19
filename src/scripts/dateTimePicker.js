@@ -138,6 +138,8 @@ var dateTimePicker = (function() {
     // Set an onclick attribute to the buttons
     dateTimeButtonsOk.setAttribute("onClick", "dateTimePicker.set()");
     dateTimeButtonsCancel.setAttribute("onClick", "dateTimePicker.close()");
+    dateTimeButtonsOk.setAttribute("type", "button");
+    dateTimeButtonsCancel.setAttribute("type", "button");
 
     // Append the buttons to the parent element and return the buttons module
     dateTimeButtons.appendChild(dateTimeButtonsOk);
