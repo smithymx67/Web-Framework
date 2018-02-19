@@ -640,7 +640,7 @@ var dateTimePicker = (function() {
   /** Decide on what calender to show **/
   function showHideCalsForMode() {
     switch(currentMode) {
-      case "dates":   showDatesCal(); hideMonthsCal(); renderDaysCal(); break;
+      case "dates":   showDatesCal(); hideMonthsCal(); hideYearsCal(); renderDaysCal(); break;
       case "months":  showMonthsCal(); hideDatesCal(); hideYearsCal(); renderMonthsCal(); break;
       case "years":   showYearsCal(); hideMonthsCal(); renderYearsCal(); break;
     }
