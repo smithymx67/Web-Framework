@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1d4fb9a3-6e6d-4bf3-9da5-c760eff87a32" name="Default" comment="" />
+    <list default="true" id="1d4fb9a3-6e6d-4bf3-9da5-c760eff87a32" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/build/bluePallet.min.css" afterPath="$PROJECT_DIR$/build/bluePallet.min.css" />
+      <change beforePath="$PROJECT_DIR$/build/docSite/config.php" afterPath="$PROJECT_DIR$/build/docSite/config.php" />
+      <change beforePath="$PROJECT_DIR$/build/yellowPallet.min.js" afterPath="$PROJECT_DIR$/build/yellowPallet.min.js" />
+      <change beforePath="$PROJECT_DIR$/build/yellowPallet.min.js.map" afterPath="$PROJECT_DIR$/build/yellowPallet.min.js.map" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
+      <change beforePath="$PROJECT_DIR$/src/docSite/config.php" afterPath="$PROJECT_DIR$/src/docSite/config.php" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/dateTimePicker.js" afterPath="$PROJECT_DIR$/src/scripts/dateTimePicker.js" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,6 +19,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf>
       <file leaf-file-name="gallery.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/docSite/scripts/gallery.php">
@@ -32,6 +42,9 @@
         </entry>
       </file>
     </leaf>
+=======
+    <leaf />
+>>>>>>> 0e9ca0a41491d0921791f503c85b690ef22d9989
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -52,6 +65,7 @@
       <find>createSlideshow</find>
       <find>nextSlide</find>
       <find>textifyWeekDay</find>
+      <find>button</find>
     </findStrings>
     <replaceStrings>
       <replace>width-xl-12</replace>
@@ -113,10 +127,11 @@
         <option value="$PROJECT_DIR$/src/docSite/scripts/dateTimePicker.php" />
         <option value="$PROJECT_DIR$/src/docSite/scripts/slideshow.php" />
         <option value="$PROJECT_DIR$/src/scripts/slideshow.js" />
-        <option value="$PROJECT_DIR$/src/scripts/dateTimePicker.js" />
         <option value="$PROJECT_DIR$/src/docSite/styles/layout.php" />
         <option value="$PROJECT_DIR$/src/styles/lib.scss" />
         <option value="$PROJECT_DIR$/src/docSite/index.php" />
+        <option value="$PROJECT_DIR$/src/scripts/dateTimePicker.js" />
+        <option value="$PROJECT_DIR$/src/docSite/config.php" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/src/docSite/scripts/gallery.php" />
         <option value="$PROJECT_DIR$/src/docSite/config.php" />
@@ -170,6 +185,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
+=======
+      <pane id="Scratches" />
+>>>>>>> 0e9ca0a41491d0921791f503c85b690ef22d9989
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -189,6 +208,7 @@
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="docSite" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+<<<<<<< HEAD
             <path>
               <item name="Web-Framework" type="b2602c69:ProjectViewProjectNode" />
               <item name="Web-Framework" type="2a2b976b:PhpTreeStructureProvider$1" />
@@ -196,11 +216,16 @@
               <item name="docSite" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="scripts" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+=======
+>>>>>>> 0e9ca0a41491d0921791f503c85b690ef22d9989
           </expand>
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
       <pane id="Scratches" />
+=======
+>>>>>>> 0e9ca0a41491d0921791f503c85b690ef22d9989
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -315,25 +340,44 @@
       <workItem from="1517852419338" duration="1154000" />
       <workItem from="1517866068991" duration="981000" />
       <workItem from="1517867310329" duration="706000" />
+<<<<<<< HEAD
       <workItem from="1518475506610" duration="14000" />
       <workItem from="1518735103499" duration="68000" />
       <workItem from="1519690235128" duration="107000" />
+=======
+      <workItem from="1517908100394" duration="175000" />
+      <workItem from="1519048571718" duration="491000" />
+      <workItem from="1519049202825" duration="17000" />
+      <workItem from="1519057422667" duration="304000" />
+>>>>>>> 0e9ca0a41491d0921791f503c85b690ef22d9989
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="267924000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
+=======
+    <option name="totallyTimeSpent" value="268722000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1920" height="1152" extended-state="6" />
+>>>>>>> 0e9ca0a41491d0921791f503c85b690ef22d9989
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13043478" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32923076" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1609808" sideWeight="0.5043478" order="2" side_tool="true" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2195122" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32923076" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21944444" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
+>>>>>>> 0e9ca0a41491d0921791f503c85b690ef22d9989
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1609808" sideWeight="0.5043478" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22447917" sideWeight="0.49565217" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -654,13 +698,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/dateTimePicker.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="445" column="65" lean-forward="true" selection-start-line="445" selection-start-column="65" selection-end-line="445" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/docSite/styles/layout.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -677,14 +714,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/php/purplePallet.php" />
     <entry file="file://$PROJECT_DIR$/src/docSite/index.php">
+<<<<<<< HEAD
+=======
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-391">
           <caret line="28" column="106" lean-forward="true" selection-start-line="28" selection-start-column="106" selection-end-line="28" selection-end-column="106" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/docSite/config.php">
+>>>>>>> 0e9ca0a41491d0921791f503c85b690ef22d9989
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="36" lean-forward="false" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/dateTimePicker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="643" column="90" lean-forward="true" selection-start-line="643" selection-start-column="90" selection-end-line="643" selection-end-column="90" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="374">
           <caret line="34" column="34" lean-forward="false" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
         </state>
@@ -702,6 +759,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="55" lean-forward="false" selection-start-line="4" selection-start-column="55" selection-end-line="4" selection-end-column="55" />
+=======
+        <state relative-caret-position="165">
+          <caret line="11" column="21" lean-forward="false" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+>>>>>>> 0e9ca0a41491d0921791f503c85b690ef22d9989
           <folding />
         </state>
       </provider>
