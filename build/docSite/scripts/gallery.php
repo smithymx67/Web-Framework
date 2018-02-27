@@ -95,14 +95,23 @@
 
         <h3>JavaScript</h3>
         <div class="code-block">
-          <span>var galleryImages = [</span><br>
-          <span>&nbsp;&nbsp;"https://smithymx67.co.uk/Framework/docSite/images/flowers_2.jpg",</span><br>
-          <span>&nbsp;&nbsp;"https://smithymx67.co.uk/Framework/docSite/images/flowers_3.jpg",</span><br>
-          <span>&nbsp;&nbsp;"https://smithymx67.co.uk/Framework/docSite/images/flowers_6.jpg",</span><br>
-          <span>&nbsp;&nbsp;"https://smithymx67.co.uk/Framework/docSite/images/flowers_7.jpg"</span><br>
-          <span>];</span><br>
+          <span>var args = {</span><br>
+          <span>&nbsp;&nbsp;// Optional</span><br>
+          <span>&nbsp;&nbsp;imgContainerClasses: "col-3 col-m-6",</span><br>
+          <span>&nbsp;&nbsp;imgClasses: "bordered-img",</span><br>
+          <span>&nbsp;&nbsp;spinner: "spinner-1",</span><br>
           <br>
-          <span>gallery.create(galleryImages, "#gallery-1", "col-3 col-m-6", "bordered-img");</span>
+          <span>&nbsp;&nbsp;// Required</span><br>
+          <span>&nbsp;&nbsp;galleryID: "#gallery-1",</span><br>
+          <span>&nbsp;&nbsp;images: [</span><br>
+          <span>&nbsp;&nbsp;&nbsp;&nbsp;"https://smithymx67.co.uk/Framework/docSite/images/flowers_2.jpg",</span><br>
+          <span>&nbsp;&nbsp;&nbsp;&nbsp;"https://smithymx67.co.uk/Framework/docSite/images/flowers_3.jpg",</span><br>
+          <span>&nbsp;&nbsp;&nbsp;&nbsp;"https://smithymx67.co.uk/Framework/docSite/images/flowers_6.jpg",</span><br>
+          <span>&nbsp;&nbsp;&nbsp;&nbsp;"https://smithymx67.co.uk/Framework/docSite/images/flowers_7.jpg"</span><br>
+          <span>&nbsp;&nbsp;]</span><br>
+          <span>};</span><br>
+          <br>
+          <span>gallery.create(args);</span>
         </div>
       </div>
 
