@@ -11,7 +11,7 @@ var dateTime = (function () {
   function textifyMonth(month) {
     var months = [
       "January",
-      "Febuary",
+      "February",
       "March",
       "April",
       "May",
