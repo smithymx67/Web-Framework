@@ -126,24 +126,30 @@ var dateTimePicker = (function() {
     // Create the button elements
     var dateTimeButtons           = document.createElement("div"),
         dateTimeButtonsOk         = document.createElement("button"),
-        dateTimeButtonsCancel     = document.createElement("button");
+        dateTimeButtonsCancel     = document.createElement("button"),
+        dateTimeButtonsClear      = document.createElement("button");
 
     // Assign classes and content to the buttons
     dateTimeButtons.className         = "col-12 center-align";
-    dateTimeButtonsOk.className       = "btn width-2 width-xl-3 width-m-4";
-    dateTimeButtonsCancel.className   = "btn width-2 width-xl-3 width-m-4";
+    dateTimeButtonsOk.className       = "btn width-2 width-xl-3";
+    dateTimeButtonsCancel.className   = "btn width-2 width-xl-3";
+    dateTimeButtonsClear.className    = "btn width-2 width-xl-3";
     dateTimeButtonsOk.innerHTML       = "Ok";
     dateTimeButtonsCancel.innerHTML   = "Cancel";
+    dateTimeButtonsClear.innerHTML    = "Clear";
 
     // Set an onclick attribute to the buttons
     dateTimeButtonsOk.setAttribute("onClick", "dateTimePicker.set()");
     dateTimeButtonsCancel.setAttribute("onClick", "dateTimePicker.close()");
+    dateTimeButtonsClear.setAttribute("onClick", "dateTimePicker.clear()");
     dateTimeButtonsOk.setAttribute("type", "button");
     dateTimeButtonsCancel.setAttribute("type", "button");
+    dateTimeButtonsClear.setAttribute("type", "button");
 
     // Append the buttons to the parent element and return the buttons module
     dateTimeButtons.appendChild(dateTimeButtonsOk);
     dateTimeButtons.appendChild(dateTimeButtonsCancel);
+    dateTimeButtons.appendChild(dateTimeButtonsClear);
     return dateTimeButtons;
   }
 
@@ -369,6 +375,16 @@ var dateTimePicker = (function() {
     var thePicker = elem(pickerCurrentPicker);
     thePicker.classList.add("datetime-popup-hidden");
     thePicker.classList.remove("datetime-popup-visible");
+  }
+
+  /* Clear the current set date time */
+  function clear() {
+    // Get the input element
+    var dateInputElem   = elem(pickerRootParentArray[pickerCurrentPickerID]),
+        theInput        = dateInputElem.getElementsByTagName("input")[0];
+
+    theInput.value = "";
+    close();
   }
 
   /* Set the input value to the select date / time then close the picker */
@@ -759,6 +775,7 @@ var dateTimePicker = (function() {
     show:               function (id, value) {return show(id, value)},
     close:              function () {return close()},
     set:                function () {return set()},
+    clear:              function () {return clear()},
 
     incrementTime:      function (hourMin) {return incrementTime(hourMin)},
     decrementTime:      function (hourMin) {return decrementTime(hourMin)},
