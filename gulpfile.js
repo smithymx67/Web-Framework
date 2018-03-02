@@ -9,7 +9,7 @@ var babel       = require('gulp-babel');
 var header      = require('gulp-header-comment');
 var concat      = require('gulp-concat');
 
-var version = 'v1.2.4';
+var version = 'v1.2.5';
 
 // Create sourcemaps and minify the scss
 gulp.task('styles', function() {

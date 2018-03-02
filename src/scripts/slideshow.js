@@ -15,9 +15,14 @@ var slideshow = (function () {
     var imageArray = args['imageArray'];
 
     // Setup args
-    var interval 	= (args['interval']) 	? args['interval'] 	: 1500;
-    var style 		= (args['style']) 		? args['style'] 		: "";
-    var control		= (args['control'])		? args['control']		: "";
+    var interval 	    = (args['interval']) 	    ? args['interval'] 	    : 1500;
+    var style 		    = (args['style']) 		    ? args['style'] 		    : "";
+    var control		    = (args['control'])		    ? args['control']		    : "";
+    var pauseOnHover  = true;
+
+    if(args['pauseOnHover'] === false) {
+      pauseOnHover = false;
+    }
 
     // Store slideshow in array
     var slideshowObj = {};
@@ -31,6 +36,7 @@ var slideshow = (function () {
     slideshowObj.counter = 0;
     slideshowObj.loop = null;
     slideshowObj.hovered = false;
+    slideshowObj.pauseOnHover = pauseOnHover;
     slideshowArray[slideshowElement.id] = slideshowObj;
 
     // Add slides to slideshow
@@ -49,15 +55,17 @@ var slideshow = (function () {
       slideshowElement.appendChild(setupDotNav(slideshowElement.id));
     }
 
-    slideshowElement.onmouseover = function () {
-      slideshowObj.hovered = true;
-      clearTimeout(slideshowObj.loop);
-    };
+    if(pauseOnHover) {
+      slideshowElement.onmouseover = function () {
+        slideshowObj.hovered = true;
+        clearTimeout(slideshowObj.loop);
+      };
 
-    slideshowElement.onmouseout = function () {
-      slideshowObj.hovered = false;
-      slideshowObj.loop = setTimeout(nextSlide, slideshowObj.interval, slideshowObj.id, false);
-    };
+      slideshowElement.onmouseout = function () {
+        slideshowObj.hovered = false;
+        slideshowObj.loop = setTimeout(nextSlide, slideshowObj.interval, slideshowObj.id, false);
+      };
+    }
 
     // Run the slideshow
     nextSlide(slideshowObj.id, false);
@@ -193,7 +201,13 @@ var slideshow = (function () {
    */
   function gotoSlide(slideshowID, slideNumber) {
     var slideshowObj = slideshowArray[slideshowID];
-    clearTimeout(slideshowObj.loop);
+
+    if(slideshowObj.pauseOnHover) {
+      clearTimeout(slideshowObj.loop);
+    } else {
+      clearTimeout(slideshowObj.loop);
+      slideshowObj.loop = setTimeout(nextSlide, slideshowObj.interval, slideshowObj.id, false);
+    }
 
     // Fetch slide numbers
     var currentSlide = slideshowObj.currentSlide;
