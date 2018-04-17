@@ -6,7 +6,7 @@
 
 Welcome to the web framework documentation site, here you can find information about features that the framework provides.
 
-This framework consists of two files, `lib.min.css` and `lib.min.js`, although you can choose to only use one of the files, 
+This framework consists of two files, `bluePallet-vX.X.X.min.css` and `yellowPallet-vX.X.X.min.js`, although you can choose to only use one of the files, 
 some features in this framework require both files to work correctly. Features that require both files are clearly identified 
 in the [documentation pages](https://samsmith.me/projects/webFramework/docSite/).
 
@@ -17,12 +17,12 @@ folder and create links to them. See the example below.
 
 ### Stylesheet Library lib.min.css
 
-`<link rel="stylesheet" href="bluePallet.min.css">`
+`<link rel="stylesheet" href="bluePallet-vX.X.X.min.css">`
 
 
 ### JavaScript Library lib.min.js
 
-`<script src="yellowPallet.min.css"></script>`
+`<script src="yellowPallet-vX.X.X.min.css"></script>`
 
 ## Sourcemaps
 Sourcemaps for both the CSS and JavaScript libraries are available to download if needed for debugging.
