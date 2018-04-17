@@ -9,7 +9,7 @@ var babel       = require('gulp-babel');
 var header      = require('gulp-header-comment');
 var concat      = require('gulp-concat');
 
-var version = 'v1.2.6';
+var version = 'v1.2.7';
 
 // Create sourcemaps and minify the scss
 gulp.task('styles', function() {
@@ -17,7 +17,7 @@ gulp.task('styles', function() {
     .pipe(sourcemaps.init())
     .pipe(sass())
     .pipe(cleanCSS())
-    .pipe(rename({suffix : '.min'}))
+    .pipe(rename({suffix : '-' + version + '.min'}))
     .pipe(header('Pallet [Blue] - CSS framework file ' + version + ' - Sam Smith (smithymx67) - License  MIT (https://github.com/smithymx67/Web-Framework/blob/master/LICENSE.txt)'))
     .pipe(sourcemaps.write('.'))
     .pipe(gulp.dest('build'));
@@ -50,7 +50,7 @@ gulp.task('scripts', function() {
 			presets: ['env']
 		}))
     .pipe(uglify())
-    .pipe(concat('yellowPallet.min.js', {newLine: '\r\n'}))
+    .pipe(concat('yellowPallet-' + version + '.min.js', {newLine: '\r\n'}))
     .pipe(header('Pallet [Yellow] - JS framework file ' + version + ' - Sam Smith (smithymx67) - License  MIT (https://github.com/smithymx67/Web-Framework/blob/master/LICENSE.txt)'))
     .pipe(sourcemaps.write('.'))
     .pipe(gulp.dest('build'));

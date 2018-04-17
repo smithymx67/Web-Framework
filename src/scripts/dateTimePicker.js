@@ -435,7 +435,7 @@ var dateTimePicker = (function() {
     // If the input has a date value set use that as default otherwise use the date / time
     if(pickerCurrentValue !== "") {
       if(pickerModeArray[pickerCurrentPickerID] === "time") {
-        initialDate = new Date("2000-01-01 " + pickerCurrentValue);
+        initialDate = new Date("2000/01/01 " + pickerCurrentValue);
       } else {
         initialDate = new Date(pickerCurrentValue);
       }
@@ -458,6 +458,9 @@ var dateTimePicker = (function() {
 
   /* Update the currently selected date / time */
   function updateCurrentDateTime() {
+    if(selectedDay > 6) selectedDay = 0;
+    if(selectedDay < 0) selectedDay = 6;
+
     var currentDateElem   = elem("#datetime-selector-current-date_" + pickerCurrentPickerID),
         date              = dateTime.suffixDate(selectedDate),
         day               = dateTime.textifyWeekDay(selectedDay),
@@ -729,7 +732,7 @@ var dateTimePicker = (function() {
 
   /** Update the user selected date **/
   function selectCalDate(theDay, theDate) {
-    selectedDay     = theDay;
+    selectedDay     = theDay + 1;
     selectedDate    = theDate;
     selectedMonth   = currentMonth;
     selectedYear    = currentYear;
