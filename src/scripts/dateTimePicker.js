@@ -396,11 +396,11 @@ var dateTimePicker = (function() {
     // Update the value of the input element based on the mode
     switch(pickerModeArray[pickerCurrentPickerID]) {
       case "datetime":
-        theInput.value = selectedYear + "-" + dateTime.leadZero(selectedMonth + 1) + "-" + dateTime.leadZero(selectedDate) + " " +
+        theInput.value = selectedYear + "/" + dateTime.leadZero(selectedMonth + 1) + "/" + dateTime.leadZero(selectedDate) + " " +
           dateTime.leadZero(selectedTimeHour) + ":" + dateTime.leadZero(selectedTimeMin);
         break;
       case "date":
-        theInput.value = selectedYear + "-" + dateTime.leadZero(selectedMonth + 1) + "-" + dateTime.leadZero(selectedDate);
+        theInput.value = selectedYear + "/" + dateTime.leadZero(selectedMonth + 1) + "/" + dateTime.leadZero(selectedDate);
         break;
       case "month":
         theInput.value = dateTime.textifyMonth(selectedMonth) + " " + selectedYear;
