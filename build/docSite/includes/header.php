@@ -1,12 +1,14 @@
-<!-- Global Site Tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-104789002-4"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments)};
-  gtag('js', new Date());
+<?php if(GA_ENABLED): ?>
+  <!-- Global Site Tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-104789002-4"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments)};
+    gtag('js', new Date());
 
-  gtag('config', 'UA-104789002-4');
-</script>
+    gtag('config', 'UA-104789002-4', {'anonymize_ip': true, 'allow_display_features': false});
+  </script>
+<?php endif; ?>
 
 <meta charset="utf-8">
 <meta id="view" name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
