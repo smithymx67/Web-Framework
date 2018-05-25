@@ -6,7 +6,11 @@
 
 Welcome to the web framework documentation site, here you can find information about features that the framework provides.
 
-This framework consists of two files, `bluePallet-vX.X.X.min.css` and `yellowPallet-vX.X.X.min.js`, although you can choose to only use one of the files, 
+BluePallet - CSS Framework
+YellowPallet - JavaScript Framework
+PurplePallet - PHP Framework (Coming Soon)
+
+This framework currently consists of two files, `bluePallet-vX.X.X.min.css` and `yellowPallet-vX.X.X.min.js`, although you can choose to only use the ones you need, 
 some features in this framework require both files to work correctly. Features that require both files are clearly identified 
 in the [documentation pages](https://samsmith.me/projects/webFramework/docSite/).
 
