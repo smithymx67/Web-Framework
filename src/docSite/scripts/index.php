@@ -34,6 +34,7 @@
           <li><a href="<?php echo ROOT_DOCSITE_URL . "/scripts/slideshow"; ?>" title="Slideshow">Slideshow</a></li>
           <li><a href="<?php echo ROOT_DOCSITE_URL . "/scripts/gallery"; ?>" title="Gallery">Gallery</a></li>
           <li><a href="<?php echo ROOT_DOCSITE_URL . "/scripts/dateTimePicker"; ?>" title="Date Time Picker">Date Time Picker</a></li>
+          <li><a href="<?php echo ROOT_DOCSITE_URL . "/scripts/analogueClocks"; ?>" title="Analouge Clocks">Analouge Clocks</a></li>
         </ul>
       </div>
     </div>
