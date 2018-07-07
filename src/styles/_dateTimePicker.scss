@@ -10,23 +10,30 @@
   transition: opacity .3s ease-in-out;
   transform: scale(0);
   overflow: auto;
-}
 
-.datetime-selector {
-  border-radius: 10px;
-  user-select: none;
-  max-width: 1000px;
-  z-index: 1;
-  background: gray;
-  position: absolute;
-  margin-bottom: 40px;
-  top: 40px;
-  left: 50%;
-  transform: translate(-50%);
-}
+  .datetime-selector {
+    border-radius: 10px;
+    user-select: none;
+    max-width: 1000px;
+    z-index: 1;
+    background: gray;
+    position: absolute;
+    margin-bottom: 40px;
+    top: 40px;
+    left: 50%;
+    transform: translate(-50%);
 
-.datetime-selector button {
-  margin: 0 10px;
+    .datetime-selector-content {
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+
+    button {
+      margin: 0 10px;
+    }
+  }
 }
 
 .datetime-popup-hidden {
@@ -55,12 +62,12 @@
 .datetime-selector-preview {font-size: 22px;}
 
 .date-mode-header {font-weight: bold; font-size: 18px; cursor: pointer;}
-.date-mode-increment {cursor: pointer; font-size: 18px;}
-.date-mode-decrement {cursor: pointer; font-size: 18px;}
+.date-mode-increment {cursor: pointer; font-size: 18px; display: block;}
+.date-mode-decrement {cursor: pointer; font-size: 18px; display: block;}
 
 .time-container {position: relative;}
-.time-increment {position: absolute; left: 50%; transform: translate(-50%) rotate(90deg); top: -40px; font-size: 35px; cursor: pointer;}
-.time-decrement {position: absolute; left: 50%; transform: translate(-50%) rotate(270deg); bottom: -40px; font-size: 35px; cursor: pointer;}
+.time-increment {position: absolute; left: 50%; transform: translate(-50%) rotate(90deg); top: -40px; font-size: 35px; cursor: pointer; margin-left: 4px;}
+.time-decrement {position: absolute; left: 50%; transform: translate(-50%) rotate(270deg); bottom: -40px; font-size: 35px; cursor: pointer; margin-left: -2px;}
 .time-hour {font-size: 50px;}
 .time-min {font-size: 50px;}
 .time-separator {font-size: 50px;}
