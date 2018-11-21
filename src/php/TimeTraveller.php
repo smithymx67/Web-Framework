@@ -56,6 +56,58 @@ class TimeTraveller extends DateTime {
   public function diffInMilliseconds($date = null, $absolute = true) {
     return ($this->diffInMicroseconds($date, $absolute) / 1000);
   }
+
+  public function getShortYear() {
+    return (int) $this->format('y');
+  }
+
+  public function getLongYear() {
+    return (int) $this->format('Y');
+  }
+
+  public function isLeapYear() {
+    return (bool) ($this->format('L')) ? true : false;
+  }
+
+  public function getMonthNumber() {
+    return (int) $this->format('n');
+  }
+
+  public function getMonthShortName() {
+    return (string) $this->format('M');
+  }
+
+  public function getMonthLongName() {
+    return (string) $this->format('F');
+  }
+
+  public function getDaysInMonth() {
+    return (int) $this->format('t');
+  }
+
+  public function getDayOfMonth() {
+    return (int) $this->format('j');
+  }
+
+  public function getDayOfWeek() {
+    return (int) $this->format('w');
+  }
+
+  public function getWeekShotText() {
+    return (string) $this->format('D');
+  }
+
+  public function getWeekLongText() {
+    return (string) $this->format('l');
+  }
+
+  public function getDateSuffix() {
+    return (string) $this->format('S');
+  }
+
+  public function getDayOfYear() {
+    return (int) $this->format('z');
+  }
 }
 
 echo "Default Example<br>";
@@ -98,4 +150,31 @@ echo "<br>";
 var_dump($d1->diffInMicroseconds($d2));
 echo "<br>";
 var_dump($d1->diffInMilliseconds($d2));
+
 echo "<br>";
+echo "<br>Get Examples</br>";
+var_dump(TimeTraveller::now()->getShortYear());
+echo "<br>";
+var_dump(TimeTraveller::now()->getLongYear());
+echo "<br>";
+var_dump(TimeTraveller::now()->isLeapYear());
+echo "<br>";
+var_dump(TimeTraveller::now()->getMonthNumber());
+echo "<br>";
+var_dump(TimeTraveller::now()->getMonthShortName());
+echo "<br>";
+var_dump(TimeTraveller::now()->getMonthLongName());
+echo "<br>";
+var_dump(TimeTraveller::now()->getDaysInMonth());
+echo "<br>";
+var_dump(TimeTraveller::now()->getDayOfMonth());
+echo "<br>";
+var_dump(TimeTraveller::now()->getDayOfWeek());
+echo "<br>";
+var_dump(TimeTraveller::now()->getWeekShotText());
+echo "<br>";
+var_dump(TimeTraveller::now()->getWeekLongText());
+echo "<br>";
+var_dump(TimeTraveller::now()->getDateSuffix());
+echo "<br>";
+var_dump(TimeTraveller::now()->getDayOfYear());
