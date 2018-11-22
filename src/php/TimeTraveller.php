@@ -108,6 +108,82 @@ class TimeTraveller extends DateTime {
   public function getDayOfYear() {
     return (int) $this->format('z');
   }
+
+  public function getTimeAmPm($uppercase = false) {
+    return (string) ($uppercase) ? $this->format('A') : $this->format('a');
+  }
+
+  public function getTime12Hour($leadZeros = false) {
+    if($leadZeros) {
+      return (string) $this->format('h');
+    } else {
+      return (int) $this->format('g');
+    }
+  }
+
+  public function getTime24Hour($leadZeros = false) {
+    if($leadZeros) {
+      return (string) $this->format('H');
+    } else {
+      return (int) $this->format('G');
+    }
+  }
+
+  public function getTimeMinute($leadZeros = false) {
+    if($leadZeros) {
+      return (string) $this->format('i');
+    } else {
+      return (int) $this->format('i');
+    }
+  }
+
+  public function getTimeSecond($leadZeros = false) {
+    if($leadZeros) {
+      return (string) $this->format('s');
+    } else {
+      return (int) $this->format('s');
+    }
+  }
+
+  public function getTimeMillisecond() {
+    return (int) $this->format('v');
+  }
+
+  public function getTimeMicrosecond() {
+    return (int) $this->format('u');
+  }
+
+  public function getTimezone() {
+    return (string) $this->format('e');
+  }
+
+  public function isDaylightSaving() {
+    return (bool) $this->format('I');
+  }
+
+  public function getGmtDifference($withColon = false) {
+    return (string) ($withColon) ? $this->format('P') : $this->format('O');
+  }
+
+  public function getTimezoneAbbreviation() {
+    return (string) $this->format('T');
+  }
+
+  public function getUtcOffsetInSeconds() {
+    return (int) $this->format('Z');
+  }
+
+  public function getIso8601Date() {
+    return (string) $this->format('c');
+  }
+
+  public function getRfc2822Date() {
+    return (string) $this->format('r');
+  }
+
+  public function getSecondsSinceEpoch() {
+    return (string) $this->format('U');
+  }
 }
 
 echo "Default Example<br>";
@@ -152,7 +228,7 @@ echo "<br>";
 var_dump($d1->diffInMilliseconds($d2));
 
 echo "<br>";
-echo "<br>Get Examples</br>";
+echo "<br>Get Date Examples</br>";
 var_dump(TimeTraveller::now()->getShortYear());
 echo "<br>";
 var_dump(TimeTraveller::now()->getLongYear());
@@ -178,3 +254,52 @@ echo "<br>";
 var_dump(TimeTraveller::now()->getDateSuffix());
 echo "<br>";
 var_dump(TimeTraveller::now()->getDayOfYear());
+
+echo "<br>";
+echo "<br>Get Time Examples</br>";
+var_dump(TimeTraveller::now()->getTimeAmPm());
+echo "<br>";
+var_dump(TimeTraveller::now()->getTimeAmPm(true));
+echo "<br>";
+var_dump(TimeTraveller::now()->getTime12Hour());
+echo "<br>";
+var_dump(TimeTraveller::now()->getTime24Hour());
+echo "<br>";
+var_dump(TimeTraveller::now()->getTime12Hour(true));
+echo "<br>";
+var_dump(TimeTraveller::now()->getTime24Hour(true));
+echo "<br>";
+var_dump(TimeTraveller::now()->getTimeMinute());
+echo "<br>";
+var_dump(TimeTraveller::now()->getTimeSecond());
+echo "<br>";
+var_dump(TimeTraveller::now()->getTimeMinute(true));
+echo "<br>";
+var_dump(TimeTraveller::now()->getTimeSecond(true));
+echo "<br>";
+var_dump(TimeTraveller::now()->getTimeMillisecond());
+echo "<br>";
+var_dump(TimeTraveller::now()->getTimeMicrosecond());
+
+echo "<br>";
+echo "<br>Get Timezone Examples</br>";
+var_dump(TimeTraveller::now()->getTimezone());
+echo "<br>";
+var_dump(TimeTraveller::now()->isDaylightSaving());
+echo "<br>";
+var_dump(TimeTraveller::now()->getGmtDifference());
+echo "<br>";
+var_dump(TimeTraveller::now()->getGmtDifference(true));
+echo "<br>";
+var_dump(TimeTraveller::now()->getTimezoneAbbreviation());
+echo "<br>";
+var_dump(TimeTraveller::now()->getUtcOffsetInSeconds());
+echo "<br>";
+
+echo "<br>";
+echo "<br>Get Full Date Examples</br>";
+var_dump(TimeTraveller::now()->getIso8601Date());
+echo "<br>";
+var_dump(TimeTraveller::now()->getRfc2822Date());
+echo "<br>";
+var_dump(TimeTraveller::now()->getSecondsSinceEpoch());
