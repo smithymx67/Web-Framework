@@ -184,6 +184,24 @@ class TimeTraveller extends DateTime {
   public function getSecondsSinceEpoch() {
     return (string) $this->format('U');
   }
+
+  private function addDateTime($amountToAdd = '') {
+    $di = new DateInterval($amountToAdd);
+    var_dump($di);
+    return parent::add($di);
+  }
+
+  public function addYears($yearsToAdd = 0) {
+    return $this->add('P'.$yearsToAdd.'Y');
+  }
+
+  public function addMonths() {}
+  public function addDays() {}
+  public function addHours() {}
+  public function addMinutes() {}
+  public function addSeconds() {}
+  public function addMilliseconds() {}
+  public function addMicroseconds() {}
 }
 
 echo "Default Example<br>";
@@ -303,3 +321,22 @@ echo "<br>";
 var_dump(TimeTraveller::now()->getRfc2822Date());
 echo "<br>";
 var_dump(TimeTraveller::now()->getSecondsSinceEpoch());
+
+echo "<br>";
+echo "<br>Add Date Time Examples</br>";
+var_dump(TimeTraveller::now()->addYears(1));
+echo "<br>";
+var_dump(TimeTraveller::now()->addMonths());
+echo "<br>";
+var_dump(TimeTraveller::now()->addDays());
+echo "<br>";
+var_dump(TimeTraveller::now()->addHours());
+echo "<br>";
+var_dump(TimeTraveller::now()->addMinutes());
+echo "<br>";
+var_dump(TimeTraveller::now()->addSeconds());
+echo "<br>";
+var_dump(TimeTraveller::now()->addMilliseconds());
+echo "<br>";
+var_dump(TimeTraveller::now()->addMicroseconds());
+echo "<br>";
