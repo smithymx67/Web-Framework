@@ -186,22 +186,36 @@ class TimeTraveller extends DateTime {
   }
 
   private function addDateTime($amountToAdd = '') {
-    $di = new DateInterval($amountToAdd);
-    var_dump($di);
-    return parent::add($di);
+    return parent::add(new DateInterval($amountToAdd));
   }
 
   public function addYears($yearsToAdd = 0) {
-    return $this->add('P'.$yearsToAdd.'Y');
+    return $this->addDateTime('P'.$yearsToAdd.'Y');
   }
 
-  public function addMonths() {}
-  public function addDays() {}
-  public function addHours() {}
-  public function addMinutes() {}
-  public function addSeconds() {}
-  public function addMilliseconds() {}
-  public function addMicroseconds() {}
+  public function addMonths($monthsToAdd = 0) {
+    return $this->addDateTime('P'.$monthsToAdd.'M');
+  }
+
+  public function addDays($daysToAdd = 0) {
+    return $this->addDateTime('P'.$daysToAdd.'D');
+  }
+
+  public function addHours($hoursToAdd = 0) {
+    return $this->addDateTime('PT'.$hoursToAdd.'H');
+  }
+
+  public function addMinutes($minutesToAdd = 0) {
+    return $this->addDateTime('PT'.$minutesToAdd.'M');
+  }
+
+  public function addSeconds($secondsToAdd = 0) {
+    return $this->addDateTime('PT'.$secondsToAdd.'S');
+  }
+
+  public function addWeeks($weeksToAdd = 0) {
+    return $this->addDateTime('P'.$weeksToAdd.'W');
+  }
 }
 
 echo "Default Example<br>";
@@ -326,17 +340,14 @@ echo "<br>";
 echo "<br>Add Date Time Examples</br>";
 var_dump(TimeTraveller::now()->addYears(1));
 echo "<br>";
-var_dump(TimeTraveller::now()->addMonths());
+var_dump(TimeTraveller::now()->addMonths(46));
 echo "<br>";
-var_dump(TimeTraveller::now()->addDays());
+var_dump(TimeTraveller::now()->addDays(562));
 echo "<br>";
-var_dump(TimeTraveller::now()->addHours());
+var_dump(TimeTraveller::now()->addHours(4));
 echo "<br>";
-var_dump(TimeTraveller::now()->addMinutes());
+var_dump(TimeTraveller::now()->addMinutes(186));
 echo "<br>";
-var_dump(TimeTraveller::now()->addSeconds());
+var_dump(TimeTraveller::now()->addSeconds(3000));
 echo "<br>";
-var_dump(TimeTraveller::now()->addMilliseconds());
-echo "<br>";
-var_dump(TimeTraveller::now()->addMicroseconds());
-echo "<br>";
+var_dump(TimeTraveller::now()->addWeeks(4));
