@@ -216,6 +216,77 @@ class TimeTraveller extends DateTime {
   public function addWeeks($weeksToAdd = 0) {
     return $this->addDateTime('P'.$weeksToAdd.'W');
   }
+
+  private function subDateTime($amountToSub = '') {
+    return parent::sub(new DateInterval($amountToSub));
+  }
+
+  public function subYears($yearsToSub = 0) {
+    return $this->subDateTime('P'.$yearsToSub.'Y');
+  }
+
+  public function subMonths($monthsToSub = 0) {
+    return $this->subDateTime('P'.$monthsToSub.'M');
+  }
+
+  public function subDays($daysToSub = 0) {
+    return $this->subDateTime('P'.$daysToSub.'D');
+  }
+
+  public function subHours($hoursToSub = 0) {
+    return $this->subDateTime('PT'.$hoursToSub.'H');
+  }
+
+  public function subMinutes($minutesToSub = 0) {
+    return $this->subDateTime('PT'.$minutesToSub.'M');
+  }
+
+  public function subSeconds($secondsToSub = 0) {
+    return $this->subDateTime('PT'.$secondsToSub.'S');
+  }
+
+  public function subWeeks($weeksToSub = 0) {
+    return $this->subDateTime('P'.$weeksToSub.'W');
+  }
+
+  public function startOfDay() {
+    $date = $this->getDayOfMonth() . '/' . $this->getMonthNumber() . '/' . $this->getLongYear();
+    return $this->parse('d/m/Y H:i:s', $date . ' 00:00:00');
+  }
+
+  public function endOfDay() {
+    $date = $this->getDayOfMonth() . '/' . $this->getMonthNumber() . '/' . $this->getLongYear();
+    return $this->parse('d/m/Y H:i:s', $date . ' 23:59:59');
+  }
+
+  public function startOfMonth() {
+    $date = '1/' . $this->getMonthNumber() . '/' . $this->getLongYear();
+    return $this->parse('d/m/Y H:i:s', $date . ' 00:00:00');
+  }
+
+  public function endOfMonth() {
+    $date = $this->getDaysInMonth() . '/' . $this->getMonthNumber() . '/' . $this->getLongYear();
+    return $this->parse('d/m/Y H:i:s', $date . ' 23:59:59');
+  }
+
+  public function startOfYear() {
+    $date = '1/1/' . $this->getLongYear();
+    return $this->parse('d/m/Y H:i:s', $date . ' 00:00:00');
+  }
+
+  public function endOfYear() {
+    $date = '31/12/' . $this->getLongYear();
+    return $this->parse('d/m/Y H:i:s', $date . ' 23:59:59');
+  }
+
+  public function startOfWeek() {
+    return $this->subDays($this->getDayOfWeek())->startOfDay();
+  }
+
+  public function endOfWeek() {
+    $daysTillEndOfWeek = 6 - $this->getDayOfWeek();
+    return $this->addDays($daysTillEndOfWeek)->endOfDay();
+  }
 }
 
 echo "Default Example<br>";
@@ -351,3 +422,38 @@ echo "<br>";
 var_dump(TimeTraveller::now()->addSeconds(3000));
 echo "<br>";
 var_dump(TimeTraveller::now()->addWeeks(4));
+
+echo "<br>";
+echo "<br>Subtract Date Time Examples</br>";
+var_dump(TimeTraveller::now()->subYears(1));
+echo "<br>";
+var_dump(TimeTraveller::now()->subMonths(46));
+echo "<br>";
+var_dump(TimeTraveller::now()->subDays(562));
+echo "<br>";
+var_dump(TimeTraveller::now()->subHours(4));
+echo "<br>";
+var_dump(TimeTraveller::now()->subMinutes(186));
+echo "<br>";
+var_dump(TimeTraveller::now()->subSeconds(3000));
+echo "<br>";
+var_dump(TimeTraveller::now()->subWeeks(4));
+
+echo "<br>";
+echo "<br>Start / End Examples</br>";
+var_dump(TimeTraveller::now()->startOfDay());
+echo "<br>";
+var_dump(TimeTraveller::now()->endOfDay());
+echo "<br>";
+var_dump(TimeTraveller::now()->startOfMonth());
+echo "<br>";
+var_dump(TimeTraveller::now()->endOfMonth());
+echo "<br>";
+var_dump(TimeTraveller::now()->startOfYear());
+echo "<br>";
+var_dump(TimeTraveller::now()->endOfYear());
+echo "<br>";
+var_dump(TimeTraveller::now()->startOfWeek());
+echo "<br>";
+var_dump(TimeTraveller::now()->endOfWeek());
+echo "<br>";
