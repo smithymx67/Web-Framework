@@ -1,0 +1,45 @@
+@mixin flexbox {
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -ms-flexbox;
+  display: -o-flex;
+}
+
+@mixin flex-basis($param) {
+  flex-basis: $param;
+  -webkit-flex-basis: $param;
+}
+
+@mixin flex-direction($param) {
+  flex-direction: $param;
+  -webkit-flex-direction: $param;
+  -ms-flex-direction: $param;
+}
+
+@mixin flex-flow($param) {
+  flex-flow: $param;
+  -webkit-flex-flow: $param;
+}
+
+@mixin flex-grow($param) {
+  flex-grow: $param;
+  -webkit-flex-grow: $param;
+}
+
+@mixin flex-shrink($param) {
+  flex-shrink: $param;
+  -webkit-flex-shrink: $param;
+}
+
+@mixin flex-wrap($param) {
+  flex-wrap: $param;
+  -webkit-flex-wrap: $param;
+  -ms-flex-wrap: $param;
+}
+
+@mixin order($param) {
+  order: $param;
+  -ms-flex-order: $param;
+}

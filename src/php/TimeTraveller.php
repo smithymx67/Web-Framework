@@ -13,7 +13,7 @@ class TimeTraveller extends DateTime {
     return TimeTraveller::now()->setTimestamp($dateObj->format('U'));
   }
 
-  public function format($format = 'Y/m/d H:m:i') {
+  public function format($format = 'Y/m/d H:i:s') {
     return parent::format($format);
   }
 
