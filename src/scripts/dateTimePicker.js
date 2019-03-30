@@ -396,11 +396,11 @@ var dateTimePicker = (function() {
     // Update the value of the input element based on the mode
     switch(pickerModeArray[pickerCurrentPickerID]) {
       case "datetime":
-        theInput.value = selectedYear + "/" + dateTime.leadZero(selectedMonth + 1) + "/" + dateTime.leadZero(selectedDate) + " " +
+        theInput.value = selectedYear + "-" + dateTime.leadZero(selectedMonth + 1) + "-" + dateTime.leadZero(selectedDate) + " " +
           dateTime.leadZero(selectedTimeHour) + ":" + dateTime.leadZero(selectedTimeMin);
         break;
       case "date":
-        theInput.value = selectedYear + "/" + dateTime.leadZero(selectedMonth + 1) + "/" + dateTime.leadZero(selectedDate);
+        theInput.value = selectedYear + "-" + dateTime.leadZero(selectedMonth + 1) + "-" + dateTime.leadZero(selectedDate);
         break;
       case "month":
         theInput.value = dateTime.textifyMonth(selectedMonth) + " " + selectedYear;
@@ -435,9 +435,32 @@ var dateTimePicker = (function() {
     // If the input has a date value set use that as default otherwise use the date / time
     if(pickerCurrentValue !== "") {
       if(pickerModeArray[pickerCurrentPickerID] === "time") {
-        initialDate = new Date("2000/01/01 " + pickerCurrentValue);
+        initialDate = new Date("2000-01-01T" + pickerCurrentValue);
+      } else if (pickerModeArray[pickerCurrentPickerID] === "month") {
+        var theDate = "";
+        var pickerMonth = pickerCurrentValue.split(' ')[0];
+        var pickerYear = pickerCurrentValue.split(' ')[1];
+
+        theDate += pickerYear;
+        switch (pickerMonth) {
+          case "January": theDate += "-01-01"; break;
+          case "February": theDate += "-02-01"; break;
+          case "March": theDate += "-03-01"; break;
+          case "April": theDate += "-04-01"; break;
+          case "May": theDate += "-05-01"; break;
+          case "June": theDate += "-06-01"; break;
+          case "July": theDate += "-07-01"; break;
+          case "August": theDate += "-08-01"; break;
+          case "September": theDate += "-09-01"; break;
+          case "October": theDate += "-10-01"; break;
+          case "November": theDate += "-11-01"; break;
+          case "December": theDate += "-12-01"; break;
+          default: theDate += "-01-01"; break;
+        }
+
+        initialDate = new Date(theDate);
       } else {
-        initialDate = new Date(pickerCurrentValue);
+        initialDate = new Date(pickerCurrentValue.replace(/\s/, 'T'));
       }
     } else {
       initialDate = new Date();
