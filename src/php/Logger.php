@@ -3,7 +3,8 @@ namespace PurplePallet;
 
 class Logger {
   private $now;
-  private $defaultLogFile;
+  private $logFilename;
+  private $logLocation;
 
   public $DEFAULT;
   public $ERROR;
@@ -12,16 +13,25 @@ class Logger {
 
   function __construct() {
     $this->now = (new \DateTime())->format('Y-m-d');
-    $this->defaultLogFile = "log_".$this->now.".log";
+    $this->logFilename = "log_".$this->now.".log";
+    $this->logLocation = "/var/log/PurplePallet/";
 
-    $this->DEFAULT = "DEFAULT";
-    $this->ERROR = "ERROR";
-    $this->WARNING = "WARNING";
-    $this->INFO = "INFO";
+    $this->DEFAULT  = "DEFAULT";
+    $this->ERROR    = "ERROR";
+    $this->WARNING  = "WARNING";
+    $this->INFO     = "INFO";
   }
 
-  public function log($logLocation, $logCategory, $logMsg) {
-    $msg = (new \DateTime())->format('Y-m-d H:i:s.u').' '.$logCategory.' '.$logMsg."\r\n";
-    file_put_contents($logLocation.$this->defaultLogFile, $msg, FILE_APPEND | LOCK_EX);
+  public function log($logCategory, $logMsg) {
+    $msg = (new \DateTime())->format('Y-m-d H:i:s.u')."\t".$logCategory."\t".$logMsg."\r\n";
+    file_put_contents($this->logLocation.$this->logFilename, $msg, FILE_APPEND | LOCK_EX);
+  }
+
+  public function setLogLocation($logLocation) {
+    $this->logLocation = $logLocation;
+  }
+
+  public function setLogFilename($logFilename) {
+    $this->logFilename = $logFilename."_".$this->now.".log";
   }
 }

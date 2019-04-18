@@ -9,6 +9,7 @@ define("VERSION"            , "1.3.2");
 
 require_once "../PurplePallet/Logger.php";
 $logger = new \PurplePallet\Logger();
-$logger->log("/opt/lampp/htdocs/Web-Framework/logs/", $logger->DEFAULT, "This is a test");
+$logger->setLogLocation("/opt/lampp/htdocs/Web-Framework/logs/");
+$logger->log($logger->DEFAULT, "This is a test");
 echo exec('whoami');
 ?>
