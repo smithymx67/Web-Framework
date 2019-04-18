@@ -1,4 +1,6 @@
 <?php
+namespace PurplePallet;
+
 class TimeTraveller extends DateTime {
   public function __construct($timezone = 'UTC') {
     parent::__construct("now", new DateTimeZone($timezone));
