@@ -23,7 +23,7 @@ class Logger {
   }
 
   public function log($logCategory, $logMsg) {
-    $msg = (new \DateTime())->format('Y-m-d H:i:s.u')."\t".$logCategory."\t".$logMsg."\r\n";
+    $msg = (new \DateTime())->format('Y-m-d H:i:s.u')." ".$logCategory." ~ ".$logMsg."\r\n";
     file_put_contents($this->logLocation.$this->logFilename, $msg, FILE_APPEND | LOCK_EX);
   }
 
@@ -33,5 +33,13 @@ class Logger {
 
   public function setLogFilename($logFilename) {
     $this->logFilename = $logFilename."_".$this->now.".log";
+  }
+
+  public function resetLogLocation() {
+    $this->logLocation = "/var/log/PurplePallet/";
+  }
+
+  public function resetLogFilename() {
+    $this->logFilename = "log_".$this->now.".log";
   }
 }
